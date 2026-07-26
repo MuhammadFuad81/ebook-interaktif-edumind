@@ -78,12 +78,11 @@ button{font-family:var(--font-display); cursor:pointer;}
 }
 #gate.hidden{display:none;}
 .gate-logo{
-  width:150px; max-width:60vw; margin-bottom:28px; animation:fadeUp .5s ease both;
+  width:150px; max-width:60vw; margin-bottom:28px;
 }
 .gate-card{
   background:var(--surface); border-radius:var(--radius); padding:40px 32px;
   max-width:380px; width:100%; text-align:center; box-shadow:var(--shadow);
-  animation:riseIn .5s ease .1s both;
 }
 @keyframes riseIn{from{opacity:0; transform:translateY(14px);} to{opacity:1; transform:translateY(0);}}
 .gate-card .eyebrow{font-family:var(--font-display); font-size:12px; letter-spacing:.14em; text-transform:uppercase; color:var(--accent-dark); font-weight:600;}
@@ -168,12 +167,15 @@ button{font-family:var(--font-display); cursor:pointer;}
 
 /* ---------- MAIN CONTENT ---------- */
 main{flex:1; min-width:0; padding:8px 32px 100px;}
+/* CATATAN PENTING (v-STATIS): SEMUA animasi "muncul" (fade maupun geser)
+   pada .page dan .reveal DIHAPUS TOTAL -- bukan cuma transform-nya. Konten
+   sekarang tampil langsung/statis begitu halaman dibuka, tanpa transisi
+   apa pun, supaya tidak ada kemungkinan gagal render di HP kelas
+   menengah-bawah. Definisi @keyframes fadeUp masih ada di bawah untuk
+   dipakai elemen kecil lain (mis. tombol/kartu pendek), TIDAK dipakai lagi
+   oleh .page. */
 .page{display:none;}
-.page.active{display:block; animation:fadeUp .45s ease both;}
-/* fadeUp SENGAJA tanpa transform -- .page membungkus SELURUH isi satu bab
-   (bisa ribuan piksel tinggi setelah materi diperluas), dan transform pada
-   elemen setinggi itu memicu bug WebView Android yang gagal merender
-   (terlihat kosong). Opacity-only jauh lebih aman untuk elemen sangat tinggi. */
+.page.active{display:block;}
 @keyframes fadeUp{from{opacity:0;} to{opacity:1;}}
 
 .eyebrow{font-family:var(--font-display); font-size:12px; letter-spacing:.14em; text-transform:uppercase; color:var(--accent-dark); font-weight:600; margin-top:34px;}
@@ -207,16 +209,15 @@ main{flex:1; min-width:0; padding:8px 32px 100px;}
 .cover::before{
   content:""; position:absolute; right:-60px; top:-60px; width:280px; height:280px;
   border-radius:50%; background:radial-gradient(circle, var(--accent-tint), transparent 70%);
-  animation:driftIn 1.2s ease both;
 }
 @keyframes driftIn{from{opacity:0; transform:scale(.7);} to{opacity:1; transform:scale(1);}}
-.cover .kicker{font-family:var(--font-display); letter-spacing:.16em; text-transform:uppercase; font-size:12px; color:var(--accent-dark); font-weight:600; animation:fadeUp .6s ease both;}
-.cover h1{font-size:44px; color:var(--heading); line-height:1.15; margin:12px 0 14px; max-width:640px; animation:fadeUp .6s ease .1s both;}
-.cover p{font-size:18px; color:var(--slate); max-width:520px; animation:fadeUp .6s ease .2s both;}
-.cover-img{width:100%; max-width:320px; border-radius:var(--radius); box-shadow:var(--shadow); margin-bottom:22px; animation:fadeUp .6s ease both;}
+.cover .kicker{font-family:var(--font-display); letter-spacing:.16em; text-transform:uppercase; font-size:12px; color:var(--accent-dark); font-weight:600;}
+.cover h1{font-size:44px; color:var(--heading); line-height:1.15; margin:12px 0 14px; max-width:640px;}
+.cover p{font-size:18px; color:var(--slate); max-width:520px;}
+.cover-img{width:100%; max-width:320px; border-radius:var(--radius); box-shadow:var(--shadow); margin-bottom:22px;}
 .cover .start-btn{
   margin-top:26px; background:var(--navy); color:#fff; border:none; padding:14px 26px;
-  border-radius:10px; font-size:15px; font-weight:600; animation:fadeUp .6s ease .3s both;
+  border-radius:10px; font-size:15px; font-weight:600;
   transition:transform .2s, background .2s;
 }
 .cover .start-btn:hover{background:var(--accent-dark); transform:translateX(3px);}
@@ -262,7 +263,7 @@ main{flex:1; min-width:0; padding:8px 32px 100px;}
   display:none; margin-top:18px; padding:18px 22px; background:var(--accent-tint);
   border-radius:var(--radius); font-family:var(--font-display); font-size:16px; color:var(--heading); text-align:center;
 }
-.assess-result.show{display:block; animation:fadeUp .4s ease both;}
+.assess-result.show{display:block;}
 
 /* navigasi selanjutnya / sebelumnya di setiap bab */
 .chapter-nav{display:flex; gap:12px; margin-top:26px;}
@@ -279,7 +280,6 @@ main{flex:1; min-width:0; padding:8px 32px 100px;}
 .done-btn{
   display:none; align-items:center; gap:8px; background:var(--green); color:#fff; border:none;
   padding:13px 22px; border-radius:10px; font-size:14px; font-weight:600; margin-top:30px;
-  animation:pulseOnce 1.4s ease 1;
 }
 .done-btn.show{display:inline-flex;}
 .done-btn.locked{background:var(--border); color:var(--slate); cursor:default;}
@@ -288,7 +288,7 @@ main{flex:1; min-width:0; padding:8px 32px 100px;}
   display:none; margin-top:14px; font-size:13px; color:var(--green); font-family:var(--font-display); font-weight:600;
   align-items:center; gap:6px;
 }
-.seal.show{display:flex; animation:fadeUp .4s ease both;}
+.seal.show{display:flex;}
 
 /* rencana aksi */
 .plan-row{display:grid; grid-template-columns:1fr 1fr 1fr auto; gap:10px; margin-bottom:10px;}
