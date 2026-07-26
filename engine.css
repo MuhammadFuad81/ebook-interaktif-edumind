@@ -232,9 +232,37 @@ main{flex:1; min-width:0; padding:8px 32px 100px;}
 .quiz-opt:hover{border-color:var(--accent);}
 .quiz-opt.correct{background:var(--green-tint); border-color:var(--green); animation:pop .3s ease;}
 .quiz-opt.wrong{background:var(--red-tint); border-color:var(--red); animation:shake .3s ease;}
+.quiz-opt.selected{border-color:var(--accent); background:var(--accent-tint); box-shadow:inset 0 0 0 1px var(--accent);}
 @keyframes pop{0%{transform:scale(1);}50%{transform:scale(1.02);}100%{transform:scale(1);}}
 @keyframes shake{0%,100%{transform:translateX(0);}25%{transform:translateX(-4px);}75%{transform:translateX(4px);}}
 .quiz-score{font-family:var(--font-display); font-weight:600; color:var(--heading); margin-top:14px;}
+
+/* asesmen komprehensif: soal bernomor + tombol periksa jawaban (skor tertunda) */
+.assess-q{margin-bottom:24px; padding-bottom:20px; border-bottom:1px solid var(--border);}
+.assess-q:last-of-type{border-bottom:none;}
+.assess-q p{font-family:var(--font-display); font-weight:500; margin-bottom:10px;}
+.check-assess-btn{
+  display:block; width:100%; margin-top:10px; background:var(--navy); color:#fff; border:none;
+  padding:15px; border-radius:10px; font-size:15px; font-weight:600; transition:background .2s;
+}
+.check-assess-btn:hover{background:var(--accent-dark);}
+.check-assess-btn:disabled{opacity:.6; cursor:default;}
+.assess-result{
+  display:none; margin-top:18px; padding:18px 22px; background:var(--accent-tint);
+  border-radius:var(--radius); font-family:var(--font-display); font-size:16px; color:var(--heading); text-align:center;
+}
+.assess-result.show{display:block; animation:fadeUp .4s ease both;}
+
+/* navigasi selanjutnya / sebelumnya di setiap bab */
+.chapter-nav{display:flex; gap:12px; margin-top:26px;}
+.nav-btn{
+  flex:1; background:var(--surface); border:1px solid var(--border); color:var(--heading);
+  padding:12px 18px; border-radius:10px; font-size:14px; font-weight:600;
+  transition:background .2s, border-color .2s;
+}
+.nav-btn:hover{background:var(--accent-tint); border-color:var(--accent);}
+.nav-btn.next{text-align:right;}
+.nav-btn.prev{text-align:left;}
 
 /* tombol tandai selesai */
 .done-btn{
@@ -357,5 +385,6 @@ main{flex:1; min-width:0; padding:8px 32px 100px;}
   main{padding:8px 18px 90px;}
   .cover h1{font-size:32px;}
   .plan-row{grid-template-columns:1fr; }
+  .chapter-nav{flex-direction:column;}
   body{font-size:17.5px;}
 }

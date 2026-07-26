@@ -27,6 +27,8 @@ const BOOK_ID = CFG.id || ("buku-" + Date.now()); // WAJIB unik per judul di con
 const FREE_PREVIEW = CFG.freePreview !== false;
 const PREVIEW_ALLOWED = CFG.previewAllowed || ['cover'];
 const CHAPTERS = CFG.chapters || [];
+/* urutan halaman untuk tombol navigasi Selanjutnya/Sebelumnya di setiap bab */
+const PAGE_ORDER = ['cover','pengantar', ...CHAPTERS, 'video','asesmen','rencana','ringkasan','faq','cta'];
 
 function openApp(){
   document.getElementById('gate').classList.add('hidden');
@@ -99,6 +101,17 @@ function renderRoute(){
 }
 window.addEventListener('hashchange', renderRoute);
 
+/* ---------- NAVIGASI SELANJUTNYA / SEBELUMNYA ---------- */
+function currentPageId(){ return (location.hash || '#cover').slice(1); }
+function goNext(){
+  const idx = PAGE_ORDER.indexOf(currentPageId());
+  if(idx > -1 && idx < PAGE_ORDER.length - 1) go(PAGE_ORDER[idx + 1]);
+}
+function goPrev(){
+  const idx = PAGE_ORDER.indexOf(currentPageId());
+  if(idx > 0) go(PAGE_ORDER[idx - 1]);
+}
+
 /* ---------- DRAWER MOBILE ---------- */
 function toggleDrawer(){
   document.getElementById('toc').classList.toggle('open');
@@ -142,6 +155,11 @@ function updateProgressUI(){
   });
   const sc = document.getElementById('sumChapters');
   if(sc) sc.textContent = done+'/'+CHAPTERS.length;
+  const sa = document.getElementById('sumAssessScore');
+  if(sa){
+    const savedScore = localStorage.getItem(BOOK_ID+'-assessScore');
+    sa.textContent = savedScore!==null ? savedScore : '–';
+  }
 }
 
 /* tombol "Tandai Selesai" hanya muncul setelah user mendekati akhir konten bab */
@@ -174,6 +192,51 @@ function answerQuiz(btn, isCorrect){
   if(scoreEl && btn.closest('#page-asesmen')) scoreEl.textContent = 'Skor sementara: '+quizCorrectCount;
   const sq = document.getElementById('sumQuiz');
   if(sq) sq.textContent = quizCorrectCount;
+}
+
+/* ---------- ASESMEN KOMPREHENSIF (skor tertunda, skala 0-100) ---------- */
+function selectAssessAnswer(btn){
+  const group = btn.parentElement.querySelectorAll('.quiz-opt');
+  group.forEach(b=>b.classList.remove('selected'));
+  btn.classList.add('selected');
+}
+function checkAssessment(){
+  const questions = document.querySelectorAll('#page-asesmen .assess-q');
+  if(!questions.length) return;
+  const belumDijawab = [...questions].some(q=>!q.querySelector('.quiz-opt.selected'));
+  if(belumDijawab){
+    alert('Mohon jawab semua soal terlebih dahulu, baru klik "Periksa Jawaban Saya".');
+    return;
+  }
+  let correct = 0;
+  questions.forEach(q=>{
+    const opts = q.querySelectorAll('.quiz-opt');
+    const correctIdx = parseInt(q.dataset.correct, 10) - 1;
+    let gotItRight = false;
+    opts.forEach((b,i)=>{
+      b.disabled = true;
+      if(b.classList.contains('selected') && i===correctIdx){ gotItRight = true; }
+    });
+    if(gotItRight){
+      correct++;
+      opts[correctIdx].classList.add('correct');
+    } else {
+      opts.forEach(b=>{ if(b.classList.contains('selected')) b.classList.add('wrong'); });
+      opts[correctIdx].classList.add('correct');
+    }
+  });
+  const total = questions.length;
+  const score = total ? Math.round((correct/total)*100) : 0;
+  localStorage.setItem(BOOK_ID+'-assessScore', score);
+  const resultEl = document.getElementById('asesmenResult');
+  if(resultEl){
+    resultEl.innerHTML = `Skor Anda: <strong>${score}</strong> / 100 &nbsp;(${correct} dari ${total} jawaban benar)`;
+    resultEl.classList.add('show');
+  }
+  const checkBtn = document.getElementById('checkAssessBtn');
+  if(checkBtn){ checkBtn.disabled = true; checkBtn.textContent = '✓ Sudah Diperiksa'; }
+  updateProgressUI();
+  if(resultEl) resultEl.scrollIntoView({behavior:'smooth', block:'center'});
 }
 
 /* ---------- FAQ ---------- */
