@@ -123,12 +123,37 @@ button{font-family:var(--font-display); cursor:pointer;}
 .theme-toggle{background:none; border:1px solid var(--border); border-radius:8px; padding:6px 9px; font-size:14px; line-height:1; color:var(--heading); white-space:nowrap;}
 
 .wa-fab{
-  position:fixed; right:20px; bottom:20px; z-index:60; width:52px; height:52px;
+  position:fixed; right:20px; bottom:80px; z-index:60; width:52px; height:52px;
   border-radius:50%; background:#25D366; display:flex; align-items:center; justify-content:center;
   font-size:24px; text-decoration:none; box-shadow:0 8px 20px rgba(37,211,102,0.4);
   transition:transform .2s;
 }
+/* posisi digeser naik (dari bottom:20px jadi 80px) supaya tidak bertumpuk dengan
+   .sticky-nav-bar (bar navigasi Sebelumnya/Selanjutnya) yang sekarang selalu
+   nempel di dasar layar. */
 .wa-fab:hover{transform:scale(1.08);}
+
+/* ---------- BAR NAVIGASI STICKY (Sebelumnya / label bab / Selanjutnya) ---------- */
+.sticky-nav-bar{
+  position:fixed; left:0; right:0; bottom:0; z-index:55;
+  display:flex; align-items:center; justify-content:space-between; gap:10px;
+  background:var(--surface); border-top:1px solid var(--border);
+  padding:10px 16px; box-shadow:0 -6px 18px rgba(27,42,74,0.08);
+}
+.sticky-nav-btn{
+  flex-shrink:0; width:40px; height:40px; border-radius:10px; border:none;
+  background:var(--navy); color:#fff; font-size:18px; line-height:1;
+  transition:background .2s, opacity .2s;
+}
+.sticky-nav-btn:hover{background:var(--accent-dark);}
+.sticky-nav-btn:disabled{opacity:.35; cursor:default;}
+.sticky-nav-label{
+  flex:1; min-width:0; text-align:center; background:none; border:none;
+  font-family:var(--font-display); font-size:13px; font-weight:600; color:var(--heading);
+  padding:9px 10px; border-radius:8px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
+  transition:background .15s;
+}
+.sticky-nav-label:hover{background:var(--accent-tint);}
 
 /* pita progres — elemen ciri khas web-book ini, seperti pita pembatas buku */
 .ribbon-track{
@@ -166,7 +191,9 @@ button{font-family:var(--font-display); cursor:pointer;}
 .toc a.active .toc-check{border-color:#fff;}
 
 /* ---------- MAIN CONTENT ---------- */
-main{flex:1; min-width:0; padding:8px 32px 100px;}
+main{flex:1; min-width:0; padding:8px 32px 130px;}
+/* padding-bottom dinaikkan dari 100px jadi 130px supaya konten paling bawah tidak
+   tertutup .sticky-nav-bar yang sekarang selalu nempel di dasar layar. */
 /* CATATAN PENTING (v-STATIS): SEMUA animasi "muncul" (fade maupun geser)
    pada .page dan .reveal DIHAPUS TOTAL -- bukan cuma transform-nya. Konten
    sekarang tampil langsung/statis begitu halaman dibuka, tanpa transisi
@@ -361,7 +388,7 @@ main{flex:1; min-width:0; padding:8px 32px 100px;}
 
 /* mode cetak: tampilkan semua bagian berurutan saat tombol Unduh PDF ditekan */
 @media print{
-  .topbar, .toc, .scrim, .wa-fab, .done-btn, .loadmore-btn, .filter-chips, .add-row, #gate{display:none !important;}
+  .topbar, .toc, .scrim, .wa-fab, .sticky-nav-bar, .done-btn, .loadmore-btn, .filter-chips, .add-row, #gate{display:none !important;}
   main{padding:0;}
   body.print-all .page{display:block !important; page-break-after:always; animation:none !important;}
   body:not(.print-all) .page{display:none !important;}
@@ -393,7 +420,7 @@ main{flex:1; min-width:0; padding:8px 32px 100px;}
   .toc.open{transform:translateX(0);}
   .scrim{display:none; position:fixed; inset:0; background:rgba(27,42,74,.4); z-index:45;}
   .scrim.show{display:block;}
-  main{padding:8px 18px 90px;}
+  main{padding:8px 18px 120px;}
   .cover h1{font-size:32px;}
   .plan-row{grid-template-columns:1fr; }
   .chapter-nav{flex-direction:column;}
