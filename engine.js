@@ -106,6 +106,7 @@ function renderRoute(){
   closeDrawer();
   window.scrollTo({top:0});
   checkChapterEnd();
+  updateStickyNav();
 }
 window.addEventListener('hashchange', renderRoute);
 
@@ -380,9 +381,52 @@ function injectContent(){
   });
 }
 
+/* ---------- BAR NAVIGASI STICKY (Sebelumnya / label bab / Selanjutnya) ----------
+   Dibuat lewat JS (bukan ditulis manual di tiap HTML buku) supaya begitu diaktifkan
+   di engine.js, langsung berlaku otomatis untuk buku ini maupun 40+ buku lain yang
+   memakai engine bersama ini. Tujuannya: memudahkan pembaca berpindah bab dengan
+   cepat tanpa perlu scroll dulu ke bawah (tempat tombol Sebelumnya/Selanjutnya versi
+   lama) atau membuka drawer Daftar Isi -- karena isi antar bab sering saling terkait
+   sehingga pembaca yang serius kemungkinan besar sering bolak-balik. */
+function pageLabel(id){
+  const map = {
+    cover:'Cover', pengantar:'Kata Pengantar', video:'Video',
+    asesmen:'Asesmen Komprehensif', rencana:'Rencana Aksi',
+    ringkasan:'Ringkasan Pencapaian', faq:'FAQ', cta:'Penutup'
+  };
+  if(map[id]) return map[id];
+  const chIdx = CHAPTERS.indexOf(id);
+  if(chIdx > -1) return 'Bab ' + (chIdx + 1);
+  return '';
+}
+function renderStickyNav(){
+  if(document.getElementById('stickyNav')) return;
+  const bar = document.createElement('div');
+  bar.id = 'stickyNav';
+  bar.className = 'sticky-nav-bar';
+  bar.innerHTML =
+    '<button class="sticky-nav-btn prev" onclick="goPrev()" aria-label="Halaman sebelumnya">&#8592;</button>' +
+    '<button class="sticky-nav-label" id="stickyNavLabel" onclick="toggleDrawer()" aria-label="Buka Daftar Isi"></button>' +
+    '<button class="sticky-nav-btn next" onclick="goNext()" aria-label="Halaman selanjutnya">&#8594;</button>';
+  document.body.appendChild(bar);
+}
+function updateStickyNav(){
+  const bar = document.getElementById('stickyNav');
+  if(!bar) return;
+  const id = currentPageId();
+  const idx = PAGE_ORDER.indexOf(id);
+  if(idx === -1){ bar.style.display = 'none'; return; }
+  bar.style.display = 'flex';
+  const label = document.getElementById('stickyNavLabel');
+  if(label) label.textContent = pageLabel(id) + ' · ' + (idx + 1) + '/' + PAGE_ORDER.length;
+  bar.querySelector('.prev').disabled = idx <= 0;
+  bar.querySelector('.next').disabled = idx >= PAGE_ORDER.length - 1;
+}
+
 /* ---------- INIT ---------- */
 function initApp(){
   injectContent();
+  renderStickyNav();
   updateProgressUI();
   renderChips();
   renderCatalog();
