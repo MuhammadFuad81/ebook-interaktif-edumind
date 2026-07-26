@@ -350,8 +350,26 @@ document.addEventListener('keydown', e=>{
   if(fab && CFG.waNumber){ fab.href = `https://wa.me/${CFG.waNumber}`; }
 })();
 
+/* ---------- KONTEN BAB (dimuat dari file content-*.js per buku, BUKAN ditempel di HTML growva) ----------
+   Alasan: field "Full Page" growva punya batas jumlah karakter. Begitu isi bab diperpanjang
+   (halaman interaktif yang komprehensif), HTML jadi terlalu panjang dan APA SAJA yang melebihi
+   batas tersebut akan terpotong diam-diam oleh growva -- termasuk tag <script src=".../engine.js">
+   di paling bawah, yang membuat SEMUA tombol (login, next/prev, asesmen) berhenti berfungsi.
+   Solusinya: isi tiap section (#page-cover, #page-bab1, dst.) dikosongkan di HTML yang ditempel ke
+   growva, lalu diisi ulang di sini dari window.BOOK_CONTENT (didefinisikan di file content-*.js
+   yang di-hosting di GitHub/jsDelivr, sama seperti engine.js/engine.css). Dengan begitu HTML yang
+   ditempel ke growva selalu pendek & konstan, tidak peduli seberapa panjang isi bukunya. */
+function injectContent(){
+  const content = window.BOOK_CONTENT || {};
+  Object.keys(content).forEach(key=>{
+    const el = document.getElementById('page-'+key);
+    if(el) el.innerHTML = content[key];
+  });
+}
+
 /* ---------- INIT ---------- */
 function initApp(){
+  injectContent();
   updateProgressUI();
   renderChips();
   renderCatalog();
