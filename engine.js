@@ -95,6 +95,14 @@ function renderRoute(){
     a.classList.toggle('locked', session==='preview' && !PREVIEW_ALLOWED.includes(hid) && hid!=='katalog');
   });
   document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));
+  /* jaring pengaman: kalau IntersectionObserver gagal terpicu di sebagian
+     perangkat/browser (umumnya HP dengan konten panjang & layar pendek),
+     paksa semua konten halaman aktif tetap tampil setelah sesaat, supaya
+     tidak ada bagian yang "nyangkut" transparan selamanya. */
+  const activePageEl = document.querySelector('.page.active');
+  setTimeout(()=>{
+    if(activePageEl) activePageEl.querySelectorAll('.reveal').forEach(el=>el.classList.add('in'));
+  }, 700);
   closeDrawer();
   window.scrollTo({top:0});
   checkChapterEnd();
@@ -123,9 +131,14 @@ function closeDrawer(){
 }
 
 /* ---------- SCROLL REVEAL ---------- */
+/* threshold 0 = cukup 1 piksel elemen terlihat untuk memicu animasi muncul.
+   Ini sengaja dibuat sangat longgar karena di layar HP yang pendek, elemen
+   konten yang panjang (hasil ekspansi materi bab) sering tidak pernah
+   mencapai rasio 15% terlihat saat di-scroll, sehingga macet dalam kondisi
+   transparan (opacity:0) walau isinya sebenarnya ada. */
 const observer = new IntersectionObserver(entries=>{
   entries.forEach(e=>{ if(e.isIntersecting) e.target.classList.add('in'); });
-},{threshold:.15});
+},{threshold:0});
 
 /* ---------- PROGRESS (localStorage) ---------- */
 function getProgress(){
