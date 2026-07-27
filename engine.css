@@ -201,8 +201,13 @@ main{flex:1; min-width:0; padding:8px 32px 130px;}
    menengah-bawah. Definisi @keyframes fadeUp masih ada di bawah untuk
    dipakai elemen kecil lain (mis. tombol/kartu pendek), TIDAK dipakai lagi
    oleh .page. */
-.page{display:none;}
+.page{display:none; counter-reset:quiz-counter assess-counter video-counter;}
 .page.active{display:block;}
+/* counter-reset ditaruh di .page (bukan di .quiz-q/.assess-q/.video-label sendiri)
+   supaya penomoran "Soal 1, Soal 2, ..." dan "Video 1, Video 2, ..." otomatis
+   dimulai ulang dari 1 di SETIAP halaman/bab, dan otomatis lanjut sendiri kalau
+   soal atau video baru ditambahkan di kemudian hari -- tidak perlu mengetik ulang
+   nomornya secara manual di konten. */
 @keyframes fadeUp{from{opacity:0;} to{opacity:1;}}
 
 .eyebrow{font-family:var(--font-display); font-size:12px; letter-spacing:.14em; text-transform:uppercase; color:var(--accent-dark); font-weight:600; margin-top:34px;}
@@ -261,8 +266,19 @@ main{flex:1; min-width:0; padding:8px 32px 130px;}
 }
 
 /* kuis */
-.quiz-q{margin-bottom:20px;}
+/* setiap soal dibuat jadi blok tersendiri (border + aksen kiri navy) supaya
+   jelas terpisah satu sama lain, dan tidak tertukar tampilannya dengan blok
+   Refleksi (yang pakai warna aksen buku, sedangkan blok soal pakai navy tetap
+   di semua buku). Nomor "Soal N" dibuat otomatis lewat CSS counter, bukan
+   diketik manual di konten -- supaya tetap benar walau jumlah soal berubah. */
+.quiz-q{
+  counter-increment:quiz-counter;
+  background:var(--surface); border:1px solid var(--border); border-left:4px solid var(--navy);
+  border-radius:0 var(--radius) var(--radius) 0;
+  padding:16px 18px; margin-bottom:16px;
+}
 .quiz-q p{font-family:var(--font-display); font-weight:500; margin-bottom:10px;}
+.quiz-q p::before{content:"Soal " counter(quiz-counter) ". "; color:var(--navy); font-weight:700;}
 .quiz-opt{
   display:block; width:100%; text-align:left; padding:11px 14px; margin-bottom:8px;
   border:1px solid var(--border); border-radius:9px; background:var(--surface);
@@ -277,9 +293,17 @@ main{flex:1; min-width:0; padding:8px 32px 130px;}
 .quiz-score{font-family:var(--font-display); font-weight:600; color:var(--heading); margin-top:14px;}
 
 /* asesmen komprehensif: soal bernomor + tombol periksa jawaban (skor tertunda) */
-.assess-q{margin-bottom:24px; padding-bottom:20px; border-bottom:1px solid var(--border);}
-.assess-q:last-of-type{border-bottom:none;}
+/* blok soal asesmen dibuat senada dengan .quiz-q (border + aksen kiri navy +
+   nomor otomatis) supaya konsisten sebagai "pola soal", tapi tetap beda dari
+   blok Refleksi. */
+.assess-q{
+  counter-increment:assess-counter;
+  background:var(--surface); border:1px solid var(--border); border-left:4px solid var(--navy);
+  border-radius:0 var(--radius) var(--radius) 0;
+  padding:16px 18px; margin-bottom:16px;
+}
 .assess-q p{font-family:var(--font-display); font-weight:500; margin-bottom:10px;}
+.assess-q p::before{content:"Soal " counter(assess-counter) ". "; color:var(--navy); font-weight:700;}
 .check-assess-btn{
   display:block; width:100%; margin-top:10px; background:var(--navy); color:#fff; border:none;
   padding:15px; border-radius:10px; font-size:15px; font-weight:600; transition:background .2s;
@@ -408,6 +432,16 @@ main{flex:1; min-width:0; padding:8px 32px 130px;}
 /* video embed */
 .video-wrap{position:relative; padding-bottom:56.25%; height:0; border-radius:var(--radius); overflow:hidden; margin:18px 0; box-shadow:var(--shadow);}
 .video-wrap iframe{position:absolute; top:0; left:0; width:100%; height:100%; border:0;}
+/* label "Video 1", "Video 2", dst -- teksnya kosong di HTML (<p class="video-label">),
+   angkanya otomatis dari CSS counter supaya kalau nanti nambah video ke-3/ke-4,
+   tinggal salin tag yang sama tanpa perlu mengetik ulang nomornya. */
+.video-label{
+  counter-increment:video-counter;
+  font-family:var(--font-display); font-weight:600; font-size:13px; color:var(--accent-dark);
+  text-transform:uppercase; letter-spacing:.06em; margin:22px 0 8px;
+}
+.video-label:first-of-type{margin-top:6px;}
+.video-label::before{content:"Video " counter(video-counter);}
 
 /* ---------- MOBILE ---------- */
 @media (max-width:900px){
