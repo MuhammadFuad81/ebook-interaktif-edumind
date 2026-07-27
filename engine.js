@@ -373,17 +373,20 @@ document.addEventListener('keydown', e=>{
    tiap buku); kalau lupa diisi, otomatis jatuh ke teks di .book-title sebagai
    cadangan supaya tetap aman dipakai di 40+ buku lain. */
 function waMessage(){
-  const title = CFG.title || (document.querySelector('.book-title')?.textContent || '').trim() || 'web-book ini';
   const session = sessionStorage.getItem(BOOK_ID+'-session');
-  if(session === 'full'){
-    return `Halo Admin Edumind Academy, saya sedang membaca web-book "${title}" dan ingin bertanya seputar isinya. Mohon bantuannya. Terima kasih.`;
-  }
+  /* Pembaca resmi (sudah login penuh) SENGAJA tidak diberi pesan otomatis --
+     pertanyaan seputar materi/isi buku diarahkan ke grup WA bersama narasumber,
+     bukan chat langsung ke admin, dan keperluan pembaca resmi bisa sangat
+     beragam sehingga satu kalimat template tidak cukup mewakili. */
+  if(session === 'full') return '';
+  const title = CFG.title || (document.querySelector('.book-title')?.textContent || '').trim() || 'web-book ini';
   return `Halo Admin Edumind Academy, saya sedang membaca pratinjau gratis (Bab 1) web-book "${title}" dan tertarik untuk memesan akses penuhnya. Mohon info harga dan cara pemesanannya. Terima kasih.`;
 }
 function updateWaFab(){
   const fab = document.querySelector('.wa-fab');
   if(!fab || !CFG.waNumber) return;
-  fab.href = `https://wa.me/${CFG.waNumber}?text=${encodeURIComponent(waMessage())}`;
+  const msg = waMessage();
+  fab.href = msg ? `https://wa.me/${CFG.waNumber}?text=${encodeURIComponent(msg)}` : `https://wa.me/${CFG.waNumber}`;
 }
 
 /* ---------- KONTEN BAB (dimuat dari file content-*.js per buku, BUKAN ditempel di HTML growva) ----------
