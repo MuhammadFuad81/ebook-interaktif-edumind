@@ -28,12 +28,17 @@ const FREE_PREVIEW = CFG.freePreview !== false;
 const PREVIEW_ALLOWED = CFG.previewAllowed || ['cover'];
 const CHAPTERS = CFG.chapters || [];
 /* urutan halaman untuk tombol navigasi Selanjutnya/Sebelumnya di setiap bab */
-const PAGE_ORDER = ['cover','pengantar', ...CHAPTERS, 'video','asesmen','rencana','ringkasan','faq','cta'];
+const PAGE_ORDER = ['cover','pengantar', ...CHAPTERS, 'video','asesmen','rencana','ringkasan','faq','cta','katalog'];
+/* "katalog" sengaja dimasukkan ke urutan navigasi (bukan cuma bisa diakses lewat
+   menu Daftar Isi) supaya pembaca yang terbiasa menjelajahi lewat tombol
+   Selanjutnya tetap "kebawa" sampai ke Katalog Produk Edumind di akhir alur --
+   ini kesempatan cross-sell yang baik daripada berhenti di halaman Penutup. */
 
 function openApp(){
   document.getElementById('gate').classList.add('hidden');
   document.getElementById('app').classList.add('active');
   initApp();
+  updateWaFab();
 }
 function tryLogin(){
   const u=document.getElementById('user').value.trim();
@@ -358,11 +363,28 @@ document.addEventListener('keydown', e=>{
   if(e.key==='F12' || ctrlCombo || devtoolsCombo) e.preventDefault();
 });
 
-/* ---------- WHATSAPP FAB (nomor bisa di-override lewat config) ---------- */
-(function setupWaFab(){
+/* ---------- WHATSAPP FAB (nomor & judul buku diambil dari BOOK_CONFIG) ----------
+   Dipakai sekaligus sebagai jalur pemesanan untuk pembaca pratinjau gratis (Bab 1),
+   supaya tidak perlu tombol CTA/order baru yang bisa bertumpuk dengan elemen lain
+   (sticky nav bar, dsb.). Pesan WA otomatis dibuat berbeda tergantung status akses
+   pembaca: kalau masih pratinjau gratis, pesannya condong ke niat memesan akses
+   penuh; kalau sudah login penuh (sudah pemegang akses), pesannya jadi permintaan
+   bantuan seputar isi buku. Judul buku diambil dari CFG.title (isi di BOOK_CONFIG
+   tiap buku); kalau lupa diisi, otomatis jatuh ke teks di .book-title sebagai
+   cadangan supaya tetap aman dipakai di 40+ buku lain. */
+function waMessage(){
+  const title = CFG.title || (document.querySelector('.book-title')?.textContent || '').trim() || 'web-book ini';
+  const session = sessionStorage.getItem(BOOK_ID+'-session');
+  if(session === 'full'){
+    return `Halo Admin Edumind Academy, saya sedang membaca web-book "${title}" dan ingin bertanya seputar isinya. Mohon bantuannya. Terima kasih.`;
+  }
+  return `Halo Admin Edumind Academy, saya sedang membaca pratinjau gratis (Bab 1) web-book "${title}" dan tertarik untuk memesan akses penuhnya. Mohon info harga dan cara pemesanannya. Terima kasih.`;
+}
+function updateWaFab(){
   const fab = document.querySelector('.wa-fab');
-  if(fab && CFG.waNumber){ fab.href = `https://wa.me/${CFG.waNumber}`; }
-})();
+  if(!fab || !CFG.waNumber) return;
+  fab.href = `https://wa.me/${CFG.waNumber}?text=${encodeURIComponent(waMessage())}`;
+}
 
 /* ---------- KONTEN BAB (dimuat dari file content-*.js per buku, BUKAN ditempel di HTML growva) ----------
    Alasan: field "Full Page" growva punya batas jumlah karakter. Begitu isi bab diperpanjang
@@ -392,7 +414,7 @@ function pageLabel(id){
   const map = {
     cover:'Cover', pengantar:'Kata Pengantar', video:'Video',
     asesmen:'Asesmen Komprehensif', rencana:'Rencana Aksi',
-    ringkasan:'Ringkasan Pencapaian', faq:'FAQ', cta:'Penutup'
+    ringkasan:'Ringkasan Pencapaian', faq:'FAQ', cta:'Penutup', katalog:'Katalog Produk'
   };
   if(map[id]) return map[id];
   const chIdx = CHAPTERS.indexOf(id);
