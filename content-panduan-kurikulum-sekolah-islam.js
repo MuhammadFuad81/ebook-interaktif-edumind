@@ -699,140 +699,140 @@ asesmen: `
 <div class="card reveal">
 
   <div class="assess-q" data-correct="1">
-    <p>1. Sebuah sekolah menyusun mata pelajaran umum dan agama dalam jadwal yang sama sekali terpisah, tanpa satu pun kaitan antar keduanya di kelas. Berdasarkan konsep dasar kurikulum pada Bab 1, prinsip apa yang paling jelas belum terpenuhi?</p>
+    <p>Sebuah sekolah menyusun mata pelajaran umum dan agama dalam jadwal yang sama sekali terpisah, tanpa satu pun kaitan antar keduanya di kelas. Berdasarkan konsep dasar kurikulum pada Bab 1, prinsip apa yang paling jelas belum terpenuhi?</p>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Prinsip terintegrasi, karena belum menghubungkan disiplin ilmu umum dengan nilai-nilai yang ingin ditanamkan</button>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Prinsip dinamis, karena jadwal pelajaran belum diperbarui tahun ini</button>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Prinsip komprehensif, karena jumlah mata pelajaran yang diajarkan sudah banyak</button>
   </div>
 
   <div class="assess-q" data-correct="2">
-    <p>2. Seorang guru memberi tugas menghitung zakat sebagai bagian dari pelajaran matematika, sekaligus menanamkan nilai kepedulian sosial di baliknya. Berdasarkan Bab 2, pendekatan ini paling tepat menggambarkan komponen kurikulum...</p>
+    <p>Seorang guru memberi tugas menghitung zakat sebagai bagian dari pelajaran matematika, sekaligus menanamkan nilai kepedulian sosial di baliknya. Berdasarkan Bab 2, pendekatan ini paling tepat menggambarkan komponen kurikulum...</p>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Lingkungan belajar spiritual semata, tanpa kaitan dengan materi akademik</button>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Integrasi nilai Islam ke dalam materi pembelajaran umum lewat pendekatan kontekstual</button>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Evaluasi otentik yang menilai hasil ujian akhir semester semata</button>
   </div>
 
   <div class="assess-q" data-correct="1">
-    <p>3. Sebuah sekolah hanya menilai siswa lewat ujian tertulis akhir semester, tanpa pernah mengamati keseharian siswa atau melihat perkembangan portofolio karya mereka. Berdasarkan komponen evaluasi pada Bab 2, apa yang paling perlu dilengkapi?</p>
+    <p>Sebuah sekolah hanya menilai siswa lewat ujian tertulis akhir semester, tanpa pernah mengamati keseharian siswa atau melihat perkembangan portofolio karya mereka. Berdasarkan komponen evaluasi pada Bab 2, apa yang paling perlu dilengkapi?</p>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Melengkapi tes tertulis dengan observasi, portofolio, dan penilaian otentik agar gambaran perkembangan siswa lebih menyeluruh</button>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Menghapus seluruh ujian tertulis dan menggantinya dengan wawancara semata</button>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Menambah jumlah soal pilihan ganda pada ujian akhir semester</button>
   </div>
 
   <div class="assess-q" data-correct="1">
-    <p>4. Sebuah tim penyusun kurikulum langsung menulis materi pelajaran tanpa lebih dulu merumuskan visi-misi maupun tujuan pendidikan yang SMART. Berdasarkan langkah-langkah penyusunan kurikulum pada Bab 3, apa risiko paling utama dari langkah yang terlewat ini?</p>
+    <p>Sebuah tim penyusun kurikulum langsung menulis materi pelajaran tanpa lebih dulu merumuskan visi-misi maupun tujuan pendidikan yang SMART. Berdasarkan langkah-langkah penyusunan kurikulum pada Bab 3, apa risiko paling utama dari langkah yang terlewat ini?</p>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Materi yang disusun berisiko tidak terarah dan sulit dievaluasi karena tidak berpijak pada visi-misi dan tujuan yang jelas dan terukur</button>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Tidak ada risiko apa pun selama jumlah mata pelajaran yang diajarkan sudah banyak</button>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Risikonya hanya soal keindahan bahasa dokumen, tidak berpengaruh pada pembelajaran di kelas</button>
   </div>
 
   <div class="assess-q" data-correct="2">
-    <p>5. Sebuah sekolah sudah mensosialisasikan kurikulum baru ke guru dan orang tua, tetapi belum pernah melakukan observasi kelas maupun mengumpulkan umpan balik guru dan siswa sejak kurikulum itu diterapkan. Berdasarkan Bab 4, tahap implementasi apa yang masih tertinggal?</p>
+    <p>Sebuah sekolah sudah mensosialisasikan kurikulum baru ke guru dan orang tua, tetapi belum pernah melakukan observasi kelas maupun mengumpulkan umpan balik guru dan siswa sejak kurikulum itu diterapkan. Berdasarkan Bab 4, tahap implementasi apa yang masih tertinggal?</p>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Sosialisasi ulang kurikulum dengan materi yang sama persis kepada orang tua</button>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Monitoring dan evaluasi implementasi kurikulum lewat observasi kelas dan umpan balik guru-siswa</button>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Penggantian seluruh guru dengan guru baru yang belum terlatih kurikulum</button>
   </div>
 
   <div class="assess-q" data-correct="1">
-    <p>6. Sebuah sekolah menyadari lulusannya kesulitan beradaptasi dengan tuntutan dunia kerja berbasis teknologi, meski nilai akademiknya baik. Berdasarkan Bab 5, kombinasi langkah pengembangan kurikulum apa yang paling tepat?</p>
+    <p>Sebuah sekolah menyadari lulusannya kesulitan beradaptasi dengan tuntutan dunia kerja berbasis teknologi, meski nilai akademiknya baik. Berdasarkan Bab 5, kombinasi langkah pengembangan kurikulum apa yang paling tepat?</p>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Memperkuat keterampilan teknologi dan soft skills siswa, serta menjalin kolaborasi dengan dunia industri lewat magang atau guest lecture</button>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Menghapus seluruh pelajaran agama demi menambah waktu belajar teknologi</button>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Membiarkan kurikulum tetap sama karena nilai akademik sudah dianggap cukup baik</button>
   </div>
 
   <div class="assess-q" data-correct="1">
-    <p>7. Sejumlah guru senior menolak metode pengajaran baru karena merasa metode lama sudah nyaman digunakan bertahun-tahun. Berdasarkan solusi pada Bab 6, langkah paling tepat mengatasi resistensi ini adalah...</p>
+    <p>Sejumlah guru senior menolak metode pengajaran baru karena merasa metode lama sudah nyaman digunakan bertahun-tahun. Berdasarkan solusi pada Bab 6, langkah paling tepat mengatasi resistensi ini adalah...</p>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Manajemen perubahan yang mengomunikasikan manfaat perubahan secara jelas dan melibatkan guru dalam proses pengembangan kurikulum</button>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Mengganti seluruh guru senior dengan guru baru tanpa penjelasan apa pun</button>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Membatalkan seluruh rencana perubahan kurikulum tanpa didiskusikan lebih lanjut</button>
   </div>
 
   <div class="assess-q" data-correct="1">
-    <p>8. Sebuah sekolah Islam baru berdiri dan ingin fokus dulu pada kewajiban paling mendasar sebelum menambah program lain. Berdasarkan Bab 7, dua kurikulum apa yang wajib dimiliki terlebih dahulu?</p>
+    <p>Sebuah sekolah Islam baru berdiri dan ingin fokus dulu pada kewajiban paling mendasar sebelum menambah program lain. Berdasarkan Bab 7, dua kurikulum apa yang wajib dimiliki terlebih dahulu?</p>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Kurikulum Nasional dan Kurikulum Keislaman</button>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Kurikulum Olimpiade dan Kurikulum Bilingual</button>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Kurikulum Anti Korupsi dan Kurikulum Adiwiyata</button>
   </div>
 
   <div class="assess-q" data-correct="3">
-    <p>9. Sebuah sekolah menerapkan lima kurikulum sekaligus (nasional, keislaman, bilingual, tahfizh, olimpiade) tanpa rujukan penilaian dan rapor yang jelas untuk masing-masing. Berdasarkan kesimpulan Bab 7, apa risiko utama praktik ini?</p>
+    <p>Sebuah sekolah menerapkan lima kurikulum sekaligus (nasional, keislaman, bilingual, tahfizh, olimpiade) tanpa rujukan penilaian dan rapor yang jelas untuk masing-masing. Berdasarkan kesimpulan Bab 7, apa risiko utama praktik ini?</p>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Tidak ada risiko sama sekali karena semakin banyak kurikulum berarti semakin unggul sekolah tersebut</button>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Risikonya hanya soal estetika logo sekolah pada brosur PPDB</button>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Racikan kurikulum menjadi tidak terkendali dan sulit dipertanggungjawabkan karena melebihi anjuran maksimal tiga kurikulum tanpa rujukan penilaian yang jelas</button>
   </div>
 
   <div class="assess-q" data-correct="1">
-    <p>10. Seorang guru mendapati sebagian siswanya lebih mudah memahami materi lewat gambar/video, sementara sebagian lain lebih mudah lewat diskusi lisan. Berdasarkan pembelajaran berdiferensiasi pada Bab 8, langkah apa yang paling tepat?</p>
+    <p>Seorang guru mendapati sebagian siswanya lebih mudah memahami materi lewat gambar/video, sementara sebagian lain lebih mudah lewat diskusi lisan. Berdasarkan pembelajaran berdiferensiasi pada Bab 8, langkah apa yang paling tepat?</p>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Menyesuaikan metode pengajaran dengan gaya belajar masing-masing siswa (visual, auditori, kinestetik) tanpa memaksakan satu metode untuk semua</button>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Memaksa seluruh siswa mengikuti satu metode pengajaran yang sama tanpa pengecualian</button>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Mengabaikan perbedaan gaya belajar karena dianggap tidak penting dalam Kurikulum Merdeka</button>
   </div>
 
   <div class="assess-q" data-correct="2">
-    <p>11. Sebuah sekolah hanya melakukan penilaian sumatif di akhir semester tanpa pernah melakukan asesmen diagnostik di awal maupun asesmen formatif selama proses belajar. Berdasarkan prinsip asesmen Kurikulum Merdeka pada Bab 8, apa dampaknya?</p>
+    <p>Sebuah sekolah hanya melakukan penilaian sumatif di akhir semester tanpa pernah melakukan asesmen diagnostik di awal maupun asesmen formatif selama proses belajar. Berdasarkan prinsip asesmen Kurikulum Merdeka pada Bab 8, apa dampaknya?</p>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Tidak ada dampak apa pun karena penilaian sumatif sudah lebih dari cukup mengukur seluruh perkembangan siswa</button>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Guru kehilangan kesempatan memahami kebutuhan awal siswa dan memberi umpan balik selama proses belajar, sehingga asesmen menjadi kurang berkelanjutan dan kurang otentik</button>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Sekolah otomatis melanggar hukum karena hanya menerapkan satu model asesmen</button>
   </div>
 
   <div class="assess-q" data-correct="1">
-    <p>12. Sebuah sekolah ingin memperbaiki kualitas bacaan Al-Qur'an siswanya dari sisi ketepatan tajwid dan makharijul huruf, bukan sekadar menambah jumlah hafalan. Berdasarkan Bab 9, materi keislaman apa yang paling tepat diperkuat?</p>
+    <p>Sebuah sekolah ingin memperbaiki kualitas bacaan Al-Qur'an siswanya dari sisi ketepatan tajwid dan makharijul huruf, bukan sekadar menambah jumlah hafalan. Berdasarkan Bab 9, materi keislaman apa yang paling tepat diperkuat?</p>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Tahsin, karena berfokus memperbaiki bacaan Al-Qur'an sesuai tajwid dan makharijul huruf</button>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Ilmu Faraid, karena berkaitan dengan pembagian warisan</button>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Balaghah, karena hanya berkaitan dengan keindahan gaya bahasa Arab</button>
   </div>
 
   <div class="assess-q" data-correct="1">
-    <p>13. Sebuah sekolah kecil yang berdiri sendiri ingin meningkatkan kredibilitas dan kualitas pendidikannya seperti sekolah-sekolah dalam jaringan besar. Berdasarkan Bab 10, langkah apa yang paling relevan dipertimbangkan?</p>
+    <p>Sebuah sekolah kecil yang berdiri sendiri ingin meningkatkan kredibilitas dan kualitas pendidikannya seperti sekolah-sekolah dalam jaringan besar. Berdasarkan Bab 10, langkah apa yang paling relevan dipertimbangkan?</p>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Mempertimbangkan bergabung dengan jaringan sekolah terpadu seperti JSIT untuk mendapatkan kerangka kurikulum teruji (seperti BPI) dan dukungan jaringan yang lebih luas</button>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Menutup sekolah karena dianggap tidak mungkin bersaing dengan sekolah jaringan besar</button>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Meniru nama jaringan besar pada plang sekolah tanpa benar-benar bergabung atau menerapkan kurikulumnya</button>
   </div>
 
   <div class="assess-q" data-correct="1">
-    <p>14. Sebuah sekolah ingin menanamkan karakter Amanah pada siswanya, bukan sekadar Sidik atau Fathonah. Berdasarkan Bab 11, kegiatan manakah yang paling tepat mewakili penguatan karakter Amanah?</p>
+    <p>Sebuah sekolah ingin menanamkan karakter Amanah pada siswanya, bukan sekadar Sidik atau Fathonah. Berdasarkan Bab 11, kegiatan manakah yang paling tepat mewakili penguatan karakter Amanah?</p>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Melatih siswa menjadi pribadi yang dapat dipercaya menjalankan tugas dan peduli membantu sesama yang membutuhkan</button>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Melatih siswa menghafal rumus matematika sebanyak-banyaknya</button>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Melatih siswa untuk selalu diam dan tidak banyak bertanya di kelas</button>
   </div>
 
   <div class="assess-q" data-correct="1">
-    <p>15. Sebuah sekolah hanya menempelkan poster nilai karakter di dinding kelas tanpa pembiasaan nyata, ekstrakurikuler pendukung, atau sinergi dengan orang tua. Berdasarkan Bab 11, mengapa pendekatan ini kemungkinan besar tidak efektif?</p>
+    <p>Sebuah sekolah hanya menempelkan poster nilai karakter di dinding kelas tanpa pembiasaan nyata, ekstrakurikuler pendukung, atau sinergi dengan orang tua. Berdasarkan Bab 11, mengapa pendekatan ini kemungkinan besar tidak efektif?</p>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Karena pendidikan karakter yang efektif membutuhkan integrasi kurikulum, pembiasaan sehari-hari, ekstrakurikuler, dan sinergi sekolah-rumah secara sistematis, bukan sekadar slogan tertulis</button>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Karena poster dengan warna kurang menarik tidak akan pernah dibaca siswa</button>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Karena pendidikan karakter sebenarnya tidak perlu dilakukan secara sistematis sama sekali</button>
   </div>
 
   <div class="assess-q" data-correct="1">
-    <p>16. Sebuah sekolah ingin mulai merintis program bilingual, tetapi anggaran dan jumlah guru berkemampuan bahasa Inggris tinggi masih terbatas. Berdasarkan tingkatan pada Bab 12, titik awal paling realistis adalah...</p>
+    <p>Sebuah sekolah ingin mulai merintis program bilingual, tetapi anggaran dan jumlah guru berkemampuan bahasa Inggris tinggi masih terbatas. Berdasarkan tingkatan pada Bab 12, titik awal paling realistis adalah...</p>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Specified, karena berfokus menanamkan budaya berbahasa Inggris dalam keseharian dengan jam pelajaran bahasa Inggris yang belum terlalu banyak</button>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Certified, karena harus langsung menggunakan kurikulum internasional penuh sejak awal</button>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Mengabaikan seluruh tingkatan dan menjalankan program tanpa perencanaan bertahap</button>
   </div>
 
   <div class="assess-q" data-correct="2">
-    <p>17. Sebuah sekolah memiliki visi-misi yang indah di dokumen resminya (Bab 3), tetapi materi ajar dan metode pengajarannya (Bab 2) sama sekali tidak mencerminkan nilai-nilai dalam visi-misi tersebut. Apa yang paling tepat menjelaskan akar masalah ini?</p>
+    <p>Sebuah sekolah memiliki visi-misi yang indah di dokumen resminya (Bab 3), tetapi materi ajar dan metode pengajarannya (Bab 2) sama sekali tidak mencerminkan nilai-nilai dalam visi-misi tersebut. Apa yang paling tepat menjelaskan akar masalah ini?</p>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Tidak ada masalah, karena visi-misi hanya perlu tertulis rapi tanpa perlu tercermin dalam praktik pembelajaran</button>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Visi-misi belum benar-benar diintegrasikan ke komponen kurikulum seperti tujuan pendidikan, materi, dan metode pengajaran sehari-hari</button>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Masalahnya murni karena kurangnya anggaran sekolah, tidak ada kaitan dengan visi-misi sama sekali</button>
   </div>
 
   <div class="assess-q" data-correct="3">
-    <p>18. Sebuah sekolah rutin merevisi kurikulum (Bab 5) berdasarkan data, tetapi setiap kali ada resistensi guru terhadap perubahan (Bab 6), sekolah langsung membatalkan revisi tanpa dialog lebih lanjut. Berdasarkan Bab 5 dan Bab 6, apa yang seharusnya dilakukan sekolah ini?</p>
+    <p>Sebuah sekolah rutin merevisi kurikulum (Bab 5) berdasarkan data, tetapi setiap kali ada resistensi guru terhadap perubahan (Bab 6), sekolah langsung membatalkan revisi tanpa dialog lebih lanjut. Berdasarkan Bab 5 dan Bab 6, apa yang seharusnya dilakukan sekolah ini?</p>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Menghentikan seluruh proses evaluasi dan revisi kurikulum secara permanen</button>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Mengabaikan pendapat guru sepenuhnya dan tetap memaksakan revisi tanpa komunikasi</button>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Tetap melanjutkan revisi berbasis data sambil menerapkan manajemen perubahan — mengomunikasikan manfaatnya dan melibatkan guru dalam prosesnya — agar resistensi dapat diatasi tanpa membatalkan perbaikan yang memang dibutuhkan</button>
   </div>
 
   <div class="assess-q" data-correct="1">
-    <p>19. Sebuah sekolah Islam ingin menambahkan satu Kurikulum Keunggulan (Bab 7) dan sedang mempertimbangkan antara Bilingual (Bab 12), Karakter (Bab 11), atau JSIT/BPI (Bab 10). Berdasarkan seluruh buku ini, prinsip apa yang paling tepat digunakan untuk memutuskannya?</p>
+    <p>Sebuah sekolah Islam ingin menambahkan satu Kurikulum Keunggulan (Bab 7) dan sedang mempertimbangkan antara Bilingual (Bab 12), Karakter (Bab 11), atau JSIT/BPI (Bab 10). Berdasarkan seluruh buku ini, prinsip apa yang paling tepat digunakan untuk memutuskannya?</p>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Memilih satu yang paling sesuai dengan visi-misi, manhaj keislaman, kebutuhan siswa, dan ketersediaan sumber daya sekolah — bukan sekadar mengikuti tren atau menerapkan semuanya sekaligus</button>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Memilih yang paling murah biayanya tanpa mempertimbangkan kesesuaian dengan visi-misi sekolah</button>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Menerapkan ketiganya sekaligus secara penuh agar sekolah terlihat paling unggul dari kompetitor</button>
   </div>
 
   <div class="assess-q" data-correct="2">
-    <p>20. Setelah mempelajari seluruh buku ini, seorang kepala sekolah menyimpulkan bahwa kurikulum yang baik adalah dokumen yang sekali disusun dengan sempurna lalu tidak perlu disentuh lagi. Berdasarkan Bab 4, 5, dan 6, apakah kesimpulan ini tepat?</p>
+    <p>Setelah mempelajari seluruh buku ini, seorang kepala sekolah menyimpulkan bahwa kurikulum yang baik adalah dokumen yang sekali disusun dengan sempurna lalu tidak perlu disentuh lagi. Berdasarkan Bab 4, 5, dan 6, apakah kesimpulan ini tepat?</p>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Tepat, karena kurikulum yang baik seharusnya tidak pernah diubah sejak awal disusun</button>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Kurang tepat, karena kurikulum yang baik justru membutuhkan siklus implementasi, monitoring-evaluasi, dan revisi berkelanjutan agar tetap relevan dengan kebutuhan siswa dan perkembangan zaman</button>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Tepat, karena revisi kurikulum hanya diperlukan jika ada instruksi langsung dari pemerintah</button>
