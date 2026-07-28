@@ -592,140 +592,140 @@ asesmen: `
 <div class="card reveal">
 
   <div class="assess-q" data-correct="1">
-    <p>1. Sebuah sekolah Islam di kawasan padat penduduk berpenghasilan menengah ke bawah ingin menambah jumlah pendaftar tanpa mengorbankan kualitas pendidikan. Strategi manakah yang paling selaras dengan pendekatan segmentasi target pasar pada Bab 1?</p>
+    <p>Sebuah sekolah Islam di kawasan padat penduduk berpenghasilan menengah ke bawah ingin menambah jumlah pendaftar tanpa mengorbankan kualitas pendidikan. Strategi manakah yang paling selaras dengan pendekatan segmentasi target pasar pada Bab 1?</p>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Menonjolkan biaya terjangkau, membuka program beasiswa, dan bekerja sama dengan lembaga zakat/sosial sambil tetap menjaga standar kualitas pendidikan</button>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Menaikkan biaya pendidikan agar sekolah terkesan eksklusif seperti sekolah kelas atas</button>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Meniru seluruh program sekolah kelas atas termasuk kerja sama dengan komunitas elit tanpa menyesuaikan kondisi masyarakat sekitar</button>
   </div>
 
   <div class="assess-q" data-correct="2">
-    <p>2. Sebuah sekolah Islam rutin mengadakan Open House dan aktif di media sosial, tetapi cukup banyak orang tua siswa lama justru memindahkan anaknya karena merasa komunikasi dengan pihak sekolah kurang terbuka. Berdasarkan tiga tujuan strategi pemasaran pada Bab 1, aspek apa yang paling perlu diperbaiki sekolah tersebut?</p>
+    <p>Sebuah sekolah Islam rutin mengadakan Open House dan aktif di media sosial, tetapi cukup banyak orang tua siswa lama justru memindahkan anaknya karena merasa komunikasi dengan pihak sekolah kurang terbuka. Berdasarkan tiga tujuan strategi pemasaran pada Bab 1, aspek apa yang paling perlu diperbaiki sekolah tersebut?</p>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Meningkatkan jumlah siswa baru dengan memperbanyak iklan berbayar</button>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Membangun loyalitas orang tua melalui komunikasi yang lebih terbuka dan transparan serta pelibatan orang tua dalam kegiatan sekolah</button>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Meningkatkan citra sekolah dengan mengikuti lebih banyak lomba dan ajang penghargaan</button>
   </div>
 
   <div class="assess-q" data-correct="1">
-    <p>3. Sebuah sekolah ingin menanamkan nilai Islam dalam pelajaran Matematika tanpa mengubahnya menjadi pelajaran agama. Pendekatan manakah yang paling sesuai dengan konsep integrasi nilai Islam pada Bab 2?</p>
+    <p>Sebuah sekolah ingin menanamkan nilai Islam dalam pelajaran Matematika tanpa mengubahnya menjadi pelajaran agama. Pendekatan manakah yang paling sesuai dengan konsep integrasi nilai Islam pada Bab 2?</p>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Mengaitkan topik zakat dengan perhitungan persentase sambil menanamkan nilai kepedulian sosial</button>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Mengganti seluruh soal matematika dengan soal-soal fikih</button>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Menghapus pelajaran matematika dan menggantinya dengan tahfidz tambahan</button>
   </div>
 
   <div class="assess-q" data-correct="2">
-    <p>4. Sekolah ingin menjawab tantangan Industri 4.0 dan Society 5.0 dengan kurikulum berskala global tanpa kehilangan identitas keislaman. Langkah paling tepat menurut Bab 2 adalah...</p>
+    <p>Sekolah ingin menjawab tantangan Industri 4.0 dan Society 5.0 dengan kurikulum berskala global tanpa kehilangan identitas keislaman. Langkah paling tepat menurut Bab 2 adalah...</p>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Menerapkan kurikulum Cambridge apa adanya tanpa penyesuaian apa pun</button>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Mengombinasikan kurikulum global seperti Cambridge dengan pengisian nilai keislaman, tahfidz, dan bahasa Arab</button>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Menolak seluruh kurikulum internasional demi menjaga kemurnian kurikulum agama</button>
   </div>
 
   <div class="assess-q" data-correct="3">
-    <p>5. Seorang guru merasa lelah dan kehilangan motivasi meski gajinya sudah memadai. Berdasarkan konsep motivasi dan kesejahteraan guru pada Bab 2, faktor apa yang kemungkinan masih kurang?</p>
+    <p>Seorang guru merasa lelah dan kehilangan motivasi meski gajinya sudah memadai. Berdasarkan konsep motivasi dan kesejahteraan guru pada Bab 2, faktor apa yang kemungkinan masih kurang?</p>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Besarnya gaji pokok bulanan</button>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Jumlah jam mengajar per minggu</button>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Pengakuan/penghargaan, jenjang karir, dan dukungan psikologis-spiritual</button>
   </div>
 
   <div class="assess-q" data-correct="1">
-    <p>6. Sebuah sekolah menerima banyak pendaftar baru setelah rutin mengadakan open house, seminar parenting, dan program beasiswa tahfidz. Mengapa strategi promosi ini efektif dibanding sekadar memasang iklan digital saja?</p>
+    <p>Sebuah sekolah menerima banyak pendaftar baru setelah rutin mengadakan open house, seminar parenting, dan program beasiswa tahfidz. Mengapa strategi promosi ini efektif dibanding sekadar memasang iklan digital saja?</p>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Karena memberi pengalaman langsung dan nilai edukatif yang membangun kepercayaan serta kedekatan emosional dengan calon wali murid</button>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Karena biayanya jauh lebih mahal sehingga otomatis dianggap lebih berkualitas</button>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Karena kegiatan ini tidak memerlukan kehadiran guru maupun siswa</button>
   </div>
 
   <div class="assess-q" data-correct="2">
-    <p>7. Sebuah Sekolah Islam ingin menonjolkan keunggulan Karakter dalam promosi PPDB, tetapi hanya mengandalkan slogan "sekolah berkarakter" tanpa bukti program yang jelas. Berdasarkan Bab 3, apa yang seharusnya dilengkapi agar klaim keunggulan Karakter tersebut kredibel?</p>
+    <p>Sebuah Sekolah Islam ingin menonjolkan keunggulan Karakter dalam promosi PPDB, tetapi hanya mengandalkan slogan "sekolah berkarakter" tanpa bukti program yang jelas. Berdasarkan Bab 3, apa yang seharusnya dilengkapi agar klaim keunggulan Karakter tersebut kredibel?</p>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Cukup menambah jumlah mata pelajaran agama tanpa mengubah hal lain</button>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Menunjukkan program terstruktur (visi-misi jelas, target terukur, kegiatan terencana, evaluasi berkelanjutan), pembiasaan nilai sehari-hari, budaya sekolah yang positif, serta bukti prestasi siswa di bidang karakter</button>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Mengganti seragam sekolah menjadi lebih formal</button>
   </div>
 
   <div class="assess-q" data-correct="1">
-    <p>8. Mengapa program ICT/Teknologi dan program Diniyah/Keislaman dianggap saling melengkapi, bukan bertentangan, dalam konsep Sekolah Islam menurut Bab 3?</p>
+    <p>Mengapa program ICT/Teknologi dan program Diniyah/Keislaman dianggap saling melengkapi, bukan bertentangan, dalam konsep Sekolah Islam menurut Bab 3?</p>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Karena keduanya sama-sama bertujuan menyiapkan siswa menjadi generasi yang berkarakter dan adaptif — nilai keislaman menjadi landasan moral, sementara teknologi (coding, robotika, platform digital) menjadi bekal keterampilan menghadapi masa depan</button>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Karena teknologi hanya digunakan untuk menggantikan pelajaran agama sepenuhnya</button>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Karena keduanya tidak memiliki hubungan sama sekali dan diajarkan secara terpisah tanpa keterkaitan tujuan</button>
   </div>
 
   <div class="assess-q" data-correct="2">
-    <p>9. Sebuah sekolah Islam saat ini berada di peringkat SATISFIED (kuota baru penuh menjelang akhir masa PPDB). Pengurus yayasan ingin sekolah bisa naik ke peringkat EARLY BIRD atau lebih tinggi pada tahun ajaran berikutnya. Strategi apa yang paling sesuai dengan penyebab-penyebab yang dibahas dalam Bab 4?</p>
+    <p>Sebuah sekolah Islam saat ini berada di peringkat SATISFIED (kuota baru penuh menjelang akhir masa PPDB). Pengurus yayasan ingin sekolah bisa naik ke peringkat EARLY BIRD atau lebih tinggi pada tahun ajaran berikutnya. Strategi apa yang paling sesuai dengan penyebab-penyebab yang dibahas dalam Bab 4?</p>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Memperpanjang masa PPDB agar orang tua punya lebih banyak waktu mendaftar</button>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Menggencarkan promosi dan sosialisasi program unggulan sejak jauh sebelum PPDB dibuka, serta memberi insentif khusus bagi pendaftar gelombang awal, agar keputusan orang tua bisa diambil lebih cepat</button>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Menunggu saja karena kuota toh akhirnya selalu terisi setiap tahun</button>
   </div>
 
   <div class="assess-q" data-correct="1">
-    <p>10. Sebuah sekolah mengalami tren DECLINED selama tiga tahun berturut-turut, bersamaan dengan munculnya dua sekolah Islam baru yang menawarkan fasilitas lebih modern di sekitarnya. Berdasarkan Bab 4, langkah paling tepat dan menyeluruh yang harus diambil sekolah adalah...</p>
+    <p>Sebuah sekolah mengalami tren DECLINED selama tiga tahun berturut-turut, bersamaan dengan munculnya dua sekolah Islam baru yang menawarkan fasilitas lebih modern di sekitarnya. Berdasarkan Bab 4, langkah paling tepat dan menyeluruh yang harus diambil sekolah adalah...</p>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Melakukan introspeksi menyeluruh atas kualitas pendidikan, manajemen internal, dan strategi pemasaran, sekaligus mencari keunikan/nilai lebih dibanding sekolah pesaing baru</button>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Menurunkan biaya pendaftaran sedikit tanpa mengubah hal lain, karena harga adalah satu-satunya faktor yang memengaruhi keputusan orang tua</button>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Mengabaikan tren ini karena penurunan pendaftar dianggap wajar dan akan pulih dengan sendirinya</button>
   </div>
 
   <div class="assess-q" data-correct="2">
-    <p>11. Sebuah sekolah Islam ingin merancang kegiatan yang bertujuan "menghadirkan" calon siswa dan orang tua agar mau datang dan mengenal sekolah, sebelum proses meyakinkan dan memastikan dilakukan (Bab 5). Kegiatan apa yang paling tepat mewakili tujuan ini?</p>
+    <p>Sebuah sekolah Islam ingin merancang kegiatan yang bertujuan "menghadirkan" calon siswa dan orang tua agar mau datang dan mengenal sekolah, sebelum proses meyakinkan dan memastikan dilakukan (Bab 5). Kegiatan apa yang paling tepat mewakili tujuan ini?</p>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Menyediakan layanan helpdesk untuk menjawab pertanyaan orang tua yang sudah mendaftar</button>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Menggelar Open House dengan pameran karya siswa, lomba sains untuk siswa SD/MI, dan seminar parenting</button>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Memberikan update berkala informasi PPDB melalui email kepada orang tua yang sudah terdaftar</button>
   </div>
 
   <div class="assess-q" data-correct="1">
-    <p>12. Seorang kepala sekolah menerima laporan bahwa banyak orang tua yang datang ke Open House terkesan dengan acara, tetapi masih ragu mendaftarkan anaknya karena belum yakin dengan kualitas pendidikan yang akan diperoleh. Manakah kombinasi kegiatan yang paling tepat untuk mengatasi keraguan ini sesuai strategi Captive Market (Bab 5)?</p>
+    <p>Seorang kepala sekolah menerima laporan bahwa banyak orang tua yang datang ke Open House terkesan dengan acara, tetapi masih ragu mendaftarkan anaknya karena belum yakin dengan kualitas pendidikan yang akan diperoleh. Manakah kombinasi kegiatan yang paling tepat untuk mengatasi keraguan ini sesuai strategi Captive Market (Bab 5)?</p>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Presentasi prestasi dan keunggulan sekolah, testimoni orang tua/alumni, serta kunjungan langsung ke fasilitas sekolah</button>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Menambah jumlah stand pameran karya siswa saat Open House berikutnya</button>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Mempercepat proses pembelian formulir pendaftaran di lokasi acara</button>
   </div>
 
   <div class="assess-q" data-correct="3">
-    <p>13. Setelah orang tua resmi mendaftarkan anaknya, sekolah ingin memastikan mereka merasa puas dan tetap percaya terhadap sekolah selama proses PPDB berlangsung. Upaya mana di bawah ini yang paling sesuai dengan strategi Fix Market (Bab 5) untuk mencapai tujuan tersebut?</p>
+    <p>Setelah orang tua resmi mendaftarkan anaknya, sekolah ingin memastikan mereka merasa puas dan tetap percaya terhadap sekolah selama proses PPDB berlangsung. Upaya mana di bawah ini yang paling sesuai dengan strategi Fix Market (Bab 5) untuk mencapai tujuan tersebut?</p>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Mengadakan lomba bahasa Inggris dan seni budaya untuk menarik lebih banyak pendaftar baru</button>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Menampilkan testimoni alumni yang sukses di media sosial sekolah</button>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Menyediakan petugas PPDB yang ramah dan kompeten, proses yang transparan, serta komunikasi berkala melalui website dan helpdesk</button>
   </div>
 
   <div class="assess-q" data-correct="2">
-    <p>14. Sebuah sekolah memiliki sistem pendaftaran online yang rumit, petugas yang kurang ramah, dan tidak pernah melakukan evaluasi setelah PPDB selesai, meskipun jumlah pendaftar yang mendaftar sudah cukup banyak. Berdasarkan Bab 6, kelemahan sekolah ini paling tepat berada pada tahap apa?</p>
+    <p>Sebuah sekolah memiliki sistem pendaftaran online yang rumit, petugas yang kurang ramah, dan tidak pernah melakukan evaluasi setelah PPDB selesai, meskipun jumlah pendaftar yang mendaftar sudah cukup banyak. Berdasarkan Bab 6, kelemahan sekolah ini paling tepat berada pada tahap apa?</p>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Menghadirkan, karena promosinya kurang menjangkau masyarakat luas</button>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Memastikan, karena proses, pelayanan, dan evaluasi PPDB belum berjalan baik</button>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Meyakinkan, karena testimoni dan kunjungan sekolah belum dilakukan</button>
   </div>
 
   <div class="assess-q" data-correct="1">
-    <p>15. Manakah pernyataan yang paling tepat membandingkan strategi testimoni pada tahap Meyakinkan dengan strategi evaluasi pada tahap Memastikan (Bab 6)?</p>
+    <p>Manakah pernyataan yang paling tepat membandingkan strategi testimoni pada tahap Meyakinkan dengan strategi evaluasi pada tahap Memastikan (Bab 6)?</p>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Testimoni berfungsi membangun kepercayaan calon orang tua sebelum mendaftar, sedangkan evaluasi berfungsi memperbaiki kualitas PPDB untuk tahun berikutnya setelah proses berjalan</button>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Keduanya memiliki fungsi yang sama persis, yaitu menarik minat calon siswa baru untuk mendaftar</button>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Testimoni dilakukan setelah PPDB selesai, sedangkan evaluasi dilakukan sebelum calon siswa mendaftar</button>
   </div>
 
   <div class="assess-q" data-correct="2">
-    <p>16. Sebuah sekolah Islam menyelenggarakan lomba karya ilmiah dan giveaway merchandise di akun Instagram-nya menjelang musim PPDB. Menurut Bab 7, tujuan utama dari kegiatan lomba dan giveaway ini adalah...</p>
+    <p>Sebuah sekolah Islam menyelenggarakan lomba karya ilmiah dan giveaway merchandise di akun Instagram-nya menjelang musim PPDB. Menurut Bab 7, tujuan utama dari kegiatan lomba dan giveaway ini adalah...</p>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Menambah pemasukan sekolah dari biaya pendaftaran lomba</button>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Menarik minat calon siswa untuk berpartisipasi, meningkatkan awareness, dan meningkatkan engagement dengan followers</button>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Menggantikan kebutuhan sosialisasi PPDB ke sekolah-sekolah lain</button>
   </div>
 
   <div class="assess-q" data-correct="1">
-    <p>17. Kepala Sekolah SD Islam Al-Falah dan Kepala Sekolah SMP Islam Cendekia rutin bertemu untuk membahas program PPDB, dan SMP tersebut juga menawarkan pelatihan guru gratis kepada SD Al-Falah. Contoh ini (Bab 7) paling tepat menggambarkan strategi...</p>
+    <p>Kepala Sekolah SD Islam Al-Falah dan Kepala Sekolah SMP Islam Cendekia rutin bertemu untuk membahas program PPDB, dan SMP tersebut juga menawarkan pelatihan guru gratis kepada SD Al-Falah. Contoh ini (Bab 7) paling tepat menggambarkan strategi...</p>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Mitra, karena membangun kedekatan dan program kerjasama dengan kepala sekolah jenjang lain</button>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Media, karena melibatkan promosi lintas sekolah</button>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Meet Up, karena ada pertemuan rutin antar pihak</button>
   </div>
 
   <div class="assess-q" data-correct="3">
-    <p>18. Sebuah sekolah sudah aktif di media sosial dan memiliki banyak mitra kerjasama, tetapi orang tua calon siswa masih sering ragu dan bertanya-tanya tentang biaya, jadwal, serta program sekolah sebelum mendaftarkan anaknya. Berdasarkan Bab 7, strategi apa yang paling tepat diperkuat untuk mengatasi masalah ini, dan mengapa?</p>
+    <p>Sebuah sekolah sudah aktif di media sosial dan memiliki banyak mitra kerjasama, tetapi orang tua calon siswa masih sering ragu dan bertanya-tanya tentang biaya, jadwal, serta program sekolah sebelum mendaftarkan anaknya. Berdasarkan Bab 7, strategi apa yang paling tepat diperkuat untuk mengatasi masalah ini, dan mengapa?</p>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Media, dengan menambah frekuensi posting konten promosi</button>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Mitra, dengan menambah jumlah lembaga yang diajak kerjasama</button>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Meet Up, karena pertemuan langsung dengan orang tua dapat menjawab pertanyaan dan keraguan secara langsung sehingga membangun kepercayaan</button>
   </div>
 
   <div class="assess-q" data-correct="1">
-    <p>19. Mengapa ketujuh strategi PPDB yang dibahas dalam buku ini sebaiknya dijalankan secara terintegrasi, bukan dipilih salah satu saja (Bab 8)?</p>
+    <p>Mengapa ketujuh strategi PPDB yang dibahas dalam buku ini sebaiknya dijalankan secara terintegrasi, bukan dipilih salah satu saja (Bab 8)?</p>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Karena strategi-strategi tersebut saling menguatkan sebagai satu ekosistem promosi, misalnya konten media sosial mengarahkan calon siswa ke website dan mendukung kegiatan Open House</button>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Karena peraturan pemerintah mewajibkan sekolah menjalankan ketujuh strategi tersebut sekaligus</button>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Karena biaya menjalankan satu strategi saja selalu lebih mahal dibanding menjalankan tujuh strategi sekaligus</button>
   </div>
 
   <div class="assess-q" data-correct="2">
-    <p>20. Sebuah sekolah Islam mendapati jumlah pendaftar PPDB tahun ini menurun dibanding tahun lalu, padahal strategi promosi yang dijalankan persis sama tanpa ada perubahan apa pun. Berdasarkan harapan yang disampaikan pada Bab 8, apa evaluasi paling tepat atas situasi ini?</p>
+    <p>Sebuah sekolah Islam mendapati jumlah pendaftar PPDB tahun ini menurun dibanding tahun lalu, padahal strategi promosi yang dijalankan persis sama tanpa ada perubahan apa pun. Berdasarkan harapan yang disampaikan pada Bab 8, apa evaluasi paling tepat atas situasi ini?</p>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Penurunan pendaftar murni disebabkan faktor eksternal sehingga tidak perlu dievaluasi</button>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Sekolah perlu melakukan monitoring dan evaluasi berkala serta berinovasi mengikuti perkembangan zaman, karena strategi yang sama persis dari tahun ke tahun berisiko kehilangan relevansi</button>
     <button class="quiz-opt" onclick="selectAssessAnswer(this)">Sekolah sebaiknya menghentikan seluruh kegiatan promosi karena promosi terbukti tidak berpengaruh</button>
