@@ -1,7 +1,5 @@
 /* Konten Web-Book 55 — Formula One Stop Schooling */
 (() => {
-  const source = (label, url) => `<p class="source-note"><strong>Rujukan pendukung:</strong> <a href="${url}" target="_blank" rel="noopener">${label}</a></p>`;
-
   const section = ([heading, paragraphs, extra = ""]) => `
     <h4>${heading}</h4>
     ${paragraphs.map(p => `<p>${p}</p>`).join("")}
@@ -39,7 +37,7 @@
       sections: [
         ["Kepemilikan Unit Belum Sama dengan Kesinambungan", [
           "Sebuah yayasan dapat mempunyai banyak unit, gedung berdekatan, bahkan seragam dan logo yang mirip, tetapi belum tentu memiliki One Stop Schooling. Jika setiap unit menyusun sasaran, kurikulum, budaya layanan, kalender, dan promosi tanpa percakapan lintas jenjang, perjalanan murid tetap terputus. Orang tua merasakan bahwa setiap kenaikan jenjang adalah proses memilih sekolah dari awal lagi.",
-          "Dalam webinar, Dr. Supangat menempatkan OSS sebagai strategi agar murid terus melanjutkan ke jenjang berikutnya. Kata kuncinya bukan sekadar berada dalam kompleks yang sama, melainkan pendidikan berkelanjutan. Yayasan perlu mampu menjelaskan hubungan yang masuk akal antara pengalaman di TK, fondasi di SD, penguatan identitas di SMP, dan kesiapan masa depan di SMA.",
+          "One Stop Schooling bukan sekadar cara agar murid melanjutkan ke jenjang berikutnya dalam kompleks yang sama. Gagasan utamanya adalah pendidikan berkelanjutan. Yayasan perlu mampu menjelaskan hubungan yang masuk akal antara pengalaman di TK, fondasi di SD, penguatan identitas di SMP, dan kesiapan masa depan di SMA.",
           "Karena itu, pertanyaan pertama bukan berapa banyak unit yang dimiliki, melainkan apakah semua unit bekerja menuju gambaran lulusan yang sama. Bila kepala unit, guru, tenaga administrasi, murid, dan orang tua memberi jawaban yang berbeda, logo yang sama belum menjadi sistem yang sama."
         ]],
         ["Janji OSS kepada Murid dan Keluarga", [
@@ -55,7 +53,7 @@
         ["Prinsip Satu Visi, Satu Perjalanan", [
           "Satu visi tidak berarti semua unit harus seragam. TK membutuhkan pembelajaran melalui bermain; remaja SMA membutuhkan otonomi, pilihan, dan kesiapan pascasekolah. Kesatuan berada pada arah, nilai, dan standar pertumbuhan, sedangkan bentuk pengalaman perlu berubah mengikuti perkembangan anak.",
           "Kalimat kerja yang berguna untuk memulai adalah: setiap lulusan jenjang kami telah mencapai apa, dibuktikan dengan apa, dan siap memasuki tantangan apa berikutnya? Jawaban yang disepakati menjadi jembatan pertama antarsekolah. Dari sana, yayasan dapat menyusun peta kurikulum, layanan transisi, dan komunikasi keluarga secara terpadu."
-        ], source("Kemendikdasmen — Transisi PAUD ke SD yang Menyenangkan", "https://ditsd.kemendikdasmen.go.id/transisipaudsd/")]
+        ]]
       ],
       reflection: "Jika nama dan lokasi yayasan dihapus, bukti apa yang masih menunjukkan bahwa unit-unit di lembaga Anda benar-benar merupakan satu perjalanan pendidikan?",
       quiz: [
@@ -69,7 +67,7 @@
       lede: "Pendidikan berkelanjutan dapat dirancang pada tiga cakupan. Memilihnya bukan perlombaan untuk membuat visi paling panjang, melainkan keputusan tentang amanah yang benar-benar mampu dijaga oleh yayasan.",
       sections: [
         ["Tiga Bentuk Keberlanjutan", [
-          "Dalam materi webinar, OSS atau One Stop Schooling menggambarkan murid yang melanjutkan dari TK, SD, SMP, hingga SMA dan lulus dalam lembaga atau yayasan yang sama. Fokusnya berada pada kesinambungan sekolah formal. Ini merupakan cakupan yang paling konkret bagi yayasan yang telah memiliki beberapa unit pendidikan dasar dan menengah.",
+          "OSS atau One Stop Schooling menggambarkan perjalanan murid dari TK, SD, SMP, hingga SMA dalam lembaga atau yayasan yang sama. Fokusnya berada pada kesinambungan sekolah formal. Inilah cakupan paling konkret bagi yayasan yang telah memiliki beberapa unit pendidikan dasar dan menengah.",
           "OSE atau One Stop Education memperpanjang jalur itu hingga perguruan tinggi dan sarjana di bawah naungan yayasan yang sama. OSE menuntut kesiapan yang lebih besar: tata kelola pendidikan tinggi, mutu akademik, jejaring profesi, serta kemampuan menjaga relevansi program dari masa kanak-kanak sampai dewasa muda.",
           "OSA atau One Stop Alive membawa hubungan lebih jauh: murid belajar, berkuliah, bekerja, berkontribusi, dan tetap terhubung dengan ekosistem yayasan sepanjang hidup. Dalam bingkai sekolah Islam, gagasan ini dapat dibaca sebagai pendidikan sepanjang hayat dan pelayanan dunia–akhirat. OSA bukan berarti menguasai seluruh hidup alumni, melainkan menyediakan komunitas belajar, pengabdian, dan jejaring yang tetap bernilai ketika mereka telah dewasa."
         ]],
@@ -105,7 +103,7 @@
           "Tahap ketiga adalah menyusun pengalaman belajar, pembiasaan, proyek, dukungan, dan asesmen yang membawa murid menuju bukti tersebut. Urutan ini menjaga sekolah dari dua jebakan: banyak kegiatan tanpa arah dan banyak materi tanpa transfer."
         ]],
         ["Tiga Horizon Masa Depan", [
-          "Slide webinar memberi contoh tiga tujuan putra-putri setelah SMA: kuliah di perguruan tinggi negeri atau kampus dalam negeri, menjadi mahasiswa luar negeri, dan belajar di kampus utama Timur Tengah. Ketiganya menuntut persiapan yang berbeda, tetapi sekolah tidak harus memaksa setiap anak memilih tujuan yang sama.",
+          "Setelah SMA, setidaknya ada tiga horizon yang dapat dipersiapkan: kuliah di perguruan tinggi negeri atau kampus dalam negeri, melanjutkan studi ke luar negeri, dan belajar di kampus utama Timur Tengah. Setiap tujuan menuntut persiapan berbeda, tetapi sekolah tidak perlu memaksa semua anak memilih jalan yang sama.",
           "Tugas OSS adalah membangun fondasi dan sistem bimbingan agar pilihan itu terbuka. Jalur kampus dalam negeri memerlukan kesiapan akademik dan strategi seleksi; jalur luar negeri memerlukan bahasa, kemandirian, literasi lintas budaya, dan administrasi; jalur Timur Tengah memerlukan bahasa Arab, fondasi keislaman, dan informasi studi yang memadai. Sekolah dapat menambahkan jalur kewirausahaan, vokasi, tahfiz, atau pengabdian sesuai profil muridnya.",
           "Backward design yang berpihak pada murid tidak menjadikan visi yayasan sebagai satu cetakan. Ia menetapkan kompetensi inti bersama, lalu menyediakan jalur yang memungkinkan kekuatan dan aspirasi siswa berkembang."
         ]],
@@ -117,7 +115,7 @@
         ["Kalibrasi Tujuan, Bukti, dan Pengalaman", [
           "Setiap awal tahun, perwakilan jenjang perlu membawa contoh karya dan data murid, bukan hanya dokumen rencana. Tim memeriksa apakah bukti yang ada sesuai tujuan, apakah asesmen terlalu mudah atau terlalu berat, dan apakah pengalaman belajar benar-benar menyiapkan transisi. Kalibrasi ini menjadikan profil lulusan sebagai alat kerja, bukan poster dinding.",
           "Mulailah dari dua atau tiga domain prioritas. Menyelaraskan semua mata pelajaran dan nilai sekaligus sering membuat tim kelelahan. Pilih area yang paling menentukan identitas sekolah—misalnya ibadah, akhlak, bahasa, dan kepemimpinan—lalu bangun contoh yang baik sebelum memperluas."
-        ], source("ASCD — Understanding by Design Framework", "https://files.ascd.org/staticfiles/ascd/pdf/siteASCD/publications/UbD_WhitePaper0312.pdf")]
+        ]]
       ],
       reflection: "Jika satu lulusan ideal sekolah Anda hadir di depan tim hari ini, bukti nyata apa yang membuat semua orang sepakat bahwa visi sekolah telah tercapai?",
       quiz: [
@@ -148,7 +146,7 @@
         ["Audit Tahunan: Hilangkan, Naikkan, Hubungkan", [
           "Pada akhir tahun, tandai setiap program dengan tiga keputusan. Hilangkan kegiatan yang tidak lagi memberi nilai atau hanya mengulang. Naikkan kegiatan yang penting dengan tantangan dan bukti lebih tinggi. Hubungkan program yang selama ini berdiri sendiri agar menjadi rangkaian perkembangan.",
           "Audit yang baik tidak selalu menambah beban. Sering kali hasil terbaik justru berasal dari mengurangi acara yang tersebar dan memusatkan energi pada pengalaman kunci. Kurikulum menjadi lebih ringan bagi organisasi, tetapi lebih bermakna bagi murid."
-        ], source("NSW Department of Education — Continuity of Learning", "https://education.nsw.gov.au/teaching-and-learning/curriculum/early-learning/continuity-of-learning-and-curriculum-links.html")]
+        ]]
       ],
       reflection: "Program apa yang paling sering diulang di beberapa jenjang tanpa kenaikan kedalaman, dan bagaimana Anda akan mengubahnya menjadi spiral perkembangan?",
       quiz: [
@@ -162,7 +160,7 @@
       lede: "Kurikulum keislaman menjadi pembeda penting sekolah Islam, tetapi kekuatannya terletak pada perkembangan yang terencana: dari mengenal dan meniru menuju memahami, mandiri, konsisten, serta mampu menolong orang lain.",
       sections: [
         ["Dari Praktik Dasar ke Kemandirian", [
-          "Slide webinar mencontohkan pemetaan ibadah lintas unit: TK mulai dari wudu dan tayamum; SD menguatkan salat, zikir, bacaan, dan kemandirian; SMP memasuki puasa, iktikaf, zakat, serta haji/umrah; SMA belajar tanggung jawab yang lebih kompleks seperti pengurusan jenazah. Urutan ini memperlihatkan bahwa target ditempatkan sesuai perkembangan dan kesiapan murid.",
+          "Peta ibadah lintas unit dapat dimulai dari wudu dan tayamum di TK; penguatan salat, zikir, bacaan, dan kemandirian di SD; puasa, iktikaf, zakat, serta haji atau umrah di SMP; lalu tanggung jawab yang lebih kompleks, seperti pengurusan jenazah, di SMA. Urutan ini menempatkan target sesuai perkembangan dan kesiapan murid.",
           "Pemetaan bukan berarti materi hanya boleh muncul sekali. Wudu dapat dikenalkan di TK, diperbaiki di SD, dipahami dalil dan variasinya di SMP, lalu diajarkan atau dipimpin dalam kegiatan sosial di SMA. Yang perlu dihindari adalah memulai dari nol setiap tahun seakan murid tidak memiliki pengalaman sebelumnya.",
           "Tiap target sebaiknya memuat empat lapis: pengetahuan, praktik, kebiasaan, dan pemaknaan. Murid tidak hanya mampu menyebutkan urutan, tetapi mempraktikkan dengan benar, menjaga konsistensi, dan memahami nilai yang membentuk hidupnya."
         ]],
@@ -175,7 +173,7 @@
           "Pembiasaan mudah runtuh jika pesan sekolah dan rumah bertentangan. Komunikasi kepada orang tua harus praktis: apa yang sedang dilatih, mengapa penting, bentuk dukungan yang sesuai, dan bagaimana memberi teladan tanpa menjadikan rumah ruang ujian kedua.",
           "Pesan personal lebih bermanfaat daripada pengumuman umum yang bernada menyalahkan. Wali kelas dapat menyampaikan kemajuan spesifik dan satu kebiasaan yang dapat dikuatkan. Orang tua juga perlu ruang untuk menjelaskan kondisi rumah sehingga sekolah tidak membuat asumsi yang keliru.",
           "Kemitraan bukan pemindahan tanggung jawab kepada keluarga. Sekolah tetap menjamin kualitas pembelajaran; keluarga membantu konsistensi dan makna. Keduanya bertukar informasi untuk kepentingan anak."
-        ], source("Education Endowment Foundation — Parental Engagement", "https://educationendowmentfoundation.org.uk/education-evidence/teaching-learning-toolkit/parental-engagement")],
+        ]],
         ["Menjaga Ruh di Balik Target", [
           "Bahaya kurikulum berjenjang adalah berubah menjadi daftar cek yang kering. Pimpinan perlu memastikan bahwa indikator digunakan sebagai alat bimbingan, bukan untuk memamerkan angka. Keteladanan guru, suasana yang aman untuk bertanya, dan hubungan yang penuh kasih memberi ruh pada target teknis.",
           "Ukuran keberhasilan tidak hanya berapa banyak siswa lulus praktik, tetapi apakah mereka semakin sadar, bertanggung jawab, dan mampu menghubungkan ibadah dengan akhlak. Jika hasil teknis tinggi tetapi budaya saling merendahkan tetap ada, sistem perlu dievaluasi."
@@ -198,7 +196,7 @@
           "Indikator tidak menilai isi hati. Sekolah menilai kemampuan yang dapat diamati—cara menjelaskan, kualitas alasan, pilihan tindakan, dan kesiapan berdialog—sambil menyadari bahwa pertumbuhan iman adalah proses personal yang memerlukan keteladanan dan doa."
         ]],
         ["Akhlak: dari Peduli menuju Profesional", [
-          "Slide materi memetakan akhlak secara bertahap: kepedulian dan amanah berkembang menuju pembelajaran yang berakhlak, lalu profesionalitas dan tabligh pada jenjang lebih tinggi. Gagasan pentingnya adalah akhlak meningkat seiring luasnya tanggung jawab sosial murid.",
+          "Tangga perkembangan akhlak dapat bergerak dari kepedulian dan amanah menuju kebiasaan belajar yang berakhlak, kemudian profesionalitas dan tabligh pada jenjang lebih tinggi. Semakin dewasa murid, semakin luas pula tanggung jawab sosial yang perlu dipikulnya.",
           "Anak kecil belajar merawat diri, barang, dan teman dekat. Siswa SD mengelola tugas serta kerja kelompok. Siswa SMP belajar menghadapi perbedaan, konflik, dan ruang digital. Siswa SMA memegang proyek, melayani masyarakat, menyampaikan gagasan, dan bertanggung jawab terhadap dampak keputusannya.",
           "Dengan alur ini, program akhlak tidak berhenti pada slogan pekanan. Setiap unit memilih situasi nyata tempat nilai dipraktikkan, kemudian guru memberi umpan balik terhadap proses dan dampaknya."
         ]],
@@ -211,7 +209,7 @@
           "Akhlak dapat dinilai melalui catatan observasi, portofolio proyek, refleksi, umpan balik teman, dan konferensi guru–murid. Nilai angka tunggal sering tidak cukup menjelaskan konteks; komentar deskriptif membantu murid memahami kekuatan, dampak tindakannya, dan langkah perbaikan.",
           "Gunakan kejadian nyata sebagai bahan belajar tanpa mempermalukan pihak yang terlibat. Murid diajak melihat fakta, perasaan, kebutuhan, dampak, dan cara memulihkan. Pendekatan ini mengubah disiplin dari hukuman sesaat menjadi latihan tanggung jawab.",
           "Perkembangan lintas jenjang dapat didokumentasikan sebagai narasi singkat. Guru berikutnya menerima gambaran dukungan yang efektif, bukan cap seperti anak sulit atau tidak berkarakter. Bahasa profesional menjaga martabat sekaligus kesinambungan."
-        ], source("CDC — Enhance Connectedness Among Students, Staff, and Families", "https://www.cdc.gov/mental-health-action-guide/strategies/enhance-connectedness.html")]
+        ]]
       ],
       reflection: "Nilai apa yang paling sering diajarkan sekolah tetapi belum konsisten dicontohkan dalam layanan dan keputusan orang dewasa?",
       quiz: [
@@ -230,22 +228,22 @@
           "Dalam sekolah Islam, bahasa Indonesia, bahasa Inggris, bahasa Arab, dan bahasa ibu tidak harus dipertentangkan. Masing-masing memiliki fungsi identitas, akses pengetahuan, komunikasi global, dan pemahaman sumber keislaman. Desain yang baik menjelaskan kapan serta bagaimana setiap bahasa digunakan."
         ]],
         ["Tangga Kemampuan yang Realistis", [
-          "Materi webinar menampilkan tangga kemampuan dari tahap awal menuju A1, A2, B1, B2, C1, dan C2. Kerangka seperti CEFR membantu sekolah memiliki bahasa bersama tentang kemampuan, tetapi target harus disesuaikan dengan usia, waktu paparan, kualitas pengajaran, dan titik awal murid.",
+          "Tangga kemampuan bahasa dapat bergerak dari tahap awal menuju A1, A2, B1, B2, C1, dan C2. Kerangka seperti CEFR membantu sekolah memiliki bahasa bersama tentang kemampuan, tetapi target tetap perlu disesuaikan dengan usia, waktu paparan, kualitas pengajaran, dan titik awal murid.",
           "Setiap jenjang menetapkan capaian reseptif dan produktif: menyimak, membaca, berbicara, dan menulis. Murid dapat lebih maju pada satu keterampilan daripada yang lain. Karena itu, klaim satu level untuk seluruh kemampuan perlu digunakan secara hati-hati dan didukung asesmen.",
           "Peta lintas jenjang dapat memuat fungsi bahasa, bukan hanya struktur. TK mengenal bunyi dan merespons instruksi sederhana; SD membangun kosakata serta kalimat; SMP berdiskusi dan memahami teks; SMA mempresentasikan, menulis, dan menggunakan bahasa untuk tujuan akademik atau profesional.",
-          "Untuk konteks TK, narasumber menyarankan bahasa ibu dikuatkan terlebih dahulu di TKA. Pada TKB, sekolah dapat menyepakati 30–50 instruksi kelas dalam bentuk kalimat—bukan hafalan kata lepas—lalu seluruh guru menggunakannya secara konsisten, misalnya ungkapan meminta izin, berbaris, berdiri, atau menanyakan waktu."
+          "Pada jenjang TK, bahasa ibu perlu dikuatkan terlebih dahulu, terutama di TKA. Memasuki TKB, sekolah dapat menyepakati 30–50 instruksi kelas dalam bentuk kalimat—bukan hafalan kata lepas—lalu seluruh guru menggunakannya secara konsisten, misalnya ungkapan meminta izin, berbaris, berdiri, atau menanyakan waktu."
         ]],
         ["Empat Mesin Program: Guru, Paparan, Praktik, Asesmen", [
           "Guru adalah mesin pertama. Sekolah perlu memetakan kompetensi pengajar, menyediakan pengembangan profesional, dan membangun komunitas praktik. Memaksa semua guru mengajar penuh dalam bahasa asing tanpa dukungan dapat menurunkan pemahaman mata pelajaran dan kepercayaan diri guru.",
           "Mesin kedua dan ketiga adalah paparan serta praktik. Lingkungan bahasa harus memberi input yang dapat dipahami, contoh berkualitas, dan kesempatan menggunakan bahasa untuk tujuan nyata—proyek, korespondensi, klub, presentasi, pertukaran, atau karya media. Kuantitas tanpa pemahaman tidak cukup; praktik tanpa umpan balik juga mudah membeku pada kesalahan yang sama.",
           "Mesin keempat adalah asesmen. Gunakan tugas performa, portofolio, percakapan, dan tes yang selaras dengan tujuan. Data digunakan untuk mengatur dukungan dan target berikutnya, bukan sekadar bahan promosi.",
-          "Webinar juga menawarkan tiga tahap pengembangan: <em>specify</em>, ketika orang atau area tertentu berkomitmen menggunakan bahasa; <em>satisfy</em>, ketika budaya dan pembelajaran bilingual meluas ke kelas serta mata pelajaran; dan <em>certify</em>, ketika sekolah bekerja sama dengan lembaga asesmen untuk menguji capaian. Urutan ini membantu sekolah tidak melompat langsung ke sertifikasi tanpa budaya dan praktik yang stabil."
+          "Program dapat dikembangkan melalui tiga tahap: <em>specify</em>, ketika orang atau area tertentu berkomitmen menggunakan bahasa; <em>satisfy</em>, ketika budaya dan pembelajaran bilingual meluas ke kelas serta mata pelajaran; dan <em>certify</em>, ketika sekolah bekerja sama dengan lembaga asesmen untuk menguji capaian. Urutan ini membantu sekolah tidak melompat langsung ke sertifikasi sebelum budaya dan praktiknya stabil."
         ]],
         ["Bilingual yang Inklusif", [
           "UNESCO menekankan pentingnya belajar dalam bahasa yang dipahami murid dan nilai pendidikan multilingual berbasis bahasa ibu. Artinya, ambisi bilingual perlu tetap melindungi pemahaman, partisipasi, dan rasa mampu. Murid tidak boleh dianggap kurang cerdas hanya karena sedang belajar mengekspresikan pengetahuan dalam bahasa baru.",
           "Sekolah dapat menggunakan strategi bertahap: penjelasan konsep dengan bahasa yang kuat, dukungan visual, pengenalan istilah, praktik terstruktur, lalu pelepasan bantuan. Asesmen mata pelajaran perlu membedakan kesulitan konsep dari keterbatasan bahasa agar keputusan dukungan lebih tepat.",
-          "Pertanyaan peserta tentang sejauh mana bilingual diterapkan tidak memiliki satu persentase universal. Jawabannya ditentukan oleh tujuan, kesiapan guru, profil siswa, dan bukti pembelajaran. Lebih baik menjanjikan tahap yang jujur dan meningkat daripada label penuh yang tidak konsisten."
-        ], source("UNESCO — Mother Tongue-based Bilingual or Multilingual Education", "https://www.unesco.org/en/articles/enhancing-learning-children-diverse-language-backgrounds-mother-tongue-based-bilingual-or")]
+          "Tidak ada satu persentase universal untuk menentukan sejauh mana program bilingual harus diterapkan. Jawabannya ditentukan oleh tujuan, kesiapan guru, profil siswa, dan bukti pembelajaran. Lebih baik menjanjikan tahap yang jujur dan terus meningkat daripada memasang label besar yang tidak konsisten."
+        ]]
       ],
       reflection: "Jika semua poster dan istilah asing dihapus, bukti performa apa yang masih menunjukkan bahwa program bilingual sekolah Anda benar-benar bekerja?",
       quiz: [
@@ -259,7 +257,7 @@
       lede: "Kesinambungan tidak boleh berubah menjadi monoton. Saat siswa tumbuh, mereka membutuhkan identitas baru, tantangan yang lebih dewasa, ruang memilih, dan tanda bahwa sekolah melihat mereka sebagai pribadi yang berkembang—bukan anak yang sama di lingkungan yang sama.",
       sections: [
         ["Mengapa Murid Lama Dapat Jenuh", [
-          "Pertanyaan peserta menyoroti siswa yang telah berada di yayasan dari TK sampai SMP dan kemudian enggan melanjutkan ke SMA. Penyebabnya tidak selalu mutu yang buruk. Kadang murid membutuhkan kebaruan sosial, ruang eksplorasi, atau simbol kedewasaan. Kadang mereka melihat program yang berulang dan tidak memahami keunggulan khas SMA internal.",
+          "Sebagian siswa yang telah berada di yayasan sejak TK memilih tidak melanjutkan ke SMA dalam lembaga yang sama. Penyebabnya tidak selalu mutu yang buruk. Ada kalanya murid membutuhkan kebaruan sosial, ruang eksplorasi, atau simbol kedewasaan. Bisa juga mereka melihat program yang berulang dan belum memahami keunggulan khas SMA internal.",
           "Kebosanan juga muncul ketika semua keputusan masih berpusat pada orang tua. Saat remaja memasuki SMA, suara dan aspirasi anak menjadi lebih dominan. Strategi yang hanya meyakinkan orang tua akan kehilangan pihak yang paling menentukan pengalaman sehari-hari.",
           "Sekolah perlu membedakan kejenuhan terhadap rutinitas, kebutuhan akan tantangan, masalah relasi, ketidakcocokan arah studi, dan daya tarik sekolah pesaing. Satu kampanye tidak dapat menyelesaikan semua penyebab."
         ]],
@@ -277,7 +275,7 @@
           "Riset transisi sekolah menunjukkan bahwa keterlibatan dan rasa memiliki dapat menurun saat berpindah dari pendidikan dasar ke menengah. Hubungan dengan guru dan teman, dukungan sekolah serta rumah, dan pengalaman sebelumnya memengaruhi adaptasi. Ini memperkuat gagasan bahwa OSS harus merancang jembatan relasional, bukan hanya alur administrasi.",
           "Program bayangan satu hari, mentor kakak kelas, proyek bersama SMP–SMA, kunjungan laboratorium, dan perkenalan guru dapat mengurangi ketidakpastian. Namun tujuan akhirnya bukan membuat SMA terasa persis seperti SMP. Jembatan memberi cukup keakraban untuk merasa aman dan cukup kebaruan untuk merasa tertantang.",
           "Pantau rasa memiliki dengan pertanyaan sederhana dan berkala: apakah saya dikenal, didukung, memiliki teman, dapat meminta bantuan, dan punya ruang berkontribusi? Data ini menjadi indikator mutu transisi yang melengkapi angka pendaftaran."
-        ], source("NSW CESE — Student Engagement in the Transition from Primary to Secondary School", "https://education.nsw.gov.au/about-us/education-data-and-research/cese/publications/research-reports/student-engagement-in-transition-from-primary-to-secondary-school") + source("CDC — School Connectedness Helps Students Thrive", "https://www.cdc.gov/youth-behavior/school-connectedness/index.html")]
+        ]]
       ],
       reflection: "Apakah jenjang berikutnya di yayasan Anda menawarkan tahap pertumbuhan yang benar-benar baru bagi siswa, atau hanya mengganti kelas di lingkungan yang terasa sama?",
       quiz: [
@@ -291,7 +289,7 @@
       lede: "Murid dan keluarga yang sudah berada di dalam yayasan adalah captive market dalam arti mereka telah mengenal pengalaman sekolah. Namun kedekatan ini bukan jaminan otomatis. Kepercayaan tetap harus dirawat melalui tim, jalur OSS, pelayanan, media, mitra, dan pertemuan yang manusiawi.",
       sections: [
         ["Enam Fondasi Strategi CAPTIVE", [
-          "Materi Dr. Supangat merangkum enam unsur: team captive; One Stop Schooling; pelayanan oleh pimpinan dan wali kelas; MEDIA; MITRA; serta MEET. Kerangka ini mengingatkan bahwa retensi bukan pekerjaan satu panitia. Seluruh pengalaman keluarga sejak awal menjadi promosi paling kuat bagi jenjang berikutnya.",
+          "Strategi CAPTIVE dibangun di atas enam unsur: team captive; One Stop Schooling; pelayanan oleh pimpinan dan wali kelas; MEDIA; MITRA; serta MEET. Kerangka ini mengingatkan bahwa retensi bukan pekerjaan satu panitia. Seluruh pengalaman keluarga sejak awal menjadi promosi paling kuat bagi jenjang berikutnya.",
           "Team captive berarti setiap orang memahami janji OSS, mengetahui jalur rujukan, dan mampu memberi informasi dasar yang konsisten. Pimpinan memberi arah serta menyelesaikan hambatan lintas unit; wali kelas membangun komunikasi personal; guru menciptakan bukti mutu; administrasi menjaga kemudahan dan kejelasan.",
           "One Stop Schooling menjadi substansi yang dijanjikan. Tanpa kurikulum berkelanjutan dan pengalaman transisi yang nyata, strategi captive berubah menjadi kampanye penjualan kepada keluarga sendiri."
         ]],
@@ -302,14 +300,14 @@
         ]],
         ["MITRA: November sampai Februari", [
           "Fase MITRA menekankan kedekatan dengan sekolah atau komunitas mitra, keterlibatan wali kelas, laga persahabatan, silaturahmi, serta pemahaman terhadap kelompok siswa dan orang tua. Hubungan ini memperluas jangkauan sekaligus memberi sekolah pemahaman tentang cara keputusan terbentuk dalam komunitas.",
-          "Mitra tidak boleh diperlakukan hanya sebagai sumber calon murid. Sekolah perlu menawarkan nilai dua arah: berbagi pembelajaran, kegiatan siswa, akses narasumber, pelayanan komunitas, atau program transisi. Ketika hubungan saling bermanfaat, rekomendasi muncul lebih alami.",
+          "Mitra tidak boleh diperlakukan hanya sebagai sumber calon murid. Sekolah perlu menawarkan nilai dua arah: berbagi pembelajaran, kegiatan siswa, kesempatan bertemu praktisi, pelayanan komunitas, atau program transisi. Ketika hubungan saling bermanfaat, rekomendasi muncul lebih alami.",
           "Untuk sekolah yang banyak menerima siswa dari luar unit internal, strategi mitra sama pentingnya dengan retensi. OSS bukan sistem tertutup. Murid eksternal perlu program penyetaraan, orientasi, dan pembentukan rasa memiliki agar dapat masuk ke jalur berkelanjutan tanpa dianggap warga kelas dua."
         ]],
         ["MEET: Maret sampai Juli", [
           "Fase MEET menggunakan pertemuan langsung—luring atau daring—untuk mendengar orang tua, berkunjung, memahami hal yang perlu diperbaiki, dan melakukan aksi cepat peduli. Pertemuan bukan panggung presentasi satu arah. Nilainya muncul ketika keluarga merasa didengar dan memperoleh tindak lanjut.",
           "Tim dapat menyiapkan daftar keluarga berdasarkan status: ingin tahu, tertarik, ragu, berkomitmen, atau memilih keluar. Setiap percakapan memiliki tujuan berbeda. Keluarga yang ragu memerlukan penjelasan atau pengalaman; keluarga yang memilih keluar tetap perlu dihormati dan dapat memberi pelajaran penting bagi mutu.",
           "Hindari teknik yang membuat orang tua merasa bersalah. Closing yang beretika membantu keluarga mengambil keputusan yang sadar, menyediakan informasi yang benar, menjelaskan batas waktu secara wajar, dan memudahkan administrasi. Kepercayaan jangka panjang lebih berharga daripada satu pendaftaran yang diperoleh melalui tekanan."
-        ], source("Kemendikdasmen — Sistem Penerimaan Murid Baru yang transparan dan adil", "https://www.kemendikdasmen.go.id/siaran-pers/12422-sistem-baru-penerimaan-murid-ta-2025-2026-lebih-transparan-d")]
+        ]]
       ],
       reflection: "Pada fase MEDIA, MITRA, atau MEET manakah sekolah Anda paling lemah, dan pengalaman keluarga apa yang perlu diperbaiki sebelum menambah promosi?",
       quiz: [
@@ -366,7 +364,7 @@
     ["Pendekatan bilingual yang inklusif menjaga…", ["Pemahaman dan partisipasi murid sambil kemampuan baru bertumbuh", "Penghapusan bahasa yang sudah dikuasai", "Penggunaan satu bahasa tanpa melihat kesiapan"], 1],
     ["Untuk mencegah kebosanan siswa lama, jenjang baru perlu…", ["Mengulang program agar familiar", "Memberi tantangan, pilihan, dan identitas yang lebih dewasa", "Mengabaikan suara siswa"], 2],
     ["Rasa memiliki dapat dipantau melalui pertanyaan tentang…", ["Apakah murid dikenal, didukung, memiliki teman, dan dapat berkontribusi", "Berapa banyak brosur yang dicetak", "Berapa kali slogan dibacakan"], 1],
-    ["Dalam kerangka webinar, fase MEDIA berfokus pada…", ["Memahami keunggulan, menggunakan data, dan mengomunikasikan bukti", "Menekan keluarga agar segera membayar", "Menghentikan semua pertemuan"], 1],
+    ["Dalam strategi CAPTIVE, fase MEDIA berfokus pada…", ["Memahami keunggulan, menggunakan data, dan mengomunikasikan bukti", "Menekan keluarga agar segera membayar", "Menghentikan semua pertemuan"], 1],
     ["Hubungan dengan mitra yang sehat bersifat…", ["Satu arah sebagai sumber calon murid", "Dua arah dan memberi nilai bagi kedua pihak", "Rahasia dan tanpa tujuan"], 2],
     ["Fase MEET perlu digunakan terutama untuk…", ["Presentasi satu arah", "Mendengar, berdialog, dan menindaklanjuti kebutuhan", "Menghindari keluarga yang ragu"], 2],
     ["Internal progression rate mengukur…", ["Proporsi lulusan yang benar-benar mendaftar ke unit berikutnya", "Jumlah pengikut media sosial", "Jumlah seluruh kegiatan"], 1],

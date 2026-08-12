@@ -23,32 +23,29 @@
     --accent-tint:#FFF4D6;
   }
 
-  /* Permintaan produksi: seluruh ukuran font buku ini dinaikkan tepat 1 pt
+  /* Permintaan produksi: seluruh ukuran font buku ini dinaikkan total 2 pt
      dari engine bersama, tanpa mengubah ukuran buku-buku lain. */
-  body{font-size:calc(17px + 1pt)}
-  .gate-card .eyebrow,.eyebrow,.cover .kicker{font-size:calc(12px + 1pt)}
-  .gate-card h1{font-size:calc(22px + 1pt)}
-  .gate-card input,.gate-card button,.cover .start-btn,.card table,.reflect-box textarea,.quiz-opt,.check-assess-btn,.faq-q,.faq-a,.catalog-search{font-size:calc(15px + 1pt)}
-  .gate-error,.sticky-nav-label,.card table th,.seal,.cta-card a,.chip,.video-label,.source-note{font-size:calc(13px + 1pt)}
-  .gate-preview-btn,.topbar .book-title,.theme-toggle,.toc a,.nav-btn,.done-btn,.plan-row input,.add-row,.cta-card p,.product-title,.loadmore-btn{font-size:calc(14px + 1pt)}
-  .gate-hint,.ribbon-pct,.summary-stat .lbl{font-size:calc(12px + 1pt)}
-  .wa-fab{font-size:calc(24px + 1pt)}
-  .sticky-nav-btn,.cover p{font-size:calc(18px + 1pt)}
-  .toc-label,.toc a.locked .toc-check{font-size:calc(11px + 1pt)}
-  .toc-check,.product-cat{font-size:calc(10px + 1pt)}
-  .page h2,.summary-stat .num{font-size:calc(30px + 1pt)}
-  .lede,.cta-card h3{font-size:calc(17px + 1pt)}
-  .cover h1{font-size:calc(44px + 1pt)}
-  .reflect-box h3,.assess-result{font-size:calc(16px + 1pt)}
-  .card > h3.ui{font-size:calc(19.89px + 1pt)}
-  .locked-card button,.plan-row button{font-size:calc(13.333px + 1pt)}
+  body{font-size:calc(17px + 2pt)}
+  .gate-card .eyebrow,.eyebrow,.cover .kicker{font-size:calc(12px + 2pt)}
+  .gate-card h1{font-size:calc(22px + 2pt)}
+  .gate-card input,.gate-card button,.cover .start-btn,.card table,.reflect-box textarea,.quiz-opt,.check-assess-btn,.faq-q,.faq-a,.catalog-search{font-size:calc(15px + 2pt)}
+  .gate-error,.sticky-nav-label,.card table th,.seal,.cta-card a,.chip,.video-label{font-size:calc(13px + 2pt)}
+  .gate-preview-btn,.topbar .book-title,.theme-toggle,.toc a,.nav-btn,.done-btn,.plan-row input,.add-row,.cta-card p,.product-title,.loadmore-btn{font-size:calc(14px + 2pt)}
+  .gate-hint,.ribbon-pct,.summary-stat .lbl{font-size:calc(12px + 2pt)}
+  .wa-fab{font-size:calc(24px + 2pt)}
+  .sticky-nav-btn,.cover p{font-size:calc(18px + 2pt)}
+  .toc-label,.toc a.locked .toc-check{font-size:calc(11px + 2pt)}
+  .toc-check,.product-cat{font-size:calc(10px + 2pt)}
+  .page h2,.summary-stat .num{font-size:calc(30px + 2pt)}
+  .lede,.cta-card h3{font-size:calc(17px + 2pt)}
+  .cover h1{font-size:calc(44px + 2pt)}
+  .reflect-box h3,.assess-result{font-size:calc(16px + 2pt)}
+  .card > h3.ui{font-size:calc(19.89px + 2pt)}
+  .locked-card button,.plan-row button{font-size:calc(13.333px + 2pt)}
 
   .journey-strip{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;width:min(560px,100%);margin:10px 0 6px;position:relative;z-index:1}
-  .journey-step{background:var(--surface);border:1px solid var(--border);border-top:5px solid var(--accent);border-radius:14px;padding:16px 8px;text-align:center;font-family:var(--font-display);font-weight:700;color:var(--heading);font-size:calc(16px + 1pt);box-shadow:var(--shadow)}
-  .journey-step span{display:block;color:var(--slate);font-family:var(--font-body);font-weight:400;font-size:calc(11px + 1pt)}
-  .source-note{padding:12px 14px;background:var(--accent-tint);border-radius:9px;color:var(--slate)}
-  .source-note a,.reference-list a{color:var(--accent-dark);font-weight:600}
-  .reference-list li{margin-bottom:12px}
+  .journey-step{background:var(--surface);border:1px solid var(--border);border-top:5px solid var(--accent);border-radius:14px;padding:16px 8px;text-align:center;font-family:var(--font-display);font-weight:700;color:var(--heading);font-size:calc(16px + 2pt);box-shadow:var(--shadow)}
+  .journey-step span{display:block;color:var(--slate);font-family:var(--font-body);font-weight:400;font-size:calc(11px + 2pt)}
 
   /* ===== HEADER & FOOTER TETAP + PENGAMAN RESPONSIF =====
      Header lama memakai position:sticky sehingga dapat tenggelam saat halaman
@@ -103,13 +100,13 @@
   }
 
   @media (max-width:900px){
-    body{font-size:calc(17.5px + 1pt)}
-    .cover h1{font-size:calc(32px + 1pt)}
+    body{font-size:calc(17.5px + 2pt)}
+    .cover h1{font-size:calc(32px + 2pt)}
     .journey-strip{grid-template-columns:repeat(2,1fr)}
     .toc{top:64px;height:calc(100dvh - 64px);max-height:calc(100dvh - 64px);padding-top:18px}
     main{padding:8px 18px calc(112px + env(safe-area-inset-bottom))}
     .topbar{gap:8px;padding:9px 10px}
-    .topbar .book-title{font-size:calc(12px + 1pt);max-width:34vw}
+    .topbar .book-title{font-size:calc(12px + 2pt);max-width:34vw}
     .topbar .ribbon-track{flex-basis:56px}
     .topbar .theme-toggle{padding:7px 8px}
   }
@@ -123,7 +120,7 @@
   @media (max-width:340px){
     .topbar .book-title{max-width:26vw}
     .topbar .ribbon-track{display:none}
-    .theme-toggle{font-size:calc(12px + 1pt)}
+    .theme-toggle{font-size:calc(12px + 2pt)}
   }
 </style>
 </head>
@@ -196,7 +193,7 @@
       </div>
       <div class="toc-group">
         <p class="toc-label">Penutup</p>
-        <a href="#video" data-nav><span class="toc-check"></span>Sumber &amp; Rujukan</a>
+        <a href="#video" data-nav><span class="toc-check"></span>Pustaka Video</a>
         <a href="#asesmen" data-nav><span class="toc-check"></span>Asesmen Komprehensif</a>
         <a href="#rencana" data-nav><span class="toc-check"></span>Rencana Aksi</a>
         <a href="#ringkasan" data-nav><span class="toc-check"></span>Ringkasan Pencapaian</a>
@@ -233,12 +230,12 @@
         <p class="eyebrow reveal">Kata Pengantar</p>
         <h2 class="reveal">Prakata dari Tim Edumind Academy</h2>
         <div class="card reveal">
-          <p>Web-book ini disusun dari webinar <em>Formula One Stop Schooling</em> bersama Dr. Supangat, M.A. Materi utamanya membahas pendidikan berkelanjutan dalam satu yayasan—dari penetapan tujuan lulusan, kesinambungan kurikulum keislaman dan bilingual, sampai strategi menjaga kepercayaan keluarga agar murid melanjutkan ke jenjang berikutnya.</p>
-          <p>Pembahasan telah ditata ulang menjadi sepuluh bab agar mudah dipelajari dan diterapkan. Insight pendukung dari lembaga pendidikan dan penelitian kredibel ditandai sebagai rujukan pendukung; gagasan tersebut melengkapi, bukan menggantikan, penjelasan narasumber.</p>
+          <p>Pendidikan yang berkelanjutan bukan sekadar menyediakan jenjang TK, SD, SMP, dan SMA di bawah satu yayasan. Setiap tahap perlu terhubung dalam arah yang jelas, sehingga murid bertumbuh melalui pengalaman yang semakin matang tanpa kehilangan nilai inti yang telah dibangun sejak awal.</p>
+          <p>Buku ini mengajak pembaca menata perjalanan tersebut secara utuh: mulai dari tujuan lulusan, kesinambungan kurikulum keislaman dan bilingual, pengalaman transisi, sampai strategi menjaga kepercayaan keluarga. Pembahasannya disusun dalam sepuluh bab dengan bahasa yang praktis agar mudah dipahami, didiskusikan, dan diterapkan secara bertahap.</p>
           <p>One Stop Schooling bukan ajakan menahan setiap anak dengan segala cara. Ia adalah komitmen agar jenjang berikutnya sungguh layak dipilih: lebih matang, lebih relevan, tetap berakar pada nilai, dan terus membuka masa depan murid.</p>
           <p>Salam hangat,<br><strong>Tim Edumind Academy</strong></p>
         </div>
-        <div class="card reveal" style="color:var(--slate)">Edumind Academy · Web-Book · Narasumber: Dr. Supangat, M.A. · Hak cipta dilindungi</div>
+        <div class="card reveal" style="color:var(--slate)">Edumind Academy · Web-Book · Hak cipta dilindungi</div>
       </section>
 
       <section class="page" id="page-bab1" data-chapter-page="bab1"></section>
@@ -254,23 +251,10 @@
 
       <section class="page" id="page-video">
         <p class="eyebrow reveal">Lampiran</p>
-        <h2 class="reveal">Sumber &amp; Rujukan</h2>
-        <p class="lede reveal">Materi utama berasal dari rekaman webinar Edumind Academy tanggal 5 Agustus 2026. Daftar berikut digunakan untuk memperkaya konteks dan praktik penerapan.</p>
-        <div class="card reveal">
-          <h4>Sumber Utama</h4>
-          <p><strong>Dr. Supangat, M.A.</strong>, webinar “Formula One Stop Schooling: Strategi Sekolah Islam agar Siswa Terus Melanjutkan ke Jenjang Berikutnya”, Edumind Academy, 5 Agustus 2026.</p>
-          <h4>Rujukan Pendukung</h4>
-          <ol class="reference-list">
-            <li><a href="https://ditsd.kemendikdasmen.go.id/transisipaudsd/" target="_blank" rel="noopener">Kemendikdasmen — Transisi PAUD ke SD yang Menyenangkan</a></li>
-            <li><a href="https://www.kemendikdasmen.go.id/siaran-pers/12422-sistem-baru-penerimaan-murid-ta-2025-2026-lebih-transparan-d" target="_blank" rel="noopener">Kemendikdasmen — Sistem Penerimaan Murid Baru yang transparan dan adil</a></li>
-            <li><a href="https://files.ascd.org/staticfiles/ascd/pdf/siteASCD/publications/UbD_WhitePaper0312.pdf" target="_blank" rel="noopener">Wiggins &amp; McTighe/ASCD — Understanding by Design Framework</a></li>
-            <li><a href="https://education.nsw.gov.au/teaching-and-learning/curriculum/early-learning/continuity-of-learning-and-curriculum-links.html" target="_blank" rel="noopener">NSW Department of Education — Continuity of Learning</a></li>
-            <li><a href="https://education.nsw.gov.au/about-us/education-data-and-research/cese/publications/research-reports/student-engagement-in-transition-from-primary-to-secondary-school" target="_blank" rel="noopener">NSW CESE — Student Engagement in School Transition</a></li>
-            <li><a href="https://www.cdc.gov/youth-behavior/school-connectedness/index.html" target="_blank" rel="noopener">CDC — School Connectedness Helps Students Thrive</a></li>
-            <li><a href="https://educationendowmentfoundation.org.uk/education-evidence/teaching-learning-toolkit/parental-engagement" target="_blank" rel="noopener">Education Endowment Foundation — Parental Engagement</a></li>
-            <li><a href="https://www.unesco.org/en/articles/enhancing-learning-children-diverse-language-backgrounds-mother-tongue-based-bilingual-or" target="_blank" rel="noopener">UNESCO — Mother Tongue-based Bilingual or Multilingual Education</a></li>
-          </ol>
-        </div>
+        <h2 class="reveal">Pustaka Video</h2>
+        <p class="lede reveal">Video pendamping untuk memperdalam gagasan dan penerapan Formula One Stop Schooling.</p>
+        <p class="video-label reveal">Formula One Stop Schooling</p>
+        <div class="video-wrap reveal"><iframe src="https://www.youtube.com/embed/8Ji_oX_AsIw" title="Formula One Stop Schooling — Pustaka Video" allowfullscreen></iframe></div>
       </section>
 
       <section class="page" id="page-asesmen"></section>
