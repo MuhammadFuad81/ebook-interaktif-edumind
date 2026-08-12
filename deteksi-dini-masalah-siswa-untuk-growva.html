@@ -52,7 +52,7 @@
     <p class="eyebrow">Web-Book Eksklusif</p>
     <h1>Sistem Deteksi Dini<br>Masalah Siswa</h1>
     <input id="user" type="text" placeholder="Username akses">
-    <input id="pass" type="password" placeholder="Password akses">
+    <div style="position:relative;margin-bottom:12px"><input id="pass" type="password" placeholder="Password akses" style="margin-bottom:0;padding-right:50px"><button type="button" onclick="togglePasswordVisibility(this)" aria-label="Tampilkan password" title="Tampilkan password" style="position:absolute;right:0;top:0;width:48px;height:100%;padding:0;background:transparent;color:var(--navy);border:0;box-shadow:none;display:flex;align-items:center;justify-content:center"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3.5-6 10-6 10 6 10 6-3.5 6-10 6S2 12 2 12Z"></path><circle cx="12" cy="12" r="2.5"></circle></svg></button></div>
     <button onclick="tryLogin()">Masuk & Mulai Membaca</button>
     <p class="gate-error" id="gateErr"></p>
     <button class="gate-preview-btn" id="previewBtn" onclick="startPreview()">Baca Bab 1 Gratis →</button>
@@ -257,7 +257,7 @@
 </div>
 
 <!-- ===== ENGINE BERSAMA (dipakai semua judul, JANGAN diedit per buku) ===== -->
-<script src="https://cdn.jsdelivr.net/gh/MuhammadFuad81/webbook-edumind@main/engine.js"></script>
+<script>function togglePasswordVisibility(button){const password=document.getElementById("pass");const shown=password.type==="text";password.type=shown?"password":"text";button.setAttribute("aria-label",shown?"Tampilkan password":"Sembunyikan password");button.setAttribute("title",shown?"Tampilkan password":"Sembunyikan password");}</script><script src="https://cdn.jsdelivr.net/gh/MuhammadFuad81/webbook-edumind@main/engine.js"></script>
 </body>
 </html>
 
