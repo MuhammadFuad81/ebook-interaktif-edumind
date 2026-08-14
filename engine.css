@@ -1,6 +1,6 @@
 /* ==========================================================================
-   EDUMIND ACADEMY — WEB-BOOK SHARED ENGINE (CSS)
-   Dipakai bersama oleh SEMUA judul web-book.
+   EDUMIND ACADEMY — SHARED ENGINE EBOOK INTERAKTIF (CSS)
+   Dipakai bersama oleh SEMUA judul eBook interaktif.
    Warna aksen (--accent, --accent-dark, --accent-tint) di-override PER BUKU
    lewat blok <style> kecil di file HTML masing-masing buku, ditempatkan
    SETELAH <link rel="stylesheet" href=".../engine.css">. Contoh:
@@ -162,7 +162,7 @@ button{font-family:var(--font-display); cursor:pointer;}
 }
 .sticky-nav-label:hover{background:var(--accent-tint);}
 
-/* pita progres — elemen ciri khas web-book ini, seperti pita pembatas buku */
+/* pita progres — elemen ciri khas eBook interaktif ini, seperti pita pembatas buku */
 .ribbon-track{
   height:5px; background:var(--border); border-radius:3px; flex-basis:140px;
   overflow:hidden; position:relative;

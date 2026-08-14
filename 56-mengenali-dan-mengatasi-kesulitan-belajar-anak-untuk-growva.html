@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.25, user-scalable=yes, viewport-fit=cover, interactive-widget=resizes-content">
+<title>56 — Mengenali dan Mengatasi Kesulitan Belajar Anak — Edumind Academy</title>
+<link rel="icon" href="https://growva.biz.id/gambarbebas/20260621-082723_Logo%20Edumind%20Academy%20-%20Terbaru2026%20[putih].png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Mengenali dan Mengatasi Kesulitan Belajar Anak — eBook Interaktif 56">
+<meta property="og:description" content="Panduan profesional untuk deteksi dini dan dukungan disleksia, disgrafia, diskalkulia, serta ADHD di rumah dan sekolah.">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/MuhammadFuad81/ebook-interaktif-edumind@main/engine-ANIMASI.css">
+
+<style>
+  :root{
+    --accent:#2A9D8F;
+    --accent-dark:#17665E;
+    --accent-tint:#E7F5F2;
+  }
+
+  /* Baseline tipografi Edumind terbaru: seluruh komponen naik total 2 pt. */
+  body{font-size:calc(17px + 2pt)}
+  .gate-card .eyebrow,.eyebrow,.cover .kicker{font-size:calc(12px + 2pt)}
+  .gate-card h1{font-size:calc(22px + 2pt)}
+  .gate-card input,.gate-card button,.cover .start-btn,.card table,.reflect-box textarea,.quiz-opt,.check-assess-btn,.faq-q,.faq-a,.catalog-search{font-size:calc(15px + 2pt)}
+  .gate-error,.sticky-nav-label,.card table th,.seal,.cta-card a,.chip,.video-label{font-size:calc(13px + 2pt)}
+  .gate-preview-btn,.topbar .book-title,.theme-toggle,.toc a,.nav-btn,.done-btn,.plan-row input,.add-row,.cta-card p,.product-title,.loadmore-btn{font-size:calc(14px + 2pt)}
+  .gate-hint,.ribbon-pct,.summary-stat .lbl{font-size:calc(12px + 2pt)}
+  .wa-fab{font-size:calc(24px + 2pt)}
+  .sticky-nav-btn,.cover p{font-size:calc(18px + 2pt)}
+  .toc-label,.toc a.locked .toc-check{font-size:calc(11px + 2pt)}
+  .toc-check,.product-cat{font-size:calc(10px + 2pt)}
+  .page h2,.summary-stat .num{font-size:calc(30px + 2pt)}
+  .lede,.cta-card h3{font-size:calc(17px + 2pt)}
+  .cover h1{font-size:calc(44px + 2pt)}
+  .reflect-box h3,.assess-result{font-size:calc(16px + 2pt)}
+  .card > h3.ui{font-size:calc(19.89px + 2pt)}
+  .locked-card button,.plan-row button{font-size:calc(13.333px + 2pt)}
+
+  .profile-strip{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;width:min(650px,100%);margin:12px 0 8px;position:relative;z-index:1}
+  .profile-step{background:var(--surface);border:1px solid var(--border);border-top:5px solid var(--accent);border-radius:14px;padding:16px 8px;text-align:center;font-family:var(--font-display);font-weight:700;color:var(--heading);font-size:calc(15px + 2pt);box-shadow:var(--shadow)}
+  .profile-step span{display:block;color:var(--slate);font-family:var(--font-body);font-weight:400;font-size:calc(11px + 2pt);margin-top:4px}
+  .cover .scope-note{font-size:calc(13px + 2pt);max-width:660px;color:var(--slate);position:relative;z-index:1}
+
+  html,body{width:100%;max-width:100%;overflow-x:hidden;overscroll-behavior-x:none}
+  #app,#app.active,.layout,main,.page{width:100%;max-width:100%;min-width:0}
+  #app.active{padding-top:64px}
+  .topbar{
+    position:fixed !important;inset:0 0 auto 0;width:100%;max-width:100%;height:64px;min-height:64px;
+    z-index:9999;gap:10px;padding:10px 14px;transform:translateZ(0);backface-visibility:hidden;
+    box-shadow:0 4px 16px rgba(27,42,74,.08)
+  }
+  .topbar .book-title{min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .topbar .ribbon-track{flex:0 1 100px;min-width:36px}
+  .topbar .ribbon-pct,.topbar .theme-toggle,.topbar .hamburger{flex:0 0 auto}
+  .toc{top:64px;max-height:calc(100dvh - 64px)}
+  main{overflow-x:clip;padding-bottom:120px}
+  .page,.card,.reflect-box,.quiz-q,.assess-q,.locked-card,.cta-card{max-width:100%;min-width:0;overflow-wrap:anywhere}
+  .card table{display:block;max-width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch}
+  img,video,iframe{max-width:100%}
+  .sticky-nav-bar{
+    position:fixed !important;inset:auto 0 0 0;width:100%;max-width:100%;min-width:0;z-index:9998;
+    min-height:64px;padding:10px 16px max(10px,env(safe-area-inset-bottom));transform:translateZ(0);backface-visibility:hidden
+  }
+  .wa-fab{z-index:9997;bottom:calc(78px + env(safe-area-inset-bottom));transform:translateZ(0);backface-visibility:hidden}
+
+  @media (max-width:900px){
+    body{font-size:calc(17.5px + 2pt)}
+    .cover h1{font-size:calc(32px + 2pt)}
+    .profile-strip{grid-template-columns:repeat(2,1fr)}
+    .toc{top:64px;height:calc(100dvh - 64px);max-height:calc(100dvh - 64px);padding-top:18px}
+    main{padding:8px 18px calc(112px + env(safe-area-inset-bottom))}
+    .topbar{gap:8px;padding:9px 10px}
+    .topbar .book-title{font-size:calc(12px + 2pt);max-width:34vw}
+    .topbar .ribbon-track{flex-basis:56px}
+    .topbar .theme-toggle{padding:7px 8px}
+  }
+  @media (max-width:420px){
+    .topbar{gap:6px}
+    .topbar .book-title{max-width:30vw}
+    .topbar .ribbon-track{flex-basis:42px}
+    .topbar .ribbon-pct{display:none}
+    .sticky-nav-bar{padding-left:12px;padding-right:12px}
+  }
+  @media (max-width:340px){
+    .topbar .book-title{max-width:26vw}
+    .topbar .ribbon-track{display:none}
+    .theme-toggle{font-size:calc(12px + 2pt)}
+  }
+</style>
+</head>
+<body>
+
+<script>
+  window.BOOK_CONFIG = {
+    id: "ebook-56-kesulitan-belajar-anak",
+    title: "Mengenali dan Mengatasi Kesulitan Belajar Anak: Deteksi Dini Disleksia, Disgrafia, Diskalkulia, dan ADHD",
+    chapters: ["bab1","bab2","bab3","bab4","bab5","bab6","bab7","bab8","bab9","bab10","bab11","bab12","bab13"],
+    previewAllowed: ["cover","pengantar","bab1"],
+    validUser: "edumind",
+    validPass: "ebook56",
+    freePreview: true,
+    waNumber: "6281385841500"
+  };
+</script>
+
+<script src="https://cdn.jsdelivr.net/gh/MuhammadFuad81/ebook-interaktif-edumind@main/56-content-mengenali-dan-mengatasi-kesulitan-belajar-anak.js?v=20260814-1"></script>
+
+<div id="gate">
+  <img class="gate-logo" src="https://growva.biz.id/gambarbebas/20260621-082723_Logo%20Edumind%20Academy%20-%20Terbaru2026%20[putih].png" alt="Edumind Academy">
+  <div class="gate-card">
+    <p class="eyebrow">eBook Interaktif Eksklusif · 56</p>
+    <h1>Mengenali dan Mengatasi<br>Kesulitan Belajar Anak</h1>
+    <input id="user" type="text" placeholder="Username akses">
+    <div style="position:relative;margin-bottom:12px"><input id="pass" type="password" placeholder="Password akses" style="margin-bottom:0;padding-right:50px"><button type="button" onclick="togglePasswordVisibility(this)" aria-label="Tampilkan password" title="Tampilkan password" style="position:absolute;right:0;top:0;width:48px;height:100%;padding:0;background:transparent;color:var(--navy);border:0;box-shadow:none;display:flex;align-items:center;justify-content:center"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3.5-6 10-6 10 6 10 6-3.5 6-10 6S2 12 2 12Z"></path><circle cx="12" cy="12" r="2.5"></circle></svg></button></div>
+    <button onclick="tryLogin()">Masuk &amp; Mulai Membaca</button>
+    <p class="gate-error" id="gateErr"></p>
+    <button class="gate-preview-btn" id="previewBtn" onclick="startPreview()">Baca Bab 1 Gratis →</button>
+    <p class="gate-hint">Akses ini bersifat pribadi untuk pengguna resmi Edumind Academy. Mari sama-sama menjaga keberkahan ilmu.</p>
+  </div>
+</div>
+
+<div id="app">
+  <div class="topbar">
+    <button class="hamburger" onclick="toggleDrawer()" aria-label="Buka daftar isi"><span></span><span></span><span></span></button>
+    <span class="book-title ui">Kesulitan Belajar Anak</span>
+    <div class="ribbon-track"><div class="ribbon-fill" id="ribbonFill"></div></div>
+    <span class="ribbon-pct" id="ribbonPct">0%</span>
+    <button class="theme-toggle" id="themeBtn" onclick="toggleTheme()" aria-label="Ganti mode gelap/terang">🌙</button>
+    <button class="theme-toggle" onclick="generatePDF()" aria-label="Unduh sebagai PDF" title="Unduh sebagai PDF">⬇︎ PDF</button>
+  </div>
+
+  <a class="wa-fab" href="https://wa.me/6281385841500" target="_blank" rel="noopener" aria-label="Kontak Edumind via WhatsApp">💬</a>
+  <div class="scrim" id="scrim" onclick="toggleDrawer()"></div>
+
+  <div class="layout">
+    <nav class="toc" id="toc">
+      <div class="toc-group">
+        <p class="toc-label">Pembuka</p>
+        <a href="#cover" data-nav><span class="toc-check"></span>Cover</a>
+        <a href="#pengantar" data-nav><span class="toc-check"></span>Kata Pengantar</a>
+      </div>
+      <div class="toc-group">
+        <p class="toc-label">Bagian I · Membaca Pola</p>
+        <a href="#bab1" data-nav data-chapter><span class="toc-check"></span>Bab 1 — Bukan Ukuran Kemampuan</a>
+        <a href="#bab2" data-nav data-chapter><span class="toc-check"></span>Bab 2 — Membaca Pola</a>
+        <a href="#bab3" data-nav data-chapter><span class="toc-check"></span>Bab 3 — Deteksi Dini yang Aman</a>
+      </div>
+      <div class="toc-group">
+        <p class="toc-label">Bagian II · Mengenali Profil</p>
+        <a href="#bab4" data-nav data-chapter><span class="toc-check"></span>Bab 4 — Disleksia</a>
+        <a href="#bab5" data-nav data-chapter><span class="toc-check"></span>Bab 5 — Disgrafia</a>
+        <a href="#bab6" data-nav data-chapter><span class="toc-check"></span>Bab 6 — Diskalkulia</a>
+        <a href="#bab7" data-nav data-chapter><span class="toc-check"></span>Bab 7 — ADHD</a>
+        <a href="#bab8" data-nav data-chapter><span class="toc-check"></span>Bab 8 — Profil Tumpang Tindih</a>
+      </div>
+      <div class="toc-group">
+        <p class="toc-label">Bagian III · Mengurangi Hambatan</p>
+        <a href="#bab9" data-nav data-chapter><span class="toc-check"></span>Bab 9 — Respons Pertama</a>
+        <a href="#bab10" data-nav data-chapter><span class="toc-check"></span>Bab 10 — Membaca &amp; Menulis</a>
+        <a href="#bab11" data-nav data-chapter><span class="toc-check"></span>Bab 11 — Matematika Bermakna</a>
+      </div>
+      <div class="toc-group">
+        <p class="toc-label">Bagian IV · Menjaga Perkembangan</p>
+        <a href="#bab12" data-nav data-chapter><span class="toc-check"></span>Bab 12 — Fungsi Eksekutif &amp; Emosi</a>
+        <a href="#bab13" data-nav data-chapter><span class="toc-check"></span>Bab 13 — Sistem Sekolah</a>
+      </div>
+      <div class="toc-group">
+        <p class="toc-label">Penutup</p>
+        <a href="#video" data-nav><span class="toc-check"></span>Pustaka Video</a>
+        <a href="#asesmen" data-nav><span class="toc-check"></span>Asesmen Komprehensif</a>
+        <a href="#rencana" data-nav><span class="toc-check"></span>Rencana Dukungan 30 Hari</a>
+        <a href="#ringkasan" data-nav><span class="toc-check"></span>Ringkasan Pencapaian</a>
+        <a href="#faq" data-nav><span class="toc-check"></span>FAQ</a>
+        <a href="#cta" data-nav><span class="toc-check"></span>Penutup</a>
+      </div>
+      <div class="toc-group">
+        <p class="toc-label">Katalog Edumind</p>
+        <a href="#katalog" data-nav><span class="toc-check"></span>Jelajahi Produk Lainnya</a>
+      </div>
+      <div class="toc-group">
+        <p class="toc-label">Akun</p>
+        <a href="#" onclick="logout(); return false;"><span class="toc-check">↩</span>Keluar</a>
+      </div>
+    </nav>
+
+    <main>
+      <section class="page" id="page-cover">
+        <div class="cover">
+          <p class="kicker">Edumind Academy · eBook Interaktif 56</p>
+          <div class="profile-strip reveal" aria-label="Empat profil utama kesulitan belajar">
+            <div class="profile-step">Disleksia<span>Membaca</span></div>
+            <div class="profile-step">Disgrafia<span>Menulis</span></div>
+            <div class="profile-step">Diskalkulia<span>Matematika</span></div>
+            <div class="profile-step">ADHD<span>Perhatian &amp; regulasi</span></div>
+          </div>
+          <h1>Mengenali dan Mengatasi Kesulitan Belajar Anak</h1>
+          <p>Deteksi dini disleksia, disgrafia, diskalkulia, dan ADHD—dari mengenali pola hingga membangun dukungan yang bermartabat.</p>
+          <p class="scope-note">Panduan edukasi untuk orang tua dan pendidik. Bukan pengganti asesmen, diagnosis, atau perawatan profesional.</p>
+          <button class="start-btn" onclick="go('pengantar')">Mulai Membaca →</button>
+        </div>
+      </section>
+
+      <section class="page" id="page-pengantar">
+        <p class="eyebrow reveal">Kata Pengantar</p>
+        <h2 class="reveal">Melihat Hambatan tanpa Mengecilkan Anak</h2>
+        <div class="card reveal">
+          <p>Di balik anak yang lambat membaca, enggan menulis, tersesat dalam bilangan, atau sulit mempertahankan perhatian, selalu ada cerita yang lebih lengkap daripada satu nilai. Ada keterampilan yang belum otomatis, tuntutan yang terlalu padat, kondisi perkembangan, pengalaman kegagalan, dan sering kali kekuatan yang tidak terlihat oleh cara penilaian biasa.</p>
+          <p>eBook interaktif ini disusun untuk menolong pembaca bergerak secara hati-hati: mengenali pola tanpa tergesa memberi label, membedakan profil yang dapat saling tumpang tindih, memberi dukungan sebelum diagnosis, lalu menghubungkan rumah, kelas, dan tenaga profesional dalam satu rencana yang dapat dipantau.</p>
+          <p>Pembahasan menggunakan bahasa yang praktis tetapi menjaga batas ilmiah. Beberapa keyakinan populer—seperti disleksia selalu berarti huruf terbalik, ADHD selalu hiperaktif, atau anak harus diajar sesuai satu “gaya belajar”—diluruskan agar bantuan tidak salah sasaran.</p>
+          <p>Semoga setiap halaman menguatkan satu prinsip: anak tidak perlu menunggu gagal lebih berat untuk mulai dipahami.</p>
+          <p>Salam hangat,<br><strong>Tim Edumind Academy</strong></p>
+        </div>
+        <div class="card reveal" style="color:var(--slate)">Edumind Academy · eBook Interaktif · Hak cipta dilindungi</div>
+      </section>
+
+      <section class="page" id="page-bab1" data-chapter-page="bab1"></section>
+      <section class="page" id="page-bab2" data-chapter-page="bab2"></section>
+      <section class="page" id="page-bab3" data-chapter-page="bab3"></section>
+      <section class="page" id="page-bab4" data-chapter-page="bab4"></section>
+      <section class="page" id="page-bab5" data-chapter-page="bab5"></section>
+      <section class="page" id="page-bab6" data-chapter-page="bab6"></section>
+      <section class="page" id="page-bab7" data-chapter-page="bab7"></section>
+      <section class="page" id="page-bab8" data-chapter-page="bab8"></section>
+      <section class="page" id="page-bab9" data-chapter-page="bab9"></section>
+      <section class="page" id="page-bab10" data-chapter-page="bab10"></section>
+      <section class="page" id="page-bab11" data-chapter-page="bab11"></section>
+      <section class="page" id="page-bab12" data-chapter-page="bab12"></section>
+      <section class="page" id="page-bab13" data-chapter-page="bab13"></section>
+
+      <section class="page" id="page-video">
+        <p class="eyebrow reveal">Lampiran</p>
+        <h2 class="reveal">Pustaka Video</h2>
+        <p class="lede reveal">Video pendamping untuk meninjau kembali materi awal tentang kesulitan belajar anak.</p>
+        <p class="video-label reveal">Mengenali dan Mengatasi Kesulitan Belajar Anak</p>
+        <div class="video-wrap reveal"><iframe src="https://www.youtube.com/embed/mDlqIXOs_qw" title="Mengenali dan Mengatasi Kesulitan Belajar Anak — Pustaka Video" allowfullscreen></iframe></div>
+      </section>
+
+      <section class="page" id="page-asesmen"></section>
+
+      <section class="page" id="page-rencana">
+        <p class="eyebrow reveal">Tindak Lanjut</p>
+        <h2 class="reveal">Rencana Dukungan 30 Hari</h2>
+        <p class="lede reveal">Pilih sedikit sasaran yang dapat diamati. Catat data awal, dukungan yang diberikan, indikator perubahan, dan tanggal tinjau.</p>
+        <div class="card reveal" id="planCard">
+          <div class="plan-row"><input placeholder="Sasaran fungsional"><input placeholder="Dukungan & frekuensi"><input placeholder="Indikator & tanggal tinjau"><button onclick="this.parentElement.remove()">×</button></div>
+        </div>
+        <button class="add-row" onclick="addPlanRow()">+ Tambah baris</button>
+      </section>
+
+      <section class="page" id="page-ringkasan">
+        <p class="eyebrow reveal">Rekap</p>
+        <h2 class="reveal">Ringkasan Pencapaian Anda</h2>
+        <div class="summary-grid reveal">
+          <div class="summary-stat"><div class="num" id="sumChapters">0/13</div><div class="lbl">Bab Selesai</div></div>
+          <div class="summary-stat"><div class="num" id="sumQuiz">0</div><div class="lbl">Kuis Mini Dijawab Benar</div></div>
+          <div class="summary-stat"><div class="num" id="sumAssessScore">–</div><div class="lbl">Skor Asesmen Komprehensif</div></div>
+          <div class="summary-stat"><div class="num">✓</div><div class="lbl">Rencana Dukungan Disusun</div></div>
+        </div>
+        <p class="lede reveal">Ambil tangkapan layar halaman ini sebagai dokumentasi pembelajaran Anda.</p>
+      </section>
+
+      <section class="page" id="page-faq">
+        <p class="eyebrow reveal">Bantuan</p>
+        <h2 class="reveal">Pertanyaan Umum</h2>
+        <div class="card reveal" style="padding:6px 24px">
+          <div class="faq-item"><button class="faq-q" onclick="toggleFaq(this)">Apakah eBook ini dapat digunakan untuk mendiagnosis anak? <span class="plus">+</span></button><div class="faq-a">Tidak. eBook ini membantu mengenali pola, memberi dukungan pendidikan, dan menyiapkan data rujukan. Diagnosis memerlukan asesmen oleh tenaga yang berwenang.</div></div>
+          <div class="faq-item"><button class="faq-q" onclick="toggleFaq(this)">Apakah sekolah harus menunggu diagnosis sebelum membantu? <span class="plus">+</span></button><div class="faq-a">Tidak. Dukungan akses dan pengajaran terarah dapat dimulai berdasarkan kebutuhan yang terlihat sambil sekolah memantau kemajuan serta mengupayakan asesmen bila diperlukan.</div></div>
+          <div class="faq-item"><button class="faq-q" onclick="toggleFaq(this)">Bagaimana cara membuka seluruh isi eBook interaktif? <span class="plus">+</span></button><div class="faq-a">Masukkan username dan password akses yang diberikan admin Edumind Academy. Pratinjau gratis tersedia sampai Bab 1.</div></div>
+          <div class="faq-item"><button class="faq-q" onclick="toggleFaq(this)">Apakah progres tersimpan? <span class="plus">+</span></button><div class="faq-a">Progres bab, jawaban kuis, dan skor asesmen tersimpan pada browser perangkat ini. Ambil tangkapan layar jika Anda akan berpindah perangkat.</div></div>
+          <div class="faq-item"><button class="faq-q" onclick="toggleFaq(this)">Apakah eBook interaktif dapat diunduh sebagai PDF? <span class="plus">+</span></button><div class="faq-a">Bisa. Klik tombol PDF di bagian atas, lalu pilih simpan sebagai PDF pada dialog cetak perangkat Anda.</div></div>
+          <div class="faq-item"><button class="faq-q" onclick="toggleFaq(this)">Bagaimana jika lupa kredensial akses? <span class="plus">+</span></button><div class="faq-a">Hubungi admin Edumind Academy melalui tombol WhatsApp di pojok kanan bawah.</div></div>
+        </div>
+      </section>
+
+      <section class="page" id="page-cta">
+        <p class="eyebrow reveal">Penutup</p>
+        <h2 class="reveal">Melihat Lebih Cepat, Menolong Lebih Tepat</h2>
+        <div class="card reveal">
+          <p>Deteksi dini bukan keberhasilan jika berhenti pada nama. Ia menjadi bermakna ketika guru mengajar lebih jelas, keluarga memperoleh arah, tenaga profesional menerima data yang berguna, dan anak tetap merasa dihormati sepanjang proses.</p>
+          <p>Mulailah dari satu pola, satu sasaran, dan satu dukungan yang dapat diukur. Perubahan sistem sering lahir dari langkah kecil yang dilakukan dengan konsisten dan ditinjau dengan jujur.</p>
+        </div>
+        <div class="cta-card reveal"><div><h3>Pendampingan Sekolah Inklusif</h3><p>Bangun sistem deteksi, intervensi, akomodasi, dan rujukan yang dapat dipakai tim sekolah.</p></div><a href="https://edumind.id" target="_blank" rel="noopener">Lihat Edumind</a></div>
+        <div class="cta-card reveal"><div><h3>In House Training Pimpinan &amp; Guru</h3><p>Latih tim membaca pola kesulitan belajar dan mengubah data menjadi dukungan kelas.</p></div><a href="https://wa.me/6281385841500" target="_blank" rel="noopener">Hubungi Kami</a></div>
+      </section>
+
+      <section class="page" id="page-locked">
+        <p class="eyebrow reveal">Konten Premium</p>
+        <h2 class="reveal">Bagian Ini Khusus Pengguna Resmi</h2>
+        <div class="locked-card reveal"><p>Anda sedang membaca pratinjau gratis. Masukkan kredensial resmi untuk membuka seluruh isi eBook interaktif.</p><button onclick="logout()">Masuk dengan Kredensial Resmi</button></div>
+      </section>
+
+      <section class="page" id="page-katalog">
+        <p class="eyebrow reveal">Katalog Edumind</p>
+        <h2 class="reveal">Jelajahi Produk Lainnya</h2>
+        <p class="lede reveal">Klik cover untuk melihat detail dan checkout.</p>
+        <div class="filter-chips reveal" id="filterChips"></div>
+        <input type="text" class="catalog-search reveal" id="catalogSearch" placeholder="Cari judul produk..." oninput="setSearch(this.value)">
+        <div class="catalog-grid reveal" id="catalogGrid"></div>
+        <button class="loadmore-btn" id="loadMoreBtn" onclick="loadMoreProducts()">Muat Lebih Banyak</button>
+      </section>
+    </main>
+  </div>
+</div>
+
+<script>function togglePasswordVisibility(button){const password=document.getElementById("pass");const shown=password.type==="text";password.type=shown?"password":"text";button.setAttribute("aria-label",shown?"Tampilkan password":"Sembunyikan password");button.setAttribute("title",shown?"Tampilkan password":"Sembunyikan password");}</script>
+<script src="https://cdn.jsdelivr.net/gh/MuhammadFuad81/ebook-interaktif-edumind@main/engine.js"></script>
+</body>
+</html>

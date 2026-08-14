@@ -1,6 +1,6 @@
 /* ==========================================================================
-   EDUMIND ACADEMY — WEB-BOOK SHARED ENGINE (JS)
-   Dipakai bersama oleh SEMUA judul web-book. Jangan taruh data spesifik
+   EDUMIND ACADEMY — SHARED ENGINE EBOOK INTERAKTIF (JS)
+   Dipakai bersama oleh SEMUA judul eBook interaktif. Jangan taruh data spesifik
    1 buku di sini (judul, bab, kredensial) — itu diisi lewat window.BOOK_CONFIG
    di file HTML masing-masing buku, SEBELUM file ini dimuat.
 
@@ -278,7 +278,7 @@ function generatePDF(){
 window.addEventListener('afterprint', ()=>{ document.body.classList.remove('print-all'); });
 
 /* ==========================================================================
-   KATALOG PRODUK (cross-sell) — SUMBER TUNGGAL untuk SEMUA web-book.
+   KATALOG PRODUK (cross-sell) — SUMBER TUNGGAL untuk SEMUA eBook interaktif.
    Edit array PILAR_PROMPT_AI / KELAS_BANK_SOAL / PRODUCTS / CATEGORIES di
    bawah ini untuk mengubah katalog di >40 buku sekaligus. Setelah commit
    di GitHub, jangan lupa purge cache jsDelivr agar perubahan langsung
@@ -379,8 +379,8 @@ function waMessage(){
      bukan chat langsung ke admin, dan keperluan pembaca resmi bisa sangat
      beragam sehingga satu kalimat template tidak cukup mewakili. */
   if(session === 'full') return '';
-  const title = CFG.title || (document.querySelector('.book-title')?.textContent || '').trim() || 'web-book ini';
-  return `Halo Admin Edumind Academy, saya sedang membaca pratinjau gratis (Bab 1) web-book "${title}" dan tertarik untuk memesan akses penuhnya. Mohon info harga dan cara pemesanannya. Terima kasih.`;
+  const title = CFG.title || (document.querySelector('.book-title')?.textContent || '').trim() || 'eBook interaktif ini';
+  return `Halo Admin Edumind Academy, saya sedang membaca pratinjau gratis (Bab 1) eBook interaktif "${title}" dan tertarik untuk memesan akses penuhnya. Mohon info harga dan cara pemesanannya. Terima kasih.`;
 }
 function updateWaFab(){
   const fab = document.querySelector('.wa-fab');
