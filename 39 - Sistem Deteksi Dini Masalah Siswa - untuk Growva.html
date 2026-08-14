@@ -1,14 +1,14 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="id">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Memotivasi Siswa Tanpa Paksaan — Edumind Academy</title>
+<title>Sistem Deteksi Dini Masalah Siswa — Edumind Academy</title>
 <link rel="icon" href="https://growva.biz.id/gambarbebas/20260621-082723_Logo%20Edumind%20Academy%20-%20Terbaru2026%20[putih].png">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Memotivasi Siswa Tanpa Paksaan — Edumind Academy">
-<meta property="og:description" content="Pendekatan konseling positif di kelas untuk menumbuhkan motivasi belajar dari dalam diri siswa.">
-<meta property="og:image" content="https://growva.biz.id/gambarbebas/20260801-070406_Cover%2041.jpg">
+<meta property="og:title" content="Sistem Deteksi Dini Masalah Siswa — Edumind Academy">
+<meta property="og:description" content="Panduan praktis membangun sistem deteksi dini yang peka, kolaboratif, dan berorientasi pada kesejahteraan siswa.">
+<meta property="og:image" content="https://growva.biz.id/gambarbebas/20260801-070337_Cover%2039.jpg">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
@@ -19,9 +19,9 @@
 <!-- ===== WARNA AKSEN KHUSUS BUKU INI (boleh beda tiap judul) ===== -->
 <style>
   :root{
-    --accent:#7C5CA5;
-    --accent-dark:#513A70;
-    --accent-tint:#EAE2F3;
+    --accent:#3E7C6B;
+    --accent-dark:#275247;
+    --accent-tint:#DCEFE9;
   }
 </style>
 </head>
@@ -30,12 +30,12 @@
 <!-- ===== CONFIG KHUSUS BUKU INI ===== -->
 <script>
   window.BOOK_CONFIG = {
-    id: "memotivasi-siswa-konseling-positif",
-    title: "Memotivasi Siswa Tanpa Paksaan",
-    chapters: ["bab1","bab2","bab3","bab4","bab5"],
+    id: "deteksi-dini-masalah-siswa",
+    title: "Sistem Deteksi Dini Masalah Siswa",
+    chapters: ["bab1","bab2","bab3","bab4","bab5","bab6"],
     previewAllowed: ["cover","pengantar","bab1"],
     validUser: "edumind",
-    validPass: "webbook41",
+    validPass: "webbook39",
     freePreview: true,
     waNumber: "6281385841500"
   };
@@ -43,14 +43,14 @@
 
 <!-- ===== ISI BAB & ASESMEN KHUSUS BUKU INI (file terpisah, supaya HTML yang ditempel di growva
      tetap pendek walau isi bukunya panjang -- lihat catatan di dalam file content-*.js) ===== -->
-<script src="https://cdn.jsdelivr.net/gh/MuhammadFuad81/webbook-edumind@main/content-memotivasi-siswa-konseling-positif.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/MuhammadFuad81/webbook-edumind@main/39%20-%20Sistem%20Deteksi%20Dini%20Masalah%20Siswa%20-%20content.js"></script>
 
 <!-- ======================= GERBANG KREDENSIAL ======================= -->
 <div id="gate">
   <img class="gate-logo" src="https://growva.biz.id/gambarbebas/20260621-082723_Logo%20Edumind%20Academy%20-%20Terbaru2026%20[putih].png" alt="Edumind Academy">
   <div class="gate-card">
     <p class="eyebrow">Web-Book Eksklusif</p>
-    <h1>Memotivasi Siswa<br>Tanpa Paksaan</h1>
+    <h1>Sistem Deteksi Dini<br>Masalah Siswa</h1>
     <input id="user" type="text" placeholder="Username akses">
     <div style="position:relative;margin-bottom:12px"><input id="pass" type="password" placeholder="Password akses" style="margin-bottom:0;padding-right:50px"><button type="button" onclick="togglePasswordVisibility(this)" aria-label="Tampilkan password" title="Tampilkan password" style="position:absolute;right:0;top:0;width:48px;height:100%;padding:0;background:transparent;color:var(--navy);border:0;box-shadow:none;display:flex;align-items:center;justify-content:center"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3.5-6 10-6 10 6 10 6-3.5 6-10 6S2 12 2 12Z"></path><circle cx="12" cy="12" r="2.5"></circle></svg></button></div>
     <button onclick="tryLogin()">Masuk & Mulai Membaca</button>
@@ -66,7 +66,7 @@
     <button class="hamburger" onclick="toggleDrawer()" aria-label="Buka daftar isi">
       <span></span><span></span><span></span>
     </button>
-    <span class="book-title ui">Memotivasi Siswa Tanpa Paksaan</span>
+    <span class="book-title ui">Sistem Deteksi Dini Masalah Siswa</span>
     <div class="ribbon-track"><div class="ribbon-fill" id="ribbonFill"></div></div>
     <span class="ribbon-pct" id="ribbonPct">0%</span>
     <button class="theme-toggle" id="themeBtn" onclick="toggleTheme()" aria-label="Ganti mode gelap/terang">🌙</button>
@@ -87,11 +87,12 @@
       </div>
       <div class="toc-group">
         <p class="toc-label">Isi</p>
-        <a href="#bab1" data-nav data-chapter><span class="toc-check"></span>Bab 1 — Memahami Motivasi</a>
-        <a href="#bab2" data-nav data-chapter><span class="toc-check"></span>Bab 2 — Motivasi Intrinsik dan Ekstrinsik</a>
-        <a href="#bab3" data-nav data-chapter><span class="toc-check"></span>Bab 3 — Kebutuhan Psikologis</a>
-        <a href="#bab4" data-nav data-chapter><span class="toc-check"></span>Bab 4 — Konseling Positif (SFBT)</a>
-        <a href="#bab5" data-nav data-chapter><span class="toc-check"></span>Bab 5 — Situasi Khusus</a>
+        <a href="#bab1" data-nav data-chapter><span class="toc-check"></span>Bab 1 — Konsep Dasar Deteksi Dini</a>
+        <a href="#bab2" data-nav data-chapter><span class="toc-check"></span>Bab 2 — Spektrum Masalah Siswa</a>
+        <a href="#bab3" data-nav data-chapter><span class="toc-check"></span>Bab 3 — Sistem di Awal Tahun Ajaran</a>
+        <a href="#bab4" data-nav data-chapter><span class="toc-check"></span>Bab 4 — Instrumen dan Strategi</a>
+        <a href="#bab5" data-nav data-chapter><span class="toc-check"></span>Bab 5 — Konteks Sekolah Islam</a>
+        <a href="#bab6" data-nav data-chapter><span class="toc-check"></span>Bab 6 — Intervensi dan Evaluasi</a>
       </div>
       <div class="toc-group">
         <p class="toc-label">Penutup</p>
@@ -117,9 +118,9 @@
       <section class="page" id="page-cover">
         <div class="cover">
           <p class="kicker">Edumind Academy · Web-Book</p>
-          <img class="cover-img" src="https://growva.biz.id/gambarbebas/20260801-070406_Cover%2041.jpg" alt="Cover Memotivasi Siswa Tanpa Paksaan">
-          <h1>Memotivasi Siswa Tanpa Paksaan</h1>
-          <p>Pendekatan konseling positif di kelas untuk menumbuhkan motivasi belajar dari dalam diri siswa.</p>
+          <img class="cover-img" src="https://growva.biz.id/gambarbebas/20260801-070337_Cover%2039.jpg" alt="Cover Sistem Deteksi Dini Masalah Siswa">
+          <h1>Sistem Deteksi Dini Masalah Siswa</h1>
+          <p>Panduan praktis membangun sistem deteksi dini yang peka, kolaboratif, dan berorientasi pada kesejahteraan siswa.</p>
           <button class="start-btn" onclick="go('pengantar')">Mulai Membaca →</button>
         </div>
       </section>
@@ -129,15 +130,15 @@
         <p class="eyebrow reveal">Kata Pengantar</p>
         <h2 class="reveal">Prakata dari Tim Edumind Academy</h2>
         <div class="card reveal">
-          <p>Setiap siswa memiliki alasan, kebutuhan, dan pengalaman yang memengaruhi semangat belajarnya. Buku ini membantu guru menumbuhkan motivasi dari dalam diri siswa melalui relasi yang aman, pilihan yang terarah, serta pengalaman berhasil yang bertahap.</p>
-          <p>Pendekatan konseling positif dalam buku ini tidak menghapus ketegasan, melainkan mengubah cara guru mendampingi: dari memaksa menjadi menguatkan, dari memberi label menjadi memahami, dan dari berfokus pada masalah menjadi membuka langkah perbaikan.</p>
+          <p>Buku ini disusun untuk membantu sekolah membangun kepekaan terhadap perubahan akademik, sosial, emosional, dan perilaku siswa sebelum masalah berkembang lebih jauh. Deteksi dini bukan cara memberi label, melainkan ikhtiar menghadirkan dukungan yang tepat waktu dan penuh kepedulian.</p>
+          <p>Melalui pembahasan tentang pemetaan gejala, instrumen, koordinasi wali kelas dan guru BK, serta evaluasi intervensi, pembaca diajak menata sistem yang inklusif dan dapat dijalankan secara bertahap. Harapan kami, setiap siswa merasa lebih dilihat, didengar, dan didampingi dalam perjalanan belajarnya.</p>
           <p>Salam hangat,<br><strong>Tim Edumind Academy</strong></p>
         </div>
         <div class="card reveal" style="font-size:14px;color:var(--slate)">Edumind Academy - Web-Book - Tim Edumind Academy - Hak cipta dilindungi</div>
       </section>
 
       <!-- ===== BAB 1-7: KOSONG DI SINI, DIISI OTOMATIS OLEH engine.js DARI
-           window.BOOK_CONTENT (file content-memotivasi-siswa-konseling-positif.js) SAAT APLIKASI DIBUKA.
+           window.BOOK_CONTENT (file 39%20-%20Sistem%20Deteksi%20Dini%20Masalah%20Siswa%20-%20content.js) SAAT APLIKASI DIBUKA.
            JANGAN tempel isi bab langsung di sini -- itulah yang membuat HTML kepanjangan dan
            terpotong oleh batas karakter growva. Edit isi bab lewat file content-*.js di GitHub. ===== -->
       <section class="page" id="page-bab1" data-chapter-page="bab1"></section>
@@ -145,13 +146,18 @@
       <section class="page" id="page-bab3" data-chapter-page="bab3"></section>
       <section class="page" id="page-bab4" data-chapter-page="bab4"></section>
       <section class="page" id="page-bab5" data-chapter-page="bab5"></section>
+      <section class="page" id="page-bab6" data-chapter-page="bab6"></section>
 
       <section class="page" id="page-video">
         <p class="eyebrow reveal">Lampiran</p>
         <h2 class="reveal">Pustaka Video</h2>
         <p class="lede reveal">Kumpulan video pendamping untuk memperdalam tema buku ini.</p>
         <p class="video-label reveal"></p>
-        <div class="video-wrap reveal"><iframe src="https://www.youtube.com/embed/9sxdTNREBMw" title="Memotivasi Siswa Tanpa Paksaan - Video 1" allowfullscreen></iframe></div>
+        <div class="video-wrap reveal"><iframe src="https://www.youtube.com/embed/i93Oc1oseoM" title="Sistem Deteksi Dini Masalah Siswa - Video 1" allowfullscreen></iframe></div>
+        <p class="video-label reveal"></p>
+        <div class="video-wrap reveal"><iframe src="https://www.youtube.com/embed/rdnG5H7owGw" title="Sistem Deteksi Dini Masalah Siswa - Video 2" allowfullscreen></iframe></div>
+        <p class="video-label reveal"></p>
+        <div class="video-wrap reveal"><iframe src="https://www.youtube.com/embed/PPojpY35dz4" title="Sistem Deteksi Dini Masalah Siswa - Video 3" allowfullscreen></iframe></div>
       </section>
 
       <!-- ===== ASESMEN KOMPREHENSIF: KOSONG, diisi dari content-*.js (lihat catatan di atas) ===== -->
@@ -176,7 +182,7 @@
         <p class="eyebrow reveal">Rekap</p>
         <h2 class="reveal">Ringkasan Pencapaian Anda</h2>
         <div class="summary-grid reveal">
-          <div class="summary-stat"><div class="num" id="sumChapters">0/5</div><div class="lbl">Bab Selesai</div></div>
+          <div class="summary-stat"><div class="num" id="sumChapters">0/6</div><div class="lbl">Bab Selesai</div></div>
           <div class="summary-stat"><div class="num" id="sumQuiz">0</div><div class="lbl">Kuis Mini Dijawab Benar</div></div>
           <div class="summary-stat"><div class="num" id="sumAssessScore">–</div><div class="lbl">Skor Asesmen Komprehensif</div></div>
           <div class="summary-stat"><div class="num">✓</div><div class="lbl">Rencana Aksi Diisi</div></div>
