@@ -122,7 +122,7 @@ button{font-family:var(--font-display); cursor:pointer;}
   transition:background .2s;
 }
 .gate-preview-btn:hover{background:var(--accent-tint);}
-.gate-hint{font-size:12px; color:var(--slate); margin-top:12px;}
+.gate-hint{font-size:calc(12px + 2pt); color:var(--slate); margin-top:12px;}
 
 /* ---------- APP SHELL ---------- */
 #app{display:none;}

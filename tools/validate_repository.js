@@ -29,6 +29,11 @@ for (let number = 1; number <= 54; number += 1) {
   }
   const html = fs.readFileSync(path.join(ROOT, htmlName), 'utf8');
   const content = fs.readFileSync(path.join(ROOT, contentName), 'utf8');
+  const expectedLoginLabel = `Ebook Interaktif - ${String(number).padStart(2, '0')}`;
+  const loginLabelMatch = html.match(/<div class="gate-card">\s*<p class="eyebrow">([^<]+)<\/p>/s);
+  if (loginLabelMatch?.[1] !== expectedLoginLabel) {
+    fail(`${htmlName}: label login harus "${expectedLoginLabel}"`);
+  }
   if (!html.includes('MuhammadFuad81/ebook-interaktif-edumind@main')) fail(`${htmlName}: CDN kanonik tidak ditemukan`);
   if (html.includes('MuhammadFuad81/webbook-edumind')) fail(`${htmlName}: CDN lama masih ada`);
   const scriptSources = [...html.matchAll(/<script[^>]+src=["']([^"']+)["']/gi)].map(match => {
@@ -92,6 +97,10 @@ const engineCss = fs.readFileSync(path.join(ROOT, 'engine.css'), 'utf8');
 const engineAnimasi = fs.readFileSync(path.join(ROOT, 'engine-ANIMASI.css'), 'utf8');
 if (!engineJs.includes('function initChapterVisuals()')) fail('engine.js belum memiliki penginisialisasi visual');
 if (!engineCss.includes('.chapter-visual') || !engineAnimasi.includes('.chapter-visual')) fail('CSS komponen visual belum lengkap');
+const gateHintRule = '.gate-hint{font-size:calc(12px + 2pt);';
+if (!engineCss.includes(gateHintRule) || !engineAnimasi.includes(gateHintRule)) {
+  fail('Ukuran catatan akses halaman login belum seragam dengan baseline eBook 50–53');
+}
 
 if (errors.length) {
   console.error(`VALIDASI GAGAL (${errors.length})`);
@@ -100,5 +109,6 @@ if (errors.length) {
 }
 console.log('VALIDASI LULUS');
 console.log(`- 54 HTML + 54 content.js berpasangan`);
+console.log(`- 54 label login dan ukuran catatan akses seragam`);
 console.log(`- 54 entri katalog + 54 entri manifest`);
 console.log(`- Pilot 001, 039, 053: markup responsif dan checksum aset valid`);
