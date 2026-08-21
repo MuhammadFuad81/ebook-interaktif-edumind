@@ -31,7 +31,9 @@ dapat menjalankan katalog sebelum seluruh konstanta siap ketika sesi pembaca
 masih tersimpan. Pemulihan sesi sudah dipindahkan ke akhir engine. Uji ulang
 ketiga eBook pada ponsel dan desktop lulus tanpa halaman kosong.
 
-## Batas publikasi
+## Verifikasi R2
 
-Aset R2 sudah siap dan checksum-nya cocok dengan manifest. Publikasi eksternal
-menunggu otorisasi OAuth Cloudflare melalui akun GitHub pengguna.
+Ketiga aset telah diunggah ke bucket `edumind-audio` pada prefix
+`ebook-edumind/`. Domain produksi `media.edumind.id` aktif dan setiap URL
+merespons `HTTP 200` dengan `Content-Type: image/webp`; ukuran byte seluruhnya
+cocok dengan manifest lokal.

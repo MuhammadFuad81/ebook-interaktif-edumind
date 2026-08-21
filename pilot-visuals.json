@@ -13,12 +13,12 @@
       "sha256": "2313411f980aa2b85a823fd838ecad2e59ca13a3778576954ccca1e0fe8a2df1",
       "alt": "Tim sekolah Islam memetakan perjalanan orang tua sambil memperlihatkan mutu pembelajaran dan layanan sekolah",
       "caption": "Strategi pemasaran sekolah yang sehat menghubungkan mutu nyata, identitas yang jelas, layanan keluarga, dan komunikasi yang membantu orang tua mengambil keputusan.",
-      "status": "ready",
-      "r2Status": "blocked-auth",
-      "integrationStatus": "staged",
-      "qaStatus": "asset-preflight-passed",
-      "publishStatus": "pending",
-      "notes": "Menunggu otorisasi dashboard Cloudflare untuk unggah R2."
+      "status": "complete",
+      "r2Status": "uploaded",
+      "integrationStatus": "complete",
+      "qaStatus": "passed",
+      "publishStatus": "published",
+      "notes": "URL R2 terverifikasi HTTP 200, image/webp, 182686 byte."
     },
     {
       "number": 39,
@@ -32,12 +32,12 @@
       "sha256": "0cc5ee25deefbdac0f51c090d0f475f3951dbfc55998b608fa96468b10a4eeb6",
       "alt": "Guru mengamati sinyal kesulitan siswa dan berkoordinasi dengan konselor untuk merancang dukungan awal",
       "caption": "Deteksi dini dimulai dari kepekaan terhadap pola, dilanjutkan dengan pencatatan dan kolaborasi, lalu diarahkan pada dukungan yang menjaga martabat siswa.",
-      "status": "ready",
-      "r2Status": "blocked-auth",
-      "integrationStatus": "staged",
-      "qaStatus": "asset-preflight-passed",
-      "publishStatus": "pending",
-      "notes": "Menunggu otorisasi dashboard Cloudflare untuk unggah R2."
+      "status": "complete",
+      "r2Status": "uploaded",
+      "integrationStatus": "complete",
+      "qaStatus": "passed",
+      "publishStatus": "published",
+      "notes": "URL R2 terverifikasi HTTP 200, image/webp, 124822 byte."
     },
     {
       "number": 53,
@@ -51,12 +51,12 @@
       "sha256": "7fb829eccb746dc1237eacdf7497a4948ab382e199c4ace6ef7485da39e231eb",
       "alt": "Guru dan supervisor menelaah bukti pembelajaran secara kolegial dengan aktivitas murid terlihat di kelas",
       "caption": "Supervisi menjadi pembelajaran profesional ketika bukti kelas dibaca bersama, umpan balik diarahkan pada tindakan, dan tindak lanjut dinilai dari perubahan yang dialami murid.",
-      "status": "ready",
-      "r2Status": "blocked-auth",
-      "integrationStatus": "staged",
-      "qaStatus": "asset-preflight-passed",
-      "publishStatus": "pending",
-      "notes": "Menunggu otorisasi dashboard Cloudflare untuk unggah R2."
+      "status": "complete",
+      "r2Status": "uploaded",
+      "integrationStatus": "complete",
+      "qaStatus": "passed",
+      "publishStatus": "published",
+      "notes": "URL R2 terverifikasi HTTP 200, image/webp, 183008 byte."
     }
   ]
 }

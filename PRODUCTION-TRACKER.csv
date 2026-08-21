@@ -1,5 +1,5 @@
 number,title,slug,batch,inventory,html_github,cdn_normalized,visual,r2_upload,integration,qa,publish,notes
-1,Strategi Memasarkan Sekolah Islam (PPDB),strategi-memasarkan-sekolah-islam,pilot-01,complete,complete,complete,ready,blocked-auth,staged,asset-preflight-passed,pending,Menunggu otorisasi dashboard Cloudflare untuk unggah R2.
+1,Strategi Memasarkan Sekolah Islam (PPDB),strategi-memasarkan-sekolah-islam,pilot-01,complete,complete,complete,complete,uploaded,complete,passed,published,"URL R2 terverifikasi HTTP 200, image/webp, 182686 byte."
 2,Panduan Pengembangan Kurikulum Sekolah Islam,panduan-pengembangan-kurikulum-sekolah-islam,backlog,complete,complete,complete,not-started,not-started,not-started,pending,pending,
 3,Strategi Implementasi Pendidikan Karakter di Sekolah,strategi-implementasi-pendidikan-karakter-di-sekolah,backlog,complete,complete,complete,not-started,not-started,not-started,pending,pending,
 4,Strategi Penanganan Tunggakan Sekolah,strategi-penanganan-tunggakan-sekolah,backlog,complete,complete,complete,not-started,not-started,not-started,pending,pending,
@@ -37,7 +37,7 @@ number,title,slug,batch,inventory,html_github,cdn_normalized,visual,r2_upload,in
 36,Membangun Sistem Administrasi Keuangan Sekolah yang Tertib dan Akuntabel,membangun-sistem-administrasi-keuangan-sekolah-yang-tertib-dan-akuntabel,backlog,complete,complete,complete,not-started,not-started,not-started,pending,pending,
 37,Desain Sekolah Quran yang Unggul,desain-sekolah-quran-yang-unggul,backlog,complete,complete,complete,not-started,not-started,not-started,pending,pending,
 38,Pencegahan dan Penanganan Masalah Kesehatan Mental dan LGBTQ+ di Sekolah Islam,pencegahan-dan-penanganan-masalah-kesehatan-mental-dan-lgbtq-di-sekolah-islam,backlog,complete,complete,complete,not-started,not-started,not-started,pending,pending,
-39,Sistem Deteksi Dini Masalah Siswa,sistem-deteksi-dini-masalah-siswa,pilot-01,complete,complete,complete,ready,blocked-auth,staged,asset-preflight-passed,pending,Menunggu otorisasi dashboard Cloudflare untuk unggah R2.
+39,Sistem Deteksi Dini Masalah Siswa,sistem-deteksi-dini-masalah-siswa,pilot-01,complete,complete,complete,complete,uploaded,complete,passed,published,"URL R2 terverifikasi HTTP 200, image/webp, 124822 byte."
 40,Menangani Komplain dengan Elegan - Strategi Membangun Citra Positif Sekolah Islam,menangani-komplain-dengan-elegan-strategi-membangun-citra-positif-sekolah-islam,backlog,complete,complete,complete,not-started,not-started,not-started,pending,pending,
 41,Memotivasi Siswa Tanpa Paksaan - Pendekatan Konseling Positif di Kelas,memotivasi-siswa-tanpa-paksaan-pendekatan-konseling-positif-di-kelas,backlog,complete,complete,complete,not-started,not-started,not-started,pending,pending,
 42,Membuat Siswa Mau Belajar,membuat-siswa-mau-belajar,backlog,complete,complete,complete,not-started,not-started,not-started,pending,pending,
@@ -51,5 +51,5 @@ number,title,slug,batch,inventory,html_github,cdn_normalized,visual,r2_upload,in
 50,Mengenali dan Mengatasi Kesulitan Belajar Anak,mengenali-dan-mengatasi-kesulitan-belajar-anak,backlog,complete,complete,complete,not-started,not-started,not-started,pending,pending,
 51,Formula One Stop Schooling,formula-one-stop-schooling,backlog,complete,complete,complete,not-started,not-started,not-started,pending,pending,
 52,"Membangun Tim Guru dan Tendik yang Solid, Produktif, & Loyal",membangun-tim-guru-dan-tendik-yang-solid-produktif-dan-loyal,backlog,complete,complete,complete,not-started,not-started,not-started,pending,pending,
-53,Supervisi yang Berdampak,supervisi-yang-berdampak,pilot-01,complete,complete,complete,ready,blocked-auth,staged,asset-preflight-passed,pending,Menunggu otorisasi dashboard Cloudflare untuk unggah R2.
+53,Supervisi yang Berdampak,supervisi-yang-berdampak,pilot-01,complete,complete,complete,complete,uploaded,complete,passed,published,"URL R2 terverifikasi HTTP 200, image/webp, 183008 byte."
 54,Blueprint SPMB Sekolah Islam - Kepemimpinan Strategis dari Perencanaan hingga Murid Bergabung,blueprint-spmb-sekolah-islam-kepemimpinan-strategis-dari-perencanaan-hingga-murid-bergabung,backlog,complete,complete,complete,not-started,not-started,not-started,pending,pending,
