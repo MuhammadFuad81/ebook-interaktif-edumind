@@ -28,8 +28,8 @@
       "url": "https://media.edumind.id/ebook-edumind/039-sistem-deteksi-dini-masalah-siswa/chapter-01.webp",
       "width": 1600,
       "height": 900,
-      "bytes": 124822,
-      "sha256": "0cc5ee25deefbdac0f51c090d0f475f3951dbfc55998b608fa96468b10a4eeb6",
+      "bytes": 147150,
+      "sha256": "d32197db0da802a5e910948ab38ec7b6ab8c5e47a94fe7f18c9bdceef0a1056a",
       "alt": "Guru mengamati sinyal kesulitan siswa dan berkoordinasi dengan konselor untuk merancang dukungan awal",
       "caption": "Deteksi dini dimulai dari kepekaan terhadap pola, dilanjutkan dengan pencatatan dan kolaborasi, lalu diarahkan pada dukungan yang menjaga martabat siswa.",
       "status": "complete",
@@ -37,7 +37,7 @@
       "integrationStatus": "complete",
       "qaStatus": "passed",
       "publishStatus": "published",
-      "notes": "URL R2 terverifikasi HTTP 200, image/webp, 124822 byte."
+      "notes": "Komposisi direvisi lebih lebar agar skala visual setara pilot 001; aset WebP v2 terverifikasi HTTP 200, image/webp, 147150 byte."
     },
     {
       "number": 53,

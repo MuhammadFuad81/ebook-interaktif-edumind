@@ -37,3 +37,11 @@ Ketiga aset telah diunggah ke bucket `edumind-audio` pada prefix
 `ebook-edumind/`. Domain produksi `media.edumind.id` aktif dan setiap URL
 merespons `HTTP 200` dengan `Content-Type: image/webp`; ukuran byte seluruhnya
 cocok dengan manifest lokal.
+
+## Revisi setelah pemeriksaan WSP
+
+- Pilot 039: ilustrasi diganti dengan komposisi yang lebih lebar sehingga skala
+  figur dan ruang visual lebih seimbang seperti pilot 001. Aset v2 berukuran
+  1600×900, 147150 byte, dan terverifikasi `HTTP 200`.
+- Pilot 053: URL `content.js` dan gambar diberi versi cache baru
+  `v=20260821-2` agar WSP tidak memakai salinan sebelum integrasi gambar.
