@@ -66,6 +66,13 @@ def main() -> None:
     parser.add_argument("output_prefix", type=Path)
     parser.add_argument("--title", required=True)
     parser.add_argument("--date", required=True)
+    parser.add_argument(
+        "--section",
+        action="append",
+        default=[],
+        metavar="SECONDS=HEADING",
+        help="Add a Markdown section heading at the given elapsed second; may be repeated.",
+    )
     args = parser.parse_args()
 
     cues = parse_vtt(args.source)
@@ -110,16 +117,14 @@ def main() -> None:
         json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
     )
 
-    sections = [
-        (0, "Pembukaan"),
-        (165, "Memahami Kesulitan Belajar"),
-        (1_245, "Mengenali ADHD"),
-        (1_797, "Disleksia, Disgrafia, dan Diskalkulia"),
-        (2_672, "Pola Perilaku dan Ciri Akademik"),
-        (3_603, "Dukungan dan Penanganan"),
-        (4_201, "Tanya Jawab dan Pembahasan Kasus"),
-        (7_142, "Kesimpulan dan Penutupan"),
-    ]
+    sections: list[tuple[float, str]] = []
+    for raw_section in args.section:
+        try:
+            raw_seconds, heading = raw_section.split("=", 1)
+            sections.append((float(raw_seconds), heading.strip()))
+        except ValueError as exc:
+            raise SystemExit(f"Invalid --section value: {raw_section!r}") from exc
+    sections = sorted(sections or [(0, "Transkrip")], key=lambda item: item[0])
     md_lines = [
         f"# Transkrip Lengkap — {args.title}",
         "",

@@ -1,4 +1,4 @@
-/* Konten eBook Interaktif 56 — Mengenali dan Mengatasi Kesulitan Belajar Anak */
+/* Konten eBook Interaktif 50 — Mengenali dan Mengatasi Kesulitan Belajar Anak */
 (() => {
   const section = ([heading, paragraphs, extra = ""]) => `
     <h4>${heading}</h4>
@@ -548,7 +548,7 @@
   window.BOOK_CONTENT = Object.fromEntries(chapters.map((data, index) => [`bab${index + 1}`, chapter(index + 1, data)]));
   window.BOOK_CONTENT.asesmen = assessmentHtml;
   window.BOOK_META = {
-    number: 56,
+    number: 50,
     title: "Mengenali dan Mengatasi Kesulitan Belajar Anak",
     subtitle: "Deteksi Dini Disleksia, Disgrafia, Diskalkulia, dan ADHD",
     chapterCount: chapters.length,

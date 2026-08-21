@@ -1,4 +1,4 @@
-# Prompt Visual eBook Interaktif 56
+# Prompt Visual eBook Interaktif 50
 
 ## Arahan gaya umum
 

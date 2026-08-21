@@ -1,11 +1,11 @@
 # Standar eBook Interaktif Edumind
 
-Dokumen ini menjadi acuan tetap untuk eBook interaktif Edumind mulai nomor 56. Jika ada perbedaan dengan briefing lama, standar ini yang dipakai.
+Dokumen ini menjadi acuan tetap untuk eBook interaktif Edumind mulai nomor 50. Jika ada perbedaan dengan briefing lama, standar ini yang dipakai.
 
 ## Identitas dan penamaan
 
 - Istilah resmi adalah **eBook interaktif**. Jangan gunakan istilah webbook, web-book, atau variasinya pada materi yang terlihat pembaca.
-- Nama berkas baru diawali angka urut agar mudah diurutkan, misalnya `56-judul-ebook-untuk-growva.html` dan `56-content-judul-ebook.js`.
+- Nama berkas baru diawali angka urut agar mudah diurutkan, misalnya `52 - Judul eBook - untuk Growva.html` dan `52 - Judul eBook - content.js`.
 - Nomor eBook ditampilkan pada cover dan metadata halaman.
 - Sumber media ditempatkan sebagai **Pustaka Video**, bukan daftar narasumber, laporan kegiatan, sumber dan rujukan, atau rujukan pendukung per bab.
 
@@ -37,8 +37,8 @@ Dokumen ini menjadi acuan tetap untuk eBook interaktif Edumind mulai nomor 56. J
 - HTML Growva dibuat ramping; konten panjang dimuat dari berkas JavaScript melalui jsDelivr.
 - Header dan navigasi bawah harus `fixed`, selalu terlihat saat gulir, serta menghormati safe area perangkat.
 - Cegah luapan horizontal dan pastikan tabel, kartu, gambar, video, serta judul panjang tetap rapi pada layar sempit.
-- Pertahankan batas zoom responsif yang telah dipakai mulai eBook 55: viewport dapat diperbesar secara terbatas tanpa merusak tata letak.
-- Baseline tipografi adalah ukuran eBook 55 setelah kenaikan total **2 pt** dari engine bersama. Terapkan ke judul, subjudul, isi, tombol, tabel, label, dan komponen interaktif.
+- Pertahankan batas zoom responsif yang telah dipakai mulai eBook 51: viewport dapat diperbesar secara terbatas tanpa merusak tata letak.
+- Baseline tipografi adalah ukuran eBook 51 setelah kenaikan total **2 pt** dari engine bersama. Terapkan ke judul, subjudul, isi, tombol, tabel, label, dan komponen interaktif.
 - Uji jumlah bab, navigasi, ID halaman, kuis, asesmen, tautan CDN, Pustaka Video, istilah terlarang, dan sintaks JavaScript sebelum publikasi.
 - Setelah publikasi, lakukan purge cache jsDelivr untuk setiap berkas baru atau berubah dan gunakan versi query pada pemanggilan konten.
 
