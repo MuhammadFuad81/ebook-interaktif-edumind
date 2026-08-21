@@ -1,8 +1,8 @@
 # Outline Editorial eBook Interaktif 52
 
-## Leadership Sekolah Islam
+## Membangun Tim Guru dan Tendik yang Solid, Produktif, & Loyal
 
-**Subjudul:** Membangun Tim Guru & Tenaga Kependidikan yang Solid, Produktif, dan Bertahan Lama
+**Fokus:** Membangun budaya kerja sekolah yang sehat, produktif, dan berkelanjutan
 
 ## Arah editorial
 

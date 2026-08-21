@@ -1,4 +1,4 @@
-/* Konten eBook Interaktif 52 — Leadership Sekolah Islam */
+/* Konten eBook Interaktif 52 — Membangun Tim Guru dan Tendik yang Solid, Produktif, & Loyal */
 (() => {
   const section = ([heading, paragraphs, extra = ""]) => `
     <h4>${heading}</h4>
@@ -462,8 +462,8 @@
   window.BOOK_CONTENT.asesmen = assessmentHtml;
   window.BOOK_META = {
     number: 52,
-    title: "Leadership Sekolah Islam",
-    subtitle: "Membangun Tim Guru dan Tenaga Kependidikan yang Solid, Produktif, dan Bertahan Lama",
+    title: "Membangun Tim Guru dan Tendik yang Solid, Produktif, & Loyal",
+    subtitle: "Panduan membangun budaya kerja sekolah yang sehat, produktif, dan berkelanjutan",
     chapterCount: chapters.length,
     videoId: "B4IjjEkImbg"
   };

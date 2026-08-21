@@ -1,4 +1,4 @@
-# Prompt Visual eBook Interaktif 52
+# Prompt Visual eBook Interaktif 52 — Membangun Tim Guru dan Tendik yang Solid, Produktif, & Loyal
 
 ## Arah visual umum
 
