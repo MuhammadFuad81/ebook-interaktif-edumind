@@ -1,0 +1,723 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-08-21T05:50:08.942Z",
+  "assetBaseUrl": "https://media.edumind.id/ebook-edumind",
+  "rootPrefix": "ebook-edumind/",
+  "folderPattern": "ebook-edumind/{id}-{slug}/",
+  "defaults": {
+    "format": "webp",
+    "loading": "lazy",
+    "decoding": "async",
+    "aspectRatio": "16/9"
+  },
+  "ebooks": [
+    {
+      "number": 1,
+      "id": "001",
+      "slug": "strategi-memasarkan-sekolah-islam",
+      "prefix": "ebook-edumind/001-strategi-memasarkan-sekolah-islam",
+      "cover": {
+        "status": "legacy-external",
+        "sourceUrl": "https://growva.biz.id/gambarbebas/20260726-064405_Cover%2001%20Revisi%20Juli%202026.png",
+        "r2Url": null
+      },
+      "visuals": [
+        {
+          "number": 1,
+          "assetId": "chapter-01",
+          "file": "chapter-01.webp",
+          "path": "ebook-edumind/001-strategi-memasarkan-sekolah-islam/chapter-01.webp",
+          "url": "https://media.edumind.id/ebook-edumind/001-strategi-memasarkan-sekolah-islam/chapter-01.webp",
+          "width": 1600,
+          "height": 900,
+          "bytes": 182686,
+          "sha256": "2313411f980aa2b85a823fd838ecad2e59ca13a3778576954ccca1e0fe8a2df1",
+          "alt": "Tim sekolah Islam memetakan perjalanan orang tua sambil memperlihatkan mutu pembelajaran dan layanan sekolah",
+          "caption": "Strategi pemasaran sekolah yang sehat menghubungkan mutu nyata, identitas yang jelas, layanan keluarga, dan komunikasi yang membantu orang tua mengambil keputusan.",
+          "status": "ready",
+          "r2Status": "blocked-auth",
+          "integrationStatus": "staged",
+          "qaStatus": "asset-preflight-passed",
+          "publishStatus": "pending",
+          "notes": "Menunggu otorisasi dashboard Cloudflare untuk unggah R2."
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "id": "002",
+      "slug": "panduan-pengembangan-kurikulum-sekolah-islam",
+      "prefix": "ebook-edumind/002-panduan-pengembangan-kurikulum-sekolah-islam",
+      "cover": {
+        "status": "legacy-external",
+        "sourceUrl": "https://growva.biz.id/gambarbebas/20260727-044851_Cover%2002%20-%20revisi.png",
+        "r2Url": null
+      },
+      "visuals": []
+    },
+    {
+      "number": 3,
+      "id": "003",
+      "slug": "strategi-implementasi-pendidikan-karakter-di-sekolah",
+      "prefix": "ebook-edumind/003-strategi-implementasi-pendidikan-karakter-di-sekolah",
+      "cover": {
+        "status": "legacy-external",
+        "sourceUrl": "https://growva.biz.id/gambarbebas/20260801-065759_Cover%2003.jpg",
+        "r2Url": null
+      },
+      "visuals": []
+    },
+    {
+      "number": 4,
+      "id": "004",
+      "slug": "strategi-penanganan-tunggakan-sekolah",
+      "prefix": "ebook-edumind/004-strategi-penanganan-tunggakan-sekolah",
+      "cover": {
+        "status": "legacy-external",
+        "sourceUrl": "https://growva.biz.id/gambarbebas/20260801-065808_Cover%2004.jpg",
+        "r2Url": null
+      },
+      "visuals": []
+    },
+    {
+      "number": 5,
+      "id": "005",
+      "slug": "pengembangan-diri-untuk-guru-profesional",
+      "prefix": "ebook-edumind/005-pengembangan-diri-untuk-guru-profesional",
+      "cover": {
+        "status": "legacy-external",
+        "sourceUrl": "https://growva.biz.id/gambarbebas/20260801-065821_Cover%2005.jpg",
+        "r2Url": null
+      },
+      "visuals": []
+    },
+    {
+      "number": 6,
+      "id": "006",
+      "slug": "menyelesaikan-masalah-siswa-dengan-tenang-tanpa-amarah",
+      "prefix": "ebook-edumind/006-menyelesaikan-masalah-siswa-dengan-tenang-tanpa-amarah",
+      "cover": {
+        "status": "legacy-external",
+        "sourceUrl": "https://growva.biz.id/gambarbebas/20260801-065840_Cover%2006%20-%20revisi.jpg",
+        "r2Url": null
+      },
+      "visuals": []
+    },
+    {
+      "number": 7,
+      "id": "007",
+      "slug": "murid-nurut-tanpa-harus-emosi",
+      "prefix": "ebook-edumind/007-murid-nurut-tanpa-harus-emosi",
+      "cover": {
+        "status": "legacy-external",
+        "sourceUrl": "https://growva.biz.id/gambarbebas/20260801-065851_Cover%2007.jpg",
+        "r2Url": null
+      },
+      "visuals": []
+    },
+    {
+      "number": 8,
+      "id": "008",
+      "slug": "solusi-kesulitan-belajar-dan-stres-pada-siswa",
+      "prefix": "ebook-edumind/008-solusi-kesulitan-belajar-dan-stres-pada-siswa",
+      "cover": {
+        "status": "legacy-external",
+        "sourceUrl": "https://growva.biz.id/gambarbebas/20260801-065909_Cover%2008.jpg",
+        "r2Url": null
+      },
+      "visuals": []
+    },
+    {
+      "number": 9,
+      "id": "009",
+      "slug": "strategi-levelisasi-guru",
+      "prefix": "ebook-edumind/009-strategi-levelisasi-guru",
+      "cover": {
+        "status": "legacy-external",
+        "sourceUrl": "https://growva.biz.id/gambarbebas/20260801-065916_Cover%2009%20-%20revisi.jpg",
+        "r2Url": null
+      },
+      "visuals": []
+    },
+    {
+      "number": 10,
+      "id": "010",
+      "slug": "100-hari-pertama-mengajar",
+      "prefix": "ebook-edumind/010-100-hari-pertama-mengajar",
+      "cover": {
+        "status": "legacy-external",
+        "sourceUrl": "https://growva.biz.id/gambarbebas/20260801-065925_Cover%2010.jpg",
+        "r2Url": null
+      },
+      "visuals": []
+    },
+    {
+      "number": 11,
+      "id": "011",
+      "slug": "100-hari-pertama-memimpin",
+      "prefix": "ebook-edumind/011-100-hari-pertama-memimpin",
+      "cover": {
+        "status": "legacy-external",
+        "sourceUrl": "https://growva.biz.id/gambarbebas/20260801-065946_Cover%2011.jpg",
+        "r2Url": null
+      },
+      "visuals": []
+    },
+    {
+      "number": 12,
+      "id": "012",
+      "slug": "100-hari-pertama-wali-kelas-membangun-budaya-dan-kelas-yang-kondusif",
+      "prefix": "ebook-edumind/012-100-hari-pertama-wali-kelas-membangun-budaya-dan-kelas-yang-kondusif",
+      "cover": {
+        "status": "legacy-external",
+        "sourceUrl": "https://growva.biz.id/gambarbebas/20260801-065954_Cover%2012.jpg",
+        "r2Url": null
+      },
+      "visuals": []
+    },
+    {
+      "number": 13,
+      "id": "013",
+      "slug": "kiat-menjaga-kesehatan-mental-guru",
+      "prefix": "ebook-edumind/013-kiat-menjaga-kesehatan-mental-guru",
+      "cover": {
+        "status": "legacy-external",
+        "sourceUrl": "https://growva.biz.id/gambarbebas/20260801-070006_Cover%2013.jpg",
+        "r2Url": null
+      },
+      "visuals": []
+    },
+    {
+      "number": 14,
+      "id": "014",
+      "slug": "strategi-teamwork-sekolah-islam",
+      "prefix": "ebook-edumind/014-strategi-teamwork-sekolah-islam",
+      "cover": {
+        "status": "legacy-external",
+        "sourceUrl": "https://growva.biz.id/gambarbebas/20260801-070013_Cover%2014%20-%20revisi.png",
+        "r2Url": null
+      },
+      "visuals": []
+    },
+    {
+      "number": 15,
+      "id": "015",
+      "slug": "menjadi-guru-produktif",
+      "prefix": "ebook-edumind/015-menjadi-guru-produktif",
+      "cover": {
+        "status": "legacy-external",
+        "sourceUrl": "https://growva.biz.id/gambarbebas/20260801-070020_Cover%2015%20-%20revisi.png",
+        "r2Url": null
+      },
+      "visuals": []
+    },
+    {
+      "number": 16,
+      "id": "016",
+      "slug": "komunikasi-efektif-dan-manajemen-kelas",
+      "prefix": "ebook-edumind/016-komunikasi-efektif-dan-manajemen-kelas",
+      "cover": {
+        "status": "legacy-external",
+        "sourceUrl": "https://growva.biz.id/gambarbebas/20260801-070028_Cover%2016.jpg",
+        "r2Url": null
+      },
+      "visuals": []
+    },
+    {
+      "number": 17,
+      "id": "017",
+      "slug": "mengembangkan-potensi-intelektual-anak",
+      "prefix": "ebook-edumind/017-mengembangkan-potensi-intelektual-anak",
+      "cover": {
+        "status": "legacy-external",
+        "sourceUrl": "https://growva.biz.id/gambarbebas/20260801-070037_Cover%2017.jpg",
+        "r2Url": null
+      },
+      "visuals": []
+    },
+    {
+      "number": 18,
+      "id": "018",
+      "slug": "manajemen-guru-di-sekolah-islam",
+      "prefix": "ebook-edumind/018-manajemen-guru-di-sekolah-islam",
+      "cover": {
+        "status": "legacy-external",
+        "sourceUrl": "https://growva.biz.id/gambarbebas/20260801-070045_Cover%2018.jpg",
+        "r2Url": null
+      },
+      "visuals": []
+    },
+    {
+      "number": 19,
+      "id": "019",
+      "slug": "membangun-sekolah-islam-bilingual",
+      "prefix": "ebook-edumind/019-membangun-sekolah-islam-bilingual",
+      "cover": {
+        "status": "legacy-external",
+        "sourceUrl": "https://growva.biz.id/gambarbebas/20260801-070057_Cover%2019%20-%20revisi.jpg",
+        "r2Url": null
+      },
+      "visuals": []
+    },
+    {
+      "number": 20,
+      "id": "020",
+      "slug": "supervisi-guru",
+      "prefix": "ebook-edumind/020-supervisi-guru",
+      "cover": {
+        "status": "legacy-external",
+        "sourceUrl": "https://growva.biz.id/gambarbebas/20260801-070112_Cover%2020%20-%20revisi.jpg",
+        "r2Url": null
+      },
+      "visuals": []
+    },
+    {
+      "number": 21,
+      "id": "021",
+      "slug": "kpi-sekolah-islam",
+      "prefix": "ebook-edumind/021-kpi-sekolah-islam",
+      "cover": {
+        "status": "legacy-external",
+        "sourceUrl": "https://growva.biz.id/gambarbebas/20260801-070125_Cover%2021%20-%20revisi.jpg",
+        "r2Url": null
+      },
+      "visuals": []
+    },
+    {
+      "number": 22,
+      "id": "022",
+      "slug": "teacherboost",
+      "prefix": "ebook-edumind/022-teacherboost",
+      "cover": {
+        "status": "legacy-external",
+        "sourceUrl": "https://growva.biz.id/gambarbebas/20260801-070134_Cover%2022.jpg",
+        "r2Url": null
+      },
+      "visuals": []
+    },
+    {
+      "number": 23,
+      "id": "023",
+      "slug": "program-kerja-sekolah-islam",
+      "prefix": "ebook-edumind/023-program-kerja-sekolah-islam",
+      "cover": {
+        "status": "legacy-external",
+        "sourceUrl": "https://growva.biz.id/gambarbebas/20260801-070142_Cover%2023%20-%20revisi.jpg",
+        "r2Url": null
+      },
+      "visuals": []
+    },
+    {
+      "number": 24,
+      "id": "024",
+      "slug": "kegiatan-sekolah-islam",
+      "prefix": "ebook-edumind/024-kegiatan-sekolah-islam",
+      "cover": {
+        "status": "legacy-external",
+        "sourceUrl": "https://growva.biz.id/gambarbebas/20260801-070149_Cover%2024.jpg",
+        "r2Url": null
+      },
+      "visuals": []
+    },
+    {
+      "number": 25,
+      "id": "025",
+      "slug": "manajemen-sekolah-islam-di-era-digital",
+      "prefix": "ebook-edumind/025-manajemen-sekolah-islam-di-era-digital",
+      "cover": {
+        "status": "legacy-external",
+        "sourceUrl": "https://growva.biz.id/gambarbebas/20260801-070156_Cover%2025.jpg",
+        "r2Url": null
+      },
+      "visuals": []
+    },
+    {
+      "number": 26,
+      "id": "026",
+      "slug": "analisis-swot-sekolah-islam",
+      "prefix": "ebook-edumind/026-analisis-swot-sekolah-islam",
+      "cover": {
+        "status": "legacy-external",
+        "sourceUrl": "https://growva.biz.id/gambarbebas/20260801-070202_Cover%2026%20-%20revisi.jpg",
+        "r2Url": null
+      },
+      "visuals": []
+    },
+    {
+      "number": 27,
+      "id": "027",
+      "slug": "monev-sekolah-islam",
+      "prefix": "ebook-edumind/027-monev-sekolah-islam",
+      "cover": {
+        "status": "legacy-external",
+        "sourceUrl": "https://growva.biz.id/gambarbebas/20260801-070208_Cover%2027%20-%20revisi.jpg",
+        "r2Url": null
+      },
+      "visuals": []
+    },
+    {
+      "number": 28,
+      "id": "028",
+      "slug": "cara-ngajar-lebih-bermakna-memahami-konsep-dan-praktik-deep-learning",
+      "prefix": "ebook-edumind/028-cara-ngajar-lebih-bermakna-memahami-konsep-dan-praktik-deep-learning",
+      "cover": {
+        "status": "legacy-external",
+        "sourceUrl": "https://growva.biz.id/gambarbebas/20260801-070214_Cover%2028.jpg",
+        "r2Url": null
+      },
+      "visuals": []
+    },
+    {
+      "number": 29,
+      "id": "029",
+      "slug": "strategi-implementasi-deep-learning-di-sekolah-islam",
+      "prefix": "ebook-edumind/029-strategi-implementasi-deep-learning-di-sekolah-islam",
+      "cover": {
+        "status": "legacy-external",
+        "sourceUrl": "https://growva.biz.id/gambarbebas/20260801-070220_Cover%2029.jpg",
+        "r2Url": null
+      },
+      "visuals": []
+    },
+    {
+      "number": 30,
+      "id": "030",
+      "slug": "desain-struktur-organisasi-dan-jobdes-optimalisasi-kinerja-tim-di-sekolah-islam",
+      "prefix": "ebook-edumind/030-desain-struktur-organisasi-dan-jobdes-optimalisasi-kinerja-tim-di-sekolah-islam",
+      "cover": {
+        "status": "legacy-external",
+        "sourceUrl": "https://growva.biz.id/gambarbebas/20260801-070227_Cover%2030.jpg",
+        "r2Url": null
+      },
+      "visuals": []
+    },
+    {
+      "number": 31,
+      "id": "031",
+      "slug": "pengelolaan-sekolah-islam-berbasis-mutu",
+      "prefix": "ebook-edumind/031-pengelolaan-sekolah-islam-berbasis-mutu",
+      "cover": {
+        "status": "legacy-external",
+        "sourceUrl": "https://growva.biz.id/gambarbebas/20260801-070233_Cover%2031.jpg",
+        "r2Url": null
+      },
+      "visuals": []
+    },
+    {
+      "number": 32,
+      "id": "032",
+      "slug": "16-model-kepemimpinan-strategi-efektif-memimpin-sekolah-islam",
+      "prefix": "ebook-edumind/032-16-model-kepemimpinan-strategi-efektif-memimpin-sekolah-islam",
+      "cover": {
+        "status": "legacy-external",
+        "sourceUrl": "https://growva.biz.id/gambarbebas/20260801-070238_Cover%2032.jpg",
+        "r2Url": null
+      },
+      "visuals": []
+    },
+    {
+      "number": 33,
+      "id": "033",
+      "slug": "13-langkah-strategis-dalam-manajemen-sdm-di-sekolah-islam",
+      "prefix": "ebook-edumind/033-13-langkah-strategis-dalam-manajemen-sdm-di-sekolah-islam",
+      "cover": {
+        "status": "legacy-external",
+        "sourceUrl": "https://growva.biz.id/gambarbebas/20260801-070247_Cover%2033.jpg",
+        "r2Url": null
+      },
+      "visuals": []
+    },
+    {
+      "number": 34,
+      "id": "034",
+      "slug": "merancang-renstra-sekolah-islam",
+      "prefix": "ebook-edumind/034-merancang-renstra-sekolah-islam",
+      "cover": {
+        "status": "legacy-external",
+        "sourceUrl": "https://growva.biz.id/gambarbebas/20260801-070253_Cover%2034.jpg",
+        "r2Url": null
+      },
+      "visuals": []
+    },
+    {
+      "number": 35,
+      "id": "035",
+      "slug": "transformasi-kesiswaan-dan-budaya-sekolah-islam-melalui-disiplin-positif",
+      "prefix": "ebook-edumind/035-transformasi-kesiswaan-dan-budaya-sekolah-islam-melalui-disiplin-positif",
+      "cover": {
+        "status": "legacy-external",
+        "sourceUrl": "https://growva.biz.id/gambarbebas/20260801-070300_Cover%2035.jpg",
+        "r2Url": null
+      },
+      "visuals": []
+    },
+    {
+      "number": 36,
+      "id": "036",
+      "slug": "membangun-sistem-administrasi-keuangan-sekolah-yang-tertib-dan-akuntabel",
+      "prefix": "ebook-edumind/036-membangun-sistem-administrasi-keuangan-sekolah-yang-tertib-dan-akuntabel",
+      "cover": {
+        "status": "legacy-external",
+        "sourceUrl": "https://growva.biz.id/gambarbebas/20260801-070306_Cover%2036.jpg",
+        "r2Url": null
+      },
+      "visuals": []
+    },
+    {
+      "number": 37,
+      "id": "037",
+      "slug": "desain-sekolah-quran-yang-unggul",
+      "prefix": "ebook-edumind/037-desain-sekolah-quran-yang-unggul",
+      "cover": {
+        "status": "legacy-external",
+        "sourceUrl": "https://growva.biz.id/gambarbebas/20260801-070317_Cover%2037.jpg",
+        "r2Url": null
+      },
+      "visuals": []
+    },
+    {
+      "number": 38,
+      "id": "038",
+      "slug": "pencegahan-dan-penanganan-masalah-kesehatan-mental-dan-lgbtq-di-sekolah-islam",
+      "prefix": "ebook-edumind/038-pencegahan-dan-penanganan-masalah-kesehatan-mental-dan-lgbtq-di-sekolah-islam",
+      "cover": {
+        "status": "legacy-external",
+        "sourceUrl": "https://growva.biz.id/gambarbebas/20260801-070327_Cover%2038.jpg",
+        "r2Url": null
+      },
+      "visuals": []
+    },
+    {
+      "number": 39,
+      "id": "039",
+      "slug": "sistem-deteksi-dini-masalah-siswa",
+      "prefix": "ebook-edumind/039-sistem-deteksi-dini-masalah-siswa",
+      "cover": {
+        "status": "legacy-external",
+        "sourceUrl": "https://growva.biz.id/gambarbebas/20260801-070337_Cover%2039.jpg",
+        "r2Url": null
+      },
+      "visuals": [
+        {
+          "number": 39,
+          "assetId": "chapter-01",
+          "file": "chapter-01.webp",
+          "path": "ebook-edumind/039-sistem-deteksi-dini-masalah-siswa/chapter-01.webp",
+          "url": "https://media.edumind.id/ebook-edumind/039-sistem-deteksi-dini-masalah-siswa/chapter-01.webp",
+          "width": 1600,
+          "height": 900,
+          "bytes": 124822,
+          "sha256": "0cc5ee25deefbdac0f51c090d0f475f3951dbfc55998b608fa96468b10a4eeb6",
+          "alt": "Guru mengamati sinyal kesulitan siswa dan berkoordinasi dengan konselor untuk merancang dukungan awal",
+          "caption": "Deteksi dini dimulai dari kepekaan terhadap pola, dilanjutkan dengan pencatatan dan kolaborasi, lalu diarahkan pada dukungan yang menjaga martabat siswa.",
+          "status": "ready",
+          "r2Status": "blocked-auth",
+          "integrationStatus": "staged",
+          "qaStatus": "asset-preflight-passed",
+          "publishStatus": "pending",
+          "notes": "Menunggu otorisasi dashboard Cloudflare untuk unggah R2."
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "id": "040",
+      "slug": "menangani-komplain-dengan-elegan-strategi-membangun-citra-positif-sekolah-islam",
+      "prefix": "ebook-edumind/040-menangani-komplain-dengan-elegan-strategi-membangun-citra-positif-sekolah-islam",
+      "cover": {
+        "status": "legacy-external",
+        "sourceUrl": "https://growva.biz.id/gambarbebas/20260801-070346_Cover%2040.jpg",
+        "r2Url": null
+      },
+      "visuals": []
+    },
+    {
+      "number": 41,
+      "id": "041",
+      "slug": "memotivasi-siswa-tanpa-paksaan-pendekatan-konseling-positif-di-kelas",
+      "prefix": "ebook-edumind/041-memotivasi-siswa-tanpa-paksaan-pendekatan-konseling-positif-di-kelas",
+      "cover": {
+        "status": "legacy-external",
+        "sourceUrl": "https://growva.biz.id/gambarbebas/20260801-070406_Cover%2041.jpg",
+        "r2Url": null
+      },
+      "visuals": []
+    },
+    {
+      "number": 42,
+      "id": "042",
+      "slug": "membuat-siswa-mau-belajar",
+      "prefix": "ebook-edumind/042-membuat-siswa-mau-belajar",
+      "cover": {
+        "status": "legacy-external",
+        "sourceUrl": "https://growva.biz.id/gambarbebas/20260801-070415_Cover%2042%20-%20revisi.jpg",
+        "r2Url": null
+      },
+      "visuals": []
+    },
+    {
+      "number": 43,
+      "id": "043",
+      "slug": "3-pegangan-guru-dalam-mendidik",
+      "prefix": "ebook-edumind/043-3-pegangan-guru-dalam-mendidik",
+      "cover": {
+        "status": "legacy-external",
+        "sourceUrl": "https://growva.biz.id/gambarbebas/20260801-070426_Cover%2043%20-%20revisi.jpg",
+        "r2Url": null
+      },
+      "visuals": []
+    },
+    {
+      "number": 44,
+      "id": "044",
+      "slug": "strategi-kepemimpinan-sekolah-islam",
+      "prefix": "ebook-edumind/044-strategi-kepemimpinan-sekolah-islam",
+      "cover": {
+        "status": "legacy-external",
+        "sourceUrl": "https://growva.biz.id/gambarbebas/20260801-070442_Cover%2044%20-%20revisi.jpg",
+        "r2Url": null
+      },
+      "visuals": []
+    },
+    {
+      "number": 45,
+      "id": "045",
+      "slug": "membangun-sekolah-islam-internasional-strategi-dan-harapan-baru-orang-tua",
+      "prefix": "ebook-edumind/045-membangun-sekolah-islam-internasional-strategi-dan-harapan-baru-orang-tua",
+      "cover": {
+        "status": "legacy-external",
+        "sourceUrl": "https://growva.biz.id/gambarbebas/20260801-070454_Cover%2045.jpg",
+        "r2Url": null
+      },
+      "visuals": []
+    },
+    {
+      "number": 46,
+      "id": "046",
+      "slug": "strategi-penguatan-mental-dan-motivasi-siswa-di-sekolah-islam",
+      "prefix": "ebook-edumind/046-strategi-penguatan-mental-dan-motivasi-siswa-di-sekolah-islam",
+      "cover": {
+        "status": "legacy-external",
+        "sourceUrl": "https://growva.biz.id/gambarbebas/20260801-070502_Cover%2046%20-%20revisi.jpg",
+        "r2Url": null
+      },
+      "visuals": []
+    },
+    {
+      "number": 47,
+      "id": "047",
+      "slug": "kepemimpinan-mutu-pembelajaran-di-sekolah-islam",
+      "prefix": "ebook-edumind/047-kepemimpinan-mutu-pembelajaran-di-sekolah-islam",
+      "cover": {
+        "status": "legacy-external",
+        "sourceUrl": "https://growva.biz.id/gambarbebas/20260801-070512_Cover%2047.jpg",
+        "r2Url": null
+      },
+      "visuals": []
+    },
+    {
+      "number": 48,
+      "id": "048",
+      "slug": "litbang-sekolah-islam-menguatkan-mutu-kbm-layanan-dan-promosi",
+      "prefix": "ebook-edumind/048-litbang-sekolah-islam-menguatkan-mutu-kbm-layanan-dan-promosi",
+      "cover": {
+        "status": "legacy-external",
+        "sourceUrl": "https://growva.biz.id/gambarbebas/20260801-070521_Cover%2048.jpg",
+        "r2Url": null
+      },
+      "visuals": []
+    },
+    {
+      "number": 49,
+      "id": "049",
+      "slug": "membangun-ekosistem-sekolah-islam-bebas-bullying-stres-dan-lgbt",
+      "prefix": "ebook-edumind/049-membangun-ekosistem-sekolah-islam-bebas-bullying-stres-dan-lgbt",
+      "cover": {
+        "status": "legacy-external",
+        "sourceUrl": "https://growva.biz.id/gambarbebas/20260801-070531_Cover%2049.jpg",
+        "r2Url": null
+      },
+      "visuals": []
+    },
+    {
+      "number": 50,
+      "id": "050",
+      "slug": "mengenali-dan-mengatasi-kesulitan-belajar-anak",
+      "prefix": "ebook-edumind/050-mengenali-dan-mengatasi-kesulitan-belajar-anak",
+      "cover": {
+        "status": "legacy-external",
+        "sourceUrl": "https://growva.biz.id/gambarbebas/20260817-090613_50%20-%20Mengenali%20dan%20Mengatasi%20Kesulitan%20Belajar%20Anak.png",
+        "r2Url": null
+      },
+      "visuals": []
+    },
+    {
+      "number": 51,
+      "id": "051",
+      "slug": "formula-one-stop-schooling",
+      "prefix": "ebook-edumind/051-formula-one-stop-schooling",
+      "cover": {
+        "status": "legacy-external",
+        "sourceUrl": "https://growva.biz.id/gambarbebas/20260817-090408_51%20-%20Formula%20One%20Stop%20Schooling.png",
+        "r2Url": null
+      },
+      "visuals": []
+    },
+    {
+      "number": 52,
+      "id": "052",
+      "slug": "membangun-tim-guru-dan-tendik-yang-solid-produktif-dan-loyal",
+      "prefix": "ebook-edumind/052-membangun-tim-guru-dan-tendik-yang-solid-produktif-dan-loyal",
+      "cover": {
+        "status": "legacy-external",
+        "sourceUrl": "https://growva.biz.id/gambarbebas/20260821-092308_52%20-%20Membangun%20Tim%20Guru%20dan%20Tendik%20yang%20Solid,%20Produktif,%20&amp;%20Loyal.png",
+        "r2Url": null
+      },
+      "visuals": []
+    },
+    {
+      "number": 53,
+      "id": "053",
+      "slug": "supervisi-yang-berdampak",
+      "prefix": "ebook-edumind/053-supervisi-yang-berdampak",
+      "cover": {
+        "status": "missing",
+        "sourceUrl": null,
+        "r2Url": null
+      },
+      "visuals": [
+        {
+          "number": 53,
+          "assetId": "chapter-01",
+          "file": "chapter-01.webp",
+          "path": "ebook-edumind/053-supervisi-yang-berdampak/chapter-01.webp",
+          "url": "https://media.edumind.id/ebook-edumind/053-supervisi-yang-berdampak/chapter-01.webp",
+          "width": 1600,
+          "height": 900,
+          "bytes": 183008,
+          "sha256": "7fb829eccb746dc1237eacdf7497a4948ab382e199c4ace6ef7485da39e231eb",
+          "alt": "Guru dan supervisor menelaah bukti pembelajaran secara kolegial dengan aktivitas murid terlihat di kelas",
+          "caption": "Supervisi menjadi pembelajaran profesional ketika bukti kelas dibaca bersama, umpan balik diarahkan pada tindakan, dan tindak lanjut dinilai dari perubahan yang dialami murid.",
+          "status": "ready",
+          "r2Status": "blocked-auth",
+          "integrationStatus": "staged",
+          "qaStatus": "asset-preflight-passed",
+          "publishStatus": "pending",
+          "notes": "Menunggu otorisasi dashboard Cloudflare untuk unggah R2."
+        }
+      ]
+    },
+    {
+      "number": 54,
+      "id": "054",
+      "slug": "blueprint-spmb-sekolah-islam-kepemimpinan-strategis-dari-perencanaan-hingga-murid-bergabung",
+      "prefix": "ebook-edumind/054-blueprint-spmb-sekolah-islam-kepemimpinan-strategis-dari-perencanaan-hingga-murid-bergabung",
+      "cover": {
+        "status": "legacy-external",
+        "sourceUrl": "https://growva.biz.id/gambarbebas/20260801-070558_Cover%2054.jpg",
+        "r2Url": null
+      },
+      "visuals": []
+    }
+  ]
+}

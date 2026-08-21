@@ -4,7 +4,7 @@
    lewat window.BOOK_CONTENT lalu disuntikkan ke #page-<key> saat aplikasi dibuka.
 
    Setelah mengedit file ini di GitHub, jangan lupa purge cache jsDelivr:
-   https://purge.jsdelivr.net/gh/MuhammadFuad81/webbook-edumind@main/content-kesulitan-belajar-stres-siswa.js
+   https://purge.jsdelivr.net/gh/MuhammadFuad81/ebook-interaktif-edumind@main/content-kesulitan-belajar-stres-siswa.js
    ========================================================================== */
 window.BOOK_CONTENT = {
 

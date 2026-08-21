@@ -13,7 +13,7 @@
    ditempel ke growva jadi pendek & konstan, tidak peduli seberapa panjang buku.
 
    Setelah mengedit file ini di GitHub, jangan lupa purge cache jsDelivr:
-   https://purge.jsdelivr.net/gh/MuhammadFuad81/webbook-edumind@main/content-pengembangan-diri-guru-profesional.js
+   https://purge.jsdelivr.net/gh/MuhammadFuad81/ebook-interaktif-edumind@main/content-pengembangan-diri-guru-profesional.js
    ========================================================================== */
 window.BOOK_CONTENT = {
 

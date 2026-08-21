@@ -13,7 +13,7 @@
    ditempel ke growva jadi pendek & konstan, tidak peduli seberapa panjang buku.
 
    Setelah mengedit file ini di GitHub, jangan lupa purge cache jsDelivr:
-   https://purge.jsdelivr.net/gh/MuhammadFuad81/webbook-edumind@main/content-deteksi-dini-masalah-siswa.js
+   https://purge.jsdelivr.net/gh/MuhammadFuad81/ebook-interaktif-edumind@main/content-deteksi-dini-masalah-siswa.js
    ========================================================================== */
 window.BOOK_CONTENT = {
 
@@ -21,6 +21,11 @@ bab1: `
 <p class="eyebrow reveal">Bab 1</p>
 <h2 class="reveal">Konsep Dasar Deteksi Dini Masalah Siswa</h2>
 <p class="lede reveal">Sebelum sekolah mampu merespons masalah siswa secara tepat, perlu dipahami dulu apa sebenarnya deteksi dini, mengapa ia berbeda dari sekadar menunggu masalah membesar, tujuan strategis di baliknya, dan prinsip-prinsip yang menjaga agar sistem ini berjalan adil serta bermutu bagi setiap siswa.</p>
+
+<figure class="chapter-visual reveal" data-asset-id="chapter-01">
+  <div class="chapter-visual-frame"><img src="https://media.edumind.id/ebook-edumind/039-sistem-deteksi-dini-masalah-siswa/chapter-01.webp" alt="Guru mengamati sinyal kesulitan siswa dan berkoordinasi dengan konselor untuk merancang dukungan awal" loading="lazy" decoding="async"></div>
+  <figcaption>Deteksi dini dimulai dari kepekaan terhadap pola, dilanjutkan dengan pencatatan dan kolaborasi, lalu diarahkan pada dukungan yang menjaga martabat siswa.</figcaption>
+</figure>
 
 <div class="card reveal">
   <h4>A. Pengertian Deteksi Dini dalam Konteks Sekolah</h4>

@@ -23,6 +23,7 @@
     '<p class="eyebrow reveal">Bab ' + number + "</p>" +
     '<h2 class="reveal">' + data.title + "</h2>" +
     '<p class="lede reveal">' + data.lede + "</p>" +
+    (data.visual || "") +
     '<div class="card reveal">' + data.sections.map(section).join("") + "</div>" +
     '<div class="reflect-box reveal"><h3>Refleksi</h3><p>' + data.reflection +
     '</p><textarea placeholder="Tulis pengamatan atau rencana Anda di sini..."></textarea></div>' +
@@ -37,6 +38,7 @@
     {
       title: "Dari Inspeksi ke Pembelajaran",
       lede: "Supervisi kehilangan daya ketika kunjungan kelas hanya menghasilkan skor, tanda tangan, dan kecemasan. Ia mulai berdampak ketika sekolah menggunakannya untuk menjawab satu pertanyaan yang lebih penting: perubahan apa pada praktik mengajar yang akan membuat murid belajar lebih baik?",
+      visual: '<figure class="chapter-visual reveal" data-asset-id="chapter-01"><div class="chapter-visual-frame"><img src="https://media.edumind.id/ebook-edumind/053-supervisi-yang-berdampak/chapter-01.webp" alt="Guru dan supervisor menelaah bukti pembelajaran secara kolegial dengan aktivitas murid terlihat di kelas" loading="lazy" decoding="async"></div><figcaption>Supervisi menjadi pembelajaran profesional ketika bukti kelas dibaca bersama, umpan balik diarahkan pada tindakan, dan tindak lanjut dinilai dari perubahan yang dialami murid.</figcaption></figure>',
       sections: [
         ["Murid adalah Alasan Utama", [
           "Supervisi sering dibicarakan seolah-olah pusatnya adalah guru dan supervisor. Padahal keduanya sedang bekerja untuk pihak ketiga yang tidak boleh hilang dari pandangan: murid. Kehadiran observer, instrumen, dan percakapan setelah kelas baru bernilai jika membantu guru membuat keputusan pembelajaran yang lebih tepat.",

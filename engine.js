@@ -61,7 +61,6 @@ function logout(){
   location.reload();
 }
 const existingSession = sessionStorage.getItem(BOOK_ID+'-session');
-if(existingSession){ openApp(); }
 if(!FREE_PREVIEW){ document.addEventListener('DOMContentLoaded', ()=>{ const b=document.getElementById('previewBtn'); if(b) b.style.display='none'; }); }
 
 /* ---------- MODE GELAP ---------- */
@@ -406,6 +405,30 @@ function injectContent(){
   });
 }
 
+/* ---------- GAMBAR BAB RESPONSIF ----------
+   Markup standar:
+   <figure class="chapter-visual" data-asset-id="chapter-01">
+     <div class="chapter-visual-frame"><img src="..." alt="..." loading="lazy" decoding="async"></div>
+     <figcaption>...</figcaption>
+   </figure>
+
+   Atribut lazy/async dipastikan kembali di sini agar markup lama dan markup hasil
+   produksi otomatis memperoleh perilaku yang sama. Jika aset gagal dimuat,
+   komponen menampilkan pesan yang ramah tanpa merusak susunan halaman. */
+function initChapterVisuals(){
+  document.querySelectorAll('.chapter-visual img').forEach(img=>{
+    if(!img.hasAttribute('loading')) img.loading = 'lazy';
+    if(!img.hasAttribute('decoding')) img.decoding = 'async';
+    const figure = img.closest('.chapter-visual');
+    const markBroken = ()=>{
+      if(figure) figure.classList.add('is-broken');
+      img.setAttribute('aria-hidden','true');
+    };
+    if(img.complete && img.naturalWidth === 0) markBroken();
+    else img.addEventListener('error', markBroken, {once:true});
+  });
+}
+
 /* ---------- BAR NAVIGASI STICKY (Sebelumnya / label bab / Selanjutnya) ----------
    Dibuat lewat JS (bukan ditulis manual di tiap HTML buku) supaya begitu diaktifkan
    di engine.js, langsung berlaku otomatis untuk buku ini maupun 40+ buku lain yang
@@ -451,10 +474,18 @@ function updateStickyNav(){
 /* ---------- INIT ---------- */
 function initApp(){
   injectContent();
+  initChapterVisuals();
   renderStickyNav();
   updateProgressUI();
   renderChips();
   renderCatalog();
   renderRoute();
 }
-if(document.getElementById('app') && document.getElementById('app').classList.contains('active')) initApp();
+/* Pemulihan sesi dijalankan paling akhir, setelah seluruh const/fungsi engine
+   selesai diinisialisasi. Ini mencegah error temporal-dead-zone saat halaman
+   dimuat ulang dan sessionStorage masih berisi sesi pembaca. */
+if(existingSession){
+  openApp();
+} else if(document.getElementById('app') && document.getElementById('app').classList.contains('active')){
+  initApp();
+}

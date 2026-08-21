@@ -22,6 +22,11 @@ bab1: `
 <h2 class="reveal">Pendahuluan — Mengapa Sekolah Islam Butuh Strategi Pemasaran</h2>
 <p class="lede reveal">Di tengah gempuran pilihan sekolah dan orang tua yang makin melek digital, sekolah Islam tak lagi cukup mengandalkan nama baik — dibutuhkan strategi pemasaran yang cerdas untuk merebut hati calon siswa sekaligus mempertahankan loyalitas mereka.</p>
 
+<figure class="chapter-visual reveal" data-asset-id="chapter-01">
+  <div class="chapter-visual-frame"><img src="https://media.edumind.id/ebook-edumind/001-strategi-memasarkan-sekolah-islam/chapter-01.webp" alt="Tim sekolah Islam memetakan perjalanan orang tua sambil memperlihatkan mutu pembelajaran dan layanan sekolah" loading="lazy" decoding="async"></div>
+  <figcaption>Strategi pemasaran sekolah yang sehat menghubungkan mutu nyata, identitas yang jelas, layanan keluarga, dan komunikasi yang membantu orang tua mengambil keputusan.</figcaption>
+</figure>
+
 <div class="card reveal">
   <h4>A. Mengapa Strategi Pemasaran Penting Bagi Sekolah Islam?</h4>
   <p>Di era digital, persaingan antar sekolah — termasuk sekolah Islam — semakin ketat. Setidaknya ada tiga faktor pendorongnya. Pertama, jumlah sekolah Islam terus bertambah sehingga pilihan yang tersedia bagi orang tua jauh lebih banyak dibanding sepuluh atau dua puluh tahun lalu. Kedua, kebutuhan dan keinginan orang tua terhadap pendidikan anak semakin tinggi; mereka tidak lagi sekadar mencari "sekolah yang mengajarkan agama", melainkan sekolah yang benar-benar berkualitas secara akademik sekaligus kuat nilai keislamannya. Ketiga, kemudahan akses informasi lewat internet membuat orang tua bisa membandingkan puluhan sekolah hanya lewat gawai sebelum memutuskan, sehingga sekolah yang tidak tampil di ranah digital berisiko tidak pernah dipertimbangkan sama sekali.</p>

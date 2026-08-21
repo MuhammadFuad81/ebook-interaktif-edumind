@@ -1,4 +1,5 @@
 .transcription-tools/
 .qa-frames/
+.qa-pilot/
 __pycache__/
 *.pyc
