@@ -14,25 +14,33 @@ const ok = condition => condition;
 const fail = message => errors.push(message);
 
 const files = fs.readdirSync(ROOT);
-const htmlFiles = files.filter(name => /^\d{2} - .+ - untuk Growva\.html$/.test(name)).sort();
+const htmlFiles = files.filter(name => /^\d{3} - .+ - untuk Growva\.html$/.test(name)).sort();
 const contentFiles = files.filter(name => /^\d{2} - .+ - content\.js$/.test(name)).sort();
 if (htmlFiles.length !== 54) fail(`HTML resmi: ${htmlFiles.length}, seharusnya 54`);
 if (contentFiles.length !== 54) fail(`Content JS: ${contentFiles.length}, seharusnya 54`);
 
 for (let number = 1; number <= 54; number += 1) {
-  const prefix = String(number).padStart(2, '0') + ' - ';
-  const htmlName = htmlFiles.find(name => name.startsWith(prefix));
-  const contentName = contentFiles.find(name => name.startsWith(prefix));
+  const htmlPrefix = String(number).padStart(3, '0') + ' - ';
+  const contentPrefix = String(number).padStart(2, '0') + ' - ';
+  const htmlName = htmlFiles.find(name => name.startsWith(htmlPrefix));
+  const contentName = contentFiles.find(name => name.startsWith(contentPrefix));
   if (!htmlName || !contentName) {
     fail(`Pasangan file nomor ${number} tidak lengkap`);
     continue;
   }
   const html = fs.readFileSync(path.join(ROOT, htmlName), 'utf8');
   const content = fs.readFileSync(path.join(ROOT, contentName), 'utf8');
-  const expectedLoginLabel = `Ebook Interaktif - ${String(number).padStart(2, '0')}`;
+  const numberId = String(number).padStart(3, '0');
+  const expectedLoginLabel = `Ebook Interaktif - ${numberId}`;
   const loginLabelMatch = html.match(/<div class="gate-card">\s*<p class="eyebrow">([^<]+)<\/p>/s);
   if (loginLabelMatch?.[1] !== expectedLoginLabel) {
     fail(`${htmlName}: label login harus "${expectedLoginLabel}"`);
+  }
+  if (!new RegExp(`validUser\\s*:\\s*["']edumind["']`).test(html)) {
+    fail(`${htmlName}: validUser harus "edumind"`);
+  }
+  if (!new RegExp(`validPass\\s*:\\s*["']ebook${numberId}["']`).test(html)) {
+    fail(`${htmlName}: validPass harus "ebook${numberId}"`);
   }
   if (!html.includes('MuhammadFuad81/ebook-interaktif-edumind@main')) fail(`${htmlName}: CDN kanonik tidak ditemukan`);
   if (html.includes('MuhammadFuad81/webbook-edumind')) fail(`${htmlName}: CDN lama masih ada`);
@@ -109,6 +117,6 @@ if (errors.length) {
 }
 console.log('VALIDASI LULUS');
 console.log(`- 54 HTML + 54 content.js berpasangan`);
-console.log(`- 54 label login dan ukuran catatan akses seragam`);
+console.log(`- 54 label login, username, password, dan ukuran catatan akses seragam`);
 console.log(`- 54 entri katalog + 54 entri manifest`);
 console.log(`- Pilot 001, 039, 053: markup responsif dan checksum aset valid`);

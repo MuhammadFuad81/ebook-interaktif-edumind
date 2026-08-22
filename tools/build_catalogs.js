@@ -6,7 +6,7 @@ const path = require('path');
 const ROOT = path.resolve(__dirname, '..');
 const CDN_BASE = 'https://cdn.jsdelivr.net/gh/MuhammadFuad81/ebook-interaktif-edumind@main';
 const R2_BASE = 'https://media.edumind.id/ebook-edumind';
-const htmlPattern = /^(\d{2}) - (.+) - untuk Growva\.html$/;
+const htmlPattern = /^(\d{3}) - (.+) - untuk Growva\.html$/;
 
 function slugify(value) {
   return value
