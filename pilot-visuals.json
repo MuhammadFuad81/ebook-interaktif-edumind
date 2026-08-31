@@ -57,6 +57,25 @@
       "qaStatus": "passed",
       "publishStatus": "published",
       "notes": "URL R2 terverifikasi HTTP 200, image/webp, 183008 byte."
+    },
+    {
+      "number": 55,
+      "assetId": "chapter-01",
+      "file": "chapter-01.webp",
+      "path": "ebook-edumind/055-benahi-pembukuan-sekolah-islam/chapter-01.webp",
+      "url": "https://media.edumind.id/ebook-edumind/055-benahi-pembukuan-sekolah-islam/chapter-01.webp",
+      "width": 1600,
+      "height": 900,
+      "bytes": 125162,
+      "sha256": "3b843dbd34c54741c5a56b21fbab8d8c0542bf47eeab31b1a7db2f427dfdff12",
+      "alt": "Tim keuangan sekolah Islam menata bukti transaksi, buku kas, dan rekonsiliasi dalam satu alur kerja yang tertib",
+      "caption": "Pembukuan yang akuntabel tumbuh dari kebiasaan sederhana: setiap transaksi memiliki bukti, dicatat pada akun yang tepat, direkonsiliasi, lalu diringkas menjadi laporan yang dapat dipercaya.",
+      "status": "complete",
+      "r2Status": "uploaded",
+      "integrationStatus": "complete",
+      "qaStatus": "passed",
+      "publishStatus": "published",
+      "notes": "Cover dan visual Bab 1 tersimpan di R2; chapter-01.webp berukuran 1600x900 dan terintegrasi dengan komponen gambar responsif."
     }
   ]
 }
