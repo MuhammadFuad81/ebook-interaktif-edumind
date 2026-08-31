@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-/* Membangun katalog produksi dari 54 HTML resmi. Jalankan dari root repositori. */
+/* Membangun katalog produksi dari 55 HTML resmi. Jalankan dari root repositori. */
 const fs = require('fs');
 const path = require('path');
 
@@ -64,6 +64,7 @@ const ebooks = fs.readdirSync(ROOT)
     ]);
     const id = String(number).padStart(3, '0');
     const slug = slugify(title);
+    const pilot = pilotByNumber.get(number);
     const contentFile = contentByNumber.get(number);
     if (!contentFile) throw new Error(`Content JS tidak ditemukan untuk nomor ${number}`);
     if (!chapterCount) throw new Error(`Daftar bab tidak terbaca pada ${name}`);
@@ -79,13 +80,13 @@ const ebooks = fs.readdirSync(ROOT)
       videoId,
       htmlUrl: `${CDN_BASE}/${encodeFile(name)}`,
       contentUrl: `${CDN_BASE}/${encodeFile(contentFile)}`,
-      assetPrefix: `ebook-edumind/${id}-${slug}`,
+      assetPrefix: pilot?.path ? path.posix.dirname(pilot.path) : `ebook-edumind/${id}-${slug}`,
       status: 'published'
     };
   })
   .sort((a, b) => a.number - b.number);
 
-if (ebooks.length !== 54) throw new Error(`Jumlah resmi harus 54, ditemukan ${ebooks.length}`);
+if (ebooks.length !== 55) throw new Error(`Jumlah resmi harus 55, ditemukan ${ebooks.length}`);
 ebooks.forEach((book, index) => {
   if (book.number !== index + 1) throw new Error(`Nomor tidak berurutan pada posisi ${index + 1}`);
 });
@@ -111,13 +112,16 @@ const assetManifest = {
   defaults: { format: 'webp', loading: 'lazy', decoding: 'async', aspectRatio: '16/9' },
   ebooks: ebooks.map(book => {
     const pilot = pilotByNumber.get(book.number);
+    const coverIsR2 = /^https:\/\/media\.edumind\.id\/ebook-edumind\//i.test(book.coverUrl || '');
     return {
       number: book.number,
       id: book.id,
       slug: book.slug,
       prefix: book.assetPrefix,
       cover: book.coverUrl
-        ? { status: 'legacy-external', sourceUrl: book.coverUrl, r2Url: null }
+        ? coverIsR2
+          ? { status: 'r2-ready', sourceUrl: null, r2Url: book.coverUrl }
+          : { status: 'legacy-external', sourceUrl: book.coverUrl, r2Url: null }
         : { status: 'missing', sourceUrl: null, r2Url: null },
       visuals: pilot ? [pilot] : []
     };

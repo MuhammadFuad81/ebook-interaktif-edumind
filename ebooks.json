@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-08-22T02:16:46.708Z",
-  "count": 54,
+  "generatedAt": "2026-08-31T03:19:16.398Z",
+  "count": 55,
   "canonicalRepository": "https://github.com/MuhammadFuad81/ebook-interaktif-edumind",
   "canonicalBranch": "main",
   "cdnBaseUrl": "https://cdn.jsdelivr.net/gh/MuhammadFuad81/ebook-interaktif-edumind@main",
@@ -815,6 +815,21 @@
       "htmlUrl": "https://cdn.jsdelivr.net/gh/MuhammadFuad81/ebook-interaktif-edumind@main/054%20-%20Blueprint%20SPMB%20Sekolah%20Islam%20-%20Kepemimpinan%20Strategis%20dari%20Perencanaan%20hingga%20Murid%20Bergabung%20-%20untuk%20Growva.html",
       "contentUrl": "https://cdn.jsdelivr.net/gh/MuhammadFuad81/ebook-interaktif-edumind@main/54%20-%20Blueprint%20SPMB%20Sekolah%20Islam%20-%20Kepemimpinan%20Strategis%20dari%20Perencanaan%20hingga%20Murid%20Bergabung%20-%20content.js",
       "assetPrefix": "ebook-edumind/054-blueprint-spmb-sekolah-islam-kepemimpinan-strategis-dari-perencanaan-hingga-murid-bergabung",
+      "status": "published"
+    },
+    {
+      "number": 55,
+      "id": "055",
+      "title": "Benahi Pembukuan Sekolah Islam - Cara menata transaksi, dokumen, dan saldo kas sebagai dasar laporan keuangan yang akuntabel",
+      "slug": "benahi-pembukuan-sekolah-islam-cara-menata-transaksi-dokumen-dan-saldo-kas-sebagai-dasar-laporan-keuangan-yang-akuntabel",
+      "htmlFile": "055 - Benahi Pembukuan Sekolah Islam - Cara menata transaksi, dokumen, dan saldo kas sebagai dasar laporan keuangan yang akuntabel - untuk Growva.html",
+      "contentFile": "55 - Benahi Pembukuan Sekolah Islam - content.js",
+      "chapterCount": 11,
+      "coverUrl": "https://media.edumind.id/ebook-edumind/055-benahi-pembukuan-sekolah-islam/cover.webp?v=20260831-1",
+      "videoId": "0sylbsaJrn8",
+      "htmlUrl": "https://cdn.jsdelivr.net/gh/MuhammadFuad81/ebook-interaktif-edumind@main/055%20-%20Benahi%20Pembukuan%20Sekolah%20Islam%20-%20Cara%20menata%20transaksi%2C%20dokumen%2C%20dan%20saldo%20kas%20sebagai%20dasar%20laporan%20keuangan%20yang%20akuntabel%20-%20untuk%20Growva.html",
+      "contentUrl": "https://cdn.jsdelivr.net/gh/MuhammadFuad81/ebook-interaktif-edumind@main/55%20-%20Benahi%20Pembukuan%20Sekolah%20Islam%20-%20content.js",
+      "assetPrefix": "ebook-edumind/055-benahi-pembukuan-sekolah-islam",
       "status": "published"
     }
   ]
