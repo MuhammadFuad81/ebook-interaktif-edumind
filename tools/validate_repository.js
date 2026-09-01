@@ -16,10 +16,10 @@ const fail = message => errors.push(message);
 const files = fs.readdirSync(ROOT);
 const htmlFiles = files.filter(name => /^\d{3} - .+ - untuk Growva\.html$/.test(name)).sort();
 const contentFiles = files.filter(name => /^\d{2} - .+ - content\.js$/.test(name)).sort();
-if (htmlFiles.length !== 55) fail(`HTML resmi: ${htmlFiles.length}, seharusnya 55`);
-if (contentFiles.length !== 55) fail(`Content JS: ${contentFiles.length}, seharusnya 55`);
+if (htmlFiles.length !== 56) fail(`HTML resmi: ${htmlFiles.length}, seharusnya 56`);
+if (contentFiles.length !== 56) fail(`Content JS: ${contentFiles.length}, seharusnya 56`);
 
-for (let number = 1; number <= 55; number += 1) {
+for (let number = 1; number <= 56; number += 1) {
   const htmlPrefix = String(number).padStart(3, '0') + ' - ';
   const contentPrefix = String(number).padStart(2, '0') + ' - ';
   const htmlName = htmlFiles.find(name => name.startsWith(htmlPrefix));
@@ -64,7 +64,7 @@ for (let number = 1; number <= 55; number += 1) {
   if (!bookContent || typeof bookContent !== 'object') fail(`${contentName}: BOOK_CONTENT tidak terbentuk`);
   if (!bookContent?.bab1 || !bookContent?.asesmen) fail(`${contentName}: bab1/asesmen tidak lengkap`);
 
-  if ([1, 39, 53, 55].includes(number)) {
+  if ([1, 39, 53, 55, 56].includes(number)) {
     const chapter = bookContent?.bab1 || '';
     const figureCount = (chapter.match(/class="chapter-visual(?:\s|")/g) || []).length;
     if (figureCount !== 1) fail(`${contentName}: visual Bab 1 berjumlah ${figureCount}, seharusnya 1`);
@@ -81,11 +81,11 @@ for (const name of files.filter(name => /\.(js|html|css|md|json)$/.test(name))) 
 
 const catalog = JSON.parse(fs.readFileSync(path.join(ROOT, 'ebooks.json'), 'utf8'));
 const manifest = JSON.parse(fs.readFileSync(path.join(ROOT, 'asset-manifest.json'), 'utf8'));
-if (catalog.count !== 55 || catalog.ebooks?.length !== 55) fail('ebooks.json tidak berisi tepat 55 eBook');
-if (manifest.ebooks?.length !== 55) fail('asset-manifest.json tidak berisi tepat 55 eBook');
+if (catalog.count !== 56 || catalog.ebooks?.length !== 56) fail('ebooks.json tidak berisi tepat 56 eBook');
+if (manifest.ebooks?.length !== 56) fail('asset-manifest.json tidak berisi tepat 56 eBook');
 
 const pilotVisuals = manifest.ebooks.flatMap(book => book.visuals || []);
-if (pilotVisuals.length !== 4) fail(`Visual pilot pada manifest: ${pilotVisuals.length}, seharusnya 4`);
+if (pilotVisuals.length !== 5) fail(`Visual pilot pada manifest: ${pilotVisuals.length}, seharusnya 5`);
 if (assetRoot) {
   for (const visual of pilotVisuals) {
     const filePath = path.join(assetRoot, ...visual.path.split('/').slice(1));
@@ -116,7 +116,7 @@ if (errors.length) {
   process.exit(1);
 }
 console.log('VALIDASI LULUS');
-console.log(`- 55 HTML + 55 content.js berpasangan`);
-console.log(`- 55 label login, username, password, dan ukuran catatan akses seragam`);
-console.log(`- 55 entri katalog + 55 entri manifest`);
-console.log(`- Pilot 001, 039, 053, 055: markup responsif dan checksum aset valid`);
+console.log(`- 56 HTML + 56 content.js berpasangan`);
+console.log(`- 56 label login, username, password, dan ukuran catatan akses seragam`);
+console.log(`- 56 entri katalog + 56 entri manifest`);
+console.log(`- Pilot 001, 039, 053, 055, 056: markup responsif dan checksum aset valid`);

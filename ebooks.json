@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-08-31T03:19:16.398Z",
-  "count": 55,
+  "generatedAt": "2026-09-01T23:09:06.486Z",
+  "count": 56,
   "canonicalRepository": "https://github.com/MuhammadFuad81/ebook-interaktif-edumind",
   "canonicalBranch": "main",
   "cdnBaseUrl": "https://cdn.jsdelivr.net/gh/MuhammadFuad81/ebook-interaktif-edumind@main",
@@ -830,6 +830,21 @@
       "htmlUrl": "https://cdn.jsdelivr.net/gh/MuhammadFuad81/ebook-interaktif-edumind@main/055%20-%20Benahi%20Pembukuan%20Sekolah%20Islam%20-%20Cara%20menata%20transaksi%2C%20dokumen%2C%20dan%20saldo%20kas%20sebagai%20dasar%20laporan%20keuangan%20yang%20akuntabel%20-%20untuk%20Growva.html",
       "contentUrl": "https://cdn.jsdelivr.net/gh/MuhammadFuad81/ebook-interaktif-edumind@main/55%20-%20Benahi%20Pembukuan%20Sekolah%20Islam%20-%20content.js",
       "assetPrefix": "ebook-edumind/055-benahi-pembukuan-sekolah-islam",
+      "status": "published"
+    },
+    {
+      "number": 56,
+      "id": "056",
+      "title": "Membangun dan Menguatkan Sekolah Islam Bertaraf Global - Roadmap Strategis bagi Sekolah Islam yang Sedang Menuju maupun Telah Berstandar Internasional",
+      "slug": "membangun-dan-menguatkan-sekolah-islam-bertaraf-global-roadmap-strategis-bagi-sekolah-islam-yang-sedang-menuju-maupun-telah-berstandar-internasional",
+      "htmlFile": "056 - Membangun dan Menguatkan Sekolah Islam Bertaraf Global - Roadmap Strategis bagi Sekolah Islam yang Sedang Menuju maupun Telah Berstandar Internasional - untuk Growva.html",
+      "contentFile": "56 - Membangun dan Menguatkan Sekolah Islam Bertaraf Global - content.js",
+      "chapterCount": 12,
+      "coverUrl": "https://media.edumind.id/ebook-edumind/056-sekolah-islam-bertaraf-global/cover.webp?v=20260901-1",
+      "videoId": "WBD92H_-kPM",
+      "htmlUrl": "https://cdn.jsdelivr.net/gh/MuhammadFuad81/ebook-interaktif-edumind@main/056%20-%20Membangun%20dan%20Menguatkan%20Sekolah%20Islam%20Bertaraf%20Global%20-%20Roadmap%20Strategis%20bagi%20Sekolah%20Islam%20yang%20Sedang%20Menuju%20maupun%20Telah%20Berstandar%20Internasional%20-%20untuk%20Growva.html",
+      "contentUrl": "https://cdn.jsdelivr.net/gh/MuhammadFuad81/ebook-interaktif-edumind@main/56%20-%20Membangun%20dan%20Menguatkan%20Sekolah%20Islam%20Bertaraf%20Global%20-%20content.js",
+      "assetPrefix": "ebook-edumind/056-sekolah-islam-bertaraf-global",
       "status": "published"
     }
   ]
