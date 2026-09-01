@@ -76,6 +76,25 @@
       "qaStatus": "passed",
       "publishStatus": "published",
       "notes": "Cover dan visual Bab 1 tersimpan di R2; chapter-01.webp berukuran 1600x900 dan terintegrasi dengan komponen gambar responsif."
+    },
+    {
+      "number": 56,
+      "assetId": "chapter-01",
+      "file": "chapter-01.webp",
+      "path": "ebook-edumind/056-sekolah-islam-bertaraf-global/chapter-01.webp",
+      "url": "https://media.edumind.id/ebook-edumind/056-sekolah-islam-bertaraf-global/chapter-01.webp",
+      "width": 1600,
+      "height": 900,
+      "bytes": 140120,
+      "sha256": "1096f1788d8c279b97a51ea092ca31fb69bc63ede7b3c6c7ceb7b7b5b70ca387",
+      "alt": "Tim pemimpin perempuan sekolah Islam menelaah bukti mutu dan roadmap global",
+      "caption": "Mutu global tumbuh ketika visi diterjemahkan menjadi pengalaman belajar, bukti hasil murid, dan keputusan perbaikan yang konsisten.",
+      "status": "complete",
+      "r2Status": "uploaded",
+      "integrationStatus": "complete",
+      "qaStatus": "passed",
+      "publishStatus": "published",
+      "notes": "Cover dan visual Bab 1 tersimpan di R2; URL publik terverifikasi HTTP 200. chapter-01.webp 1600x900, tampilan desktop dan ponsel lulus tanpa error konsol."
     }
   ]
 }
