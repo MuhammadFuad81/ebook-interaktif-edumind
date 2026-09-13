@@ -109,11 +109,11 @@
       "alt": "Tiga guru perempuan berjilbab panjang menelaah peta karier dan portofolio pembelajaran",
       "caption": "Sistem karier mengubah janji pertumbuhan menjadi jalur, bukti, dukungan, dan keputusan yang dapat dipercaya.",
       "status": "complete",
-      "r2Status": "uploaded",
+      "r2Status": "ready-for-upload",
       "integrationStatus": "complete",
-      "qaStatus": "passed",
-      "publishStatus": "published",
-      "notes": "Cover 1200x1800 dan visual Bab 1 1600x900 disiapkan untuk R2; aturan visual perempuan berjilbab panjang dipenuhi."
+      "qaStatus": "local-passed",
+      "publishStatus": "cdn-published-assets-pending",
+      "notes": "QA lokal desktop dan ponsel lulus. Cover 1200x1800 dan visual Bab 1 1600x900 siap diunggah ke R2; URL publik aset belum tersedia."
     }
   ]
 }
