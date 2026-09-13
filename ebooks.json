@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-09-01T23:09:06.486Z",
-  "count": 56,
+  "generatedAt": "2026-09-12T23:40:53.292Z",
+  "count": 57,
   "canonicalRepository": "https://github.com/MuhammadFuad81/ebook-interaktif-edumind",
   "canonicalBranch": "main",
   "cdnBaseUrl": "https://cdn.jsdelivr.net/gh/MuhammadFuad81/ebook-interaktif-edumind@main",
@@ -845,6 +845,21 @@
       "htmlUrl": "https://cdn.jsdelivr.net/gh/MuhammadFuad81/ebook-interaktif-edumind@main/056%20-%20Membangun%20dan%20Menguatkan%20Sekolah%20Islam%20Bertaraf%20Global%20-%20Roadmap%20Strategis%20bagi%20Sekolah%20Islam%20yang%20Sedang%20Menuju%20maupun%20Telah%20Berstandar%20Internasional%20-%20untuk%20Growva.html",
       "contentUrl": "https://cdn.jsdelivr.net/gh/MuhammadFuad81/ebook-interaktif-edumind@main/56%20-%20Membangun%20dan%20Menguatkan%20Sekolah%20Islam%20Bertaraf%20Global%20-%20content.js",
       "assetPrefix": "ebook-edumind/056-sekolah-islam-bertaraf-global",
+      "status": "published"
+    },
+    {
+      "number": 57,
+      "id": "057",
+      "title": "Sistem Karier Guru Sekolah Islam - Strategi Menumbuhkan Kompetensi, Loyalitas, dan Retensi Guru",
+      "slug": "sistem-karier-guru-sekolah-islam-strategi-menumbuhkan-kompetensi-loyalitas-dan-retensi-guru",
+      "htmlFile": "057 - Sistem Karier Guru Sekolah Islam - Strategi Menumbuhkan Kompetensi, Loyalitas, dan Retensi Guru - untuk Growva.html",
+      "contentFile": "57 - Sistem Karier Guru Sekolah Islam - content.js",
+      "chapterCount": 12,
+      "coverUrl": "https://media.edumind.id/ebook-edumind/057-sistem-karier-guru-sekolah-islam/cover.webp?v=20260913-1",
+      "videoId": "RmLQPAcvBG4",
+      "htmlUrl": "https://cdn.jsdelivr.net/gh/MuhammadFuad81/ebook-interaktif-edumind@main/057%20-%20Sistem%20Karier%20Guru%20Sekolah%20Islam%20-%20Strategi%20Menumbuhkan%20Kompetensi%2C%20Loyalitas%2C%20dan%20Retensi%20Guru%20-%20untuk%20Growva.html",
+      "contentUrl": "https://cdn.jsdelivr.net/gh/MuhammadFuad81/ebook-interaktif-edumind@main/57%20-%20Sistem%20Karier%20Guru%20Sekolah%20Islam%20-%20content.js",
+      "assetPrefix": "ebook-edumind/057-sistem-karier-guru-sekolah-islam",
       "status": "published"
     }
   ]

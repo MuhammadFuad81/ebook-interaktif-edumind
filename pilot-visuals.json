@@ -95,6 +95,25 @@
       "qaStatus": "passed",
       "publishStatus": "published",
       "notes": "Cover dan visual Bab 1 tersimpan di R2; URL publik terverifikasi HTTP 200. chapter-01.webp 1600x900, tampilan desktop dan ponsel lulus tanpa error konsol."
+    },
+    {
+      "number": 57,
+      "assetId": "chapter-01",
+      "file": "chapter-01.webp",
+      "path": "ebook-edumind/057-sistem-karier-guru-sekolah-islam/chapter-01.webp",
+      "url": "https://media.edumind.id/ebook-edumind/057-sistem-karier-guru-sekolah-islam/chapter-01.webp",
+      "width": 1600,
+      "height": 900,
+      "bytes": 171154,
+      "sha256": "b4a62a675cb1ef2bff33cba42eeefe3a309d8984441841f578c251a041814600",
+      "alt": "Tiga guru perempuan berjilbab panjang menelaah peta karier dan portofolio pembelajaran",
+      "caption": "Sistem karier mengubah janji pertumbuhan menjadi jalur, bukti, dukungan, dan keputusan yang dapat dipercaya.",
+      "status": "complete",
+      "r2Status": "uploaded",
+      "integrationStatus": "complete",
+      "qaStatus": "passed",
+      "publishStatus": "published",
+      "notes": "Cover 1200x1800 dan visual Bab 1 1600x900 disiapkan untuk R2; aturan visual perempuan berjilbab panjang dipenuhi."
     }
   ]
 }
