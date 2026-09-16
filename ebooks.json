@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-09-13T09:41:30.425Z",
-  "count": 57,
+  "generatedAt": "2026-09-16T13:01:09.296Z",
+  "count": 58,
   "canonicalRepository": "https://github.com/MuhammadFuad81/ebook-interaktif-edumind",
   "canonicalBranch": "main",
   "cdnBaseUrl": "https://cdn.jsdelivr.net/gh/MuhammadFuad81/ebook-interaktif-edumind@main",
@@ -860,6 +860,21 @@
       "htmlUrl": "https://cdn.jsdelivr.net/gh/MuhammadFuad81/ebook-interaktif-edumind@main/057%20-%20Sistem%20Karier%20Guru%20Sekolah%20Islam%20-%20Strategi%20Menumbuhkan%20Kompetensi%2C%20Loyalitas%2C%20dan%20Retensi%20Guru%20-%20untuk%20Growva.html",
       "contentUrl": "https://cdn.jsdelivr.net/gh/MuhammadFuad81/ebook-interaktif-edumind@main/57%20-%20Sistem%20Karier%20Guru%20Sekolah%20Islam%20-%20content.js",
       "assetPrefix": "ebook-edumind/057-sistem-karier-guru-sekolah-islam",
+      "status": "published"
+    },
+    {
+      "number": 58,
+      "id": "058",
+      "title": "Membangun Sistem BK Sekolah Islam yang Preventif, Responsif, Berbasis Data, dan Tepat Sasaran",
+      "slug": "membangun-sistem-bk-sekolah-islam-yang-preventif-responsif-berbasis-data-dan-tepat-sasaran",
+      "htmlFile": "058 - Membangun Sistem BK Sekolah Islam yang Preventif, Responsif, Berbasis Data, dan Tepat Sasaran - untuk Growva.html",
+      "contentFile": "58 - Membangun Sistem BK Sekolah Islam - content.js",
+      "chapterCount": 11,
+      "coverUrl": "https://media.edumind.id/ebook-edumind/058-sistem-bk-sekolah-islam/cover.webp?v=20260916-1",
+      "videoId": "yDMqp4Tzuu8",
+      "htmlUrl": "https://cdn.jsdelivr.net/gh/MuhammadFuad81/ebook-interaktif-edumind@main/058%20-%20Membangun%20Sistem%20BK%20Sekolah%20Islam%20yang%20Preventif%2C%20Responsif%2C%20Berbasis%20Data%2C%20dan%20Tepat%20Sasaran%20-%20untuk%20Growva.html",
+      "contentUrl": "https://cdn.jsdelivr.net/gh/MuhammadFuad81/ebook-interaktif-edumind@main/58%20-%20Membangun%20Sistem%20BK%20Sekolah%20Islam%20-%20content.js",
+      "assetPrefix": "ebook-edumind/058-sistem-bk-sekolah-islam",
       "status": "published"
     }
   ]

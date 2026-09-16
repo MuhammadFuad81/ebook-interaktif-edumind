@@ -114,6 +114,25 @@
       "qaStatus": "passed",
       "publishStatus": "published",
       "notes": "Cover 1200x1800 dan visual Bab 1 1600x900 tersimpan di R2; URL publik terverifikasi HTTP 200 dengan tipe image/webp dan ukuran byte sesuai manifest. QA desktop dan ponsel lulus."
+    },
+    {
+      "number": 58,
+      "assetId": "chapter-01",
+      "file": "chapter-01.webp",
+      "path": "ebook-edumind/058-sistem-bk-sekolah-islam/chapter-01.webp",
+      "url": "https://media.edumind.id/ebook-edumind/058-sistem-bk-sekolah-islam/chapter-01.webp",
+      "width": 1600,
+      "height": 900,
+      "bytes": 157774,
+      "sha256": "2aa9c4d3e02414f05b759276c77b7498633204fafcda964034c50a5bcc357764",
+      "alt": "Konselor dan guru perempuan berjilbab panjang menelaah peta dukungan murid di sekolah Islam",
+      "caption": "Sistem BK dimulai dari kepedulian yang terencana: mengenal kebutuhan, menghadirkan dukungan, dan menjaga martabat setiap murid.",
+      "status": "complete",
+      "r2Status": "uploaded",
+      "integrationStatus": "complete",
+      "qaStatus": "passed",
+      "publishStatus": "published",
+      "notes": "Cover 1200x1800 dan visual Bab 1 1600x900 tersimpan di R2; URL publik terverifikasi HTTP 200 dengan tipe image/webp dan ukuran byte sesuai manifest. QA desktop dan ponsel lulus tanpa error konsol."
     }
   ]
 }

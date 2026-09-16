@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-/* Membangun katalog produksi dari 57 HTML resmi. Jalankan dari root repositori. */
+/* Membangun katalog produksi dari 58 HTML resmi. Jalankan dari root repositori. */
 const fs = require('fs');
 const path = require('path');
 
@@ -86,7 +86,7 @@ const ebooks = fs.readdirSync(ROOT)
   })
   .sort((a, b) => a.number - b.number);
 
-if (ebooks.length !== 57) throw new Error(`Jumlah resmi harus 57, ditemukan ${ebooks.length}`);
+if (ebooks.length !== 58) throw new Error(`Jumlah resmi harus 58, ditemukan ${ebooks.length}`);
 ebooks.forEach((book, index) => {
   if (book.number !== index + 1) throw new Error(`Nomor tidak berurutan pada posisi ${index + 1}`);
 });
