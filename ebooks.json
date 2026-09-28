@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-09-16T13:01:09.296Z",
-  "count": 58,
+  "generatedAt": "2026-09-29T05:30:00.000Z",
+  "count": 59,
   "canonicalRepository": "https://github.com/MuhammadFuad81/ebook-interaktif-edumind",
   "canonicalBranch": "main",
   "cdnBaseUrl": "https://cdn.jsdelivr.net/gh/MuhammadFuad81/ebook-interaktif-edumind@main",
@@ -875,6 +875,21 @@
       "htmlUrl": "https://cdn.jsdelivr.net/gh/MuhammadFuad81/ebook-interaktif-edumind@main/058%20-%20Membangun%20Sistem%20BK%20Sekolah%20Islam%20yang%20Preventif%2C%20Responsif%2C%20Berbasis%20Data%2C%20dan%20Tepat%20Sasaran%20-%20untuk%20Growva.html",
       "contentUrl": "https://cdn.jsdelivr.net/gh/MuhammadFuad81/ebook-interaktif-edumind@main/58%20-%20Membangun%20Sistem%20BK%20Sekolah%20Islam%20-%20content.js",
       "assetPrefix": "ebook-edumind/058-sistem-bk-sekolah-islam",
+      "status": "published"
+    },
+    {
+      "number": 59,
+      "id": "059",
+      "title": "SPP, BOS, DONASI: Cara Tepat Menata Akun & Memisahkan Sumber Dana Sekolah",
+      "slug": "spp-bos-donasi-cara-tepat-menata-akun-dan-memisahkan-sumber-dana-sekolah",
+      "htmlFile": "059 - SPP, BOS, DONASI - Cara Tepat Menata Akun & Memisahkan Sumber Dana Sekolah - untuk Growva.html",
+      "contentFile": "59 - SPP, BOS, DONASI - content.js",
+      "chapterCount": 11,
+      "coverUrl": "https://media.edumind.id/ebook-edumind/059-spp-bos-donasi/cover.webp?v=20260929-1",
+      "videoId": "DcKkSbU5Ohc",
+      "htmlUrl": "https://cdn.jsdelivr.net/gh/MuhammadFuad81/ebook-interaktif-edumind@main/059%20-%20SPP%2C%20BOS%2C%20DONASI%20-%20Cara%20Tepat%20Menata%20Akun%20%26%20Memisahkan%20Sumber%20Dana%20Sekolah%20-%20untuk%20Growva.html",
+      "contentUrl": "https://cdn.jsdelivr.net/gh/MuhammadFuad81/ebook-interaktif-edumind@main/59%20-%20SPP%2C%20BOS%2C%20DONASI%20-%20content.js",
+      "assetPrefix": "ebook-edumind/059-spp-bos-donasi",
       "status": "published"
     }
   ]

@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.25, user-scalable=yes, viewport-fit=cover, interactive-widget=resizes-content">
+<title>SPP, BOS, DONASI — Edumind Academy</title>
+<link rel="icon" href="https://growva.biz.id/gambarbebas/20260621-082723_Logo%20Edumind%20Academy%20-%20Terbaru2026%20[putih].png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="SPP, BOS, DONASI — Edumind Academy">
+<meta property="og:description" content="Cara tepat menata akun dan memisahkan sumber dana sekolah.">
+<meta property="og:image" content="https://media.edumind.id/ebook-edumind/059-spp-bos-donasi/cover.webp?v=20260929-1">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/MuhammadFuad81/ebook-interaktif-edumind@main/engine-ANIMASI.css">
+<style>
+  :root{
+    --accent:#0F5D48;
+    --accent-dark:#093E31;
+    --accent-tint:#DDEFE8;
+  }
+</style>
+</head>
+<body>
+
+<script>
+  window.BOOK_CONFIG = {
+    id: "spp-bos-donasi",
+    title: "SPP, BOS, DONASI: Cara Tepat Menata Akun & Memisahkan Sumber Dana Sekolah",
+    chapters: ["bab1","bab2","bab3","bab4","bab5","bab6","bab7","bab8","bab9","bab10","bab11"],
+    previewAllowed: ["cover","pengantar","bab1"],
+    validUser: "edumind",
+    validPass: "ebook059",
+    freePreview: true,
+    waNumber: "6281385841500"
+  };
+</script>
+<script src="https://cdn.jsdelivr.net/gh/MuhammadFuad81/ebook-interaktif-edumind@main/59%20-%20SPP%2C%20BOS%2C%20DONASI%20-%20content.js?v=20260929-1"></script>
+
+<div id="gate">
+  <img class="gate-logo" src="https://growva.biz.id/gambarbebas/20260621-082723_Logo%20Edumind%20Academy%20-%20Terbaru2026%20[putih].png" alt="Edumind Academy">
+  <div class="gate-card">
+    <p class="eyebrow">Ebook Interaktif - 059</p>
+    <h1>SPP, BOS, DONASI</h1>
+    <input id="user" type="text" placeholder="Username akses">
+    <div style="position:relative;margin-bottom:12px"><input id="pass" type="password" placeholder="Password akses" style="margin-bottom:0;padding-right:50px"><button type="button" onclick="togglePasswordVisibility(this)" aria-label="Tampilkan password" title="Tampilkan password" style="position:absolute;right:0;top:0;width:48px;height:100%;padding:0;background:transparent;color:var(--navy);border:0;box-shadow:none;display:flex;align-items:center;justify-content:center"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3.5-6 10-6 10 6 10 6-3.5 6-10 6S2 12 2 12Z"></path><circle cx="12" cy="12" r="2.5"></circle></svg></button></div>
+    <button onclick="tryLogin()">Masuk &amp; Mulai Membaca</button>
+    <p class="gate-error" id="gateErr"></p>
+    <button class="gate-preview-btn" id="previewBtn" onclick="startPreview()">Baca Bab 1 Gratis →</button>
+    <p class="gate-hint">Akses ini bersifat pribadi untuk pengguna resmi Edumind Academy. Mari sama-sama menjaga keberkahan ilmu</p>
+  </div>
+</div>
+
+<div id="app">
+  <div class="topbar">
+    <button class="hamburger" onclick="toggleDrawer()" aria-label="Buka daftar isi"><span></span><span></span><span></span></button>
+    <span class="book-title ui">SPP, BOS, DONASI</span>
+    <div class="ribbon-track"><div class="ribbon-fill" id="ribbonFill"></div></div>
+    <span class="ribbon-pct" id="ribbonPct">0%</span>
+    <button class="theme-toggle" id="themeBtn" onclick="toggleTheme()" aria-label="Ganti mode gelap/terang">🌙</button>
+    <button class="theme-toggle" onclick="generatePDF()" aria-label="Unduh sebagai PDF" title="Unduh sebagai PDF">⬇︎ PDF</button>
+  </div>
+
+  <a class="wa-fab" href="https://wa.me/6281385841500" target="_blank" rel="noopener" aria-label="Kontak Edumind melalui WhatsApp">💬</a>
+  <div class="scrim" id="scrim" onclick="toggleDrawer()"></div>
+
+  <div class="layout">
+    <nav class="toc" id="toc">
+      <div class="toc-group">
+        <p class="toc-label">Pembuka</p>
+        <a href="#cover" data-nav><span class="toc-check"></span>Cover</a>
+        <a href="#pengantar" data-nav><span class="toc-check"></span>Kata Pengantar</a>
+      </div>
+      <div class="toc-group">
+        <p class="toc-label">Bagian I — Fondasi Pemisahan</p>
+        <a href="#bab1" data-nav data-chapter><span class="toc-check"></span>Bab 1 — Satu Misi, Tiga Aliran Dana</a>
+        <a href="#bab2" data-nav data-chapter><span class="toc-check"></span>Bab 2 — Empat Dimensi Pencatatan</a>
+        <a href="#bab3" data-nav data-chapter><span class="toc-check"></span>Bab 3 — Bagan Akun yang Stabil</a>
+      </div>
+      <div class="toc-group">
+        <p class="toc-label">Bagian II — Mengenali Karakter Dana</p>
+        <a href="#bab4" data-nav data-chapter><span class="toc-check"></span>Bab 4 — BOS: Patuh dan Terlacak</a>
+        <a href="#bab5" data-nav data-chapter><span class="toc-check"></span>Bab 5 — SPP: Hak, Piutang, dan Empati</a>
+        <a href="#bab6" data-nav data-chapter><span class="toc-check"></span>Bab 6 — Donasi: Menjaga Akad</a>
+      </div>
+      <div class="toc-group">
+        <p class="toc-label">Bagian III — Menjalankan Transaksi</p>
+        <a href="#bab7" data-nav data-chapter><span class="toc-check"></span>Bab 7 — Rekening, Kas, dan Dana Titipan</a>
+        <a href="#bab8" data-nav data-chapter><span class="toc-check"></span>Bab 8 — Bukti, Otorisasi, dan Jurnal</a>
+        <a href="#bab9" data-nav data-chapter><span class="toc-check"></span>Bab 9 — Transaksi Campuran dan Unit Usaha</a>
+      </div>
+      <div class="toc-group">
+        <p class="toc-label">Bagian IV — Menutup Siklus</p>
+        <a href="#bab10" data-nav data-chapter><span class="toc-check"></span>Bab 10 — Rekonsiliasi dan Tutup Buku</a>
+        <a href="#bab11" data-nav data-chapter><span class="toc-check"></span>Bab 11 — Laporan dan Roadmap 90 Hari</a>
+      </div>      <div class="toc-group">
+        <p class="toc-label">Penutup</p>
+        <a href="#video" data-nav><span class="toc-check"></span>Pustaka Video</a>
+        <a href="#asesmen" data-nav><span class="toc-check"></span>Asesmen Komprehensif</a>
+        <a href="#rencana" data-nav><span class="toc-check"></span>Rencana Aksi</a>
+        <a href="#ringkasan" data-nav><span class="toc-check"></span>Ringkasan Pencapaian</a>
+        <a href="#faq" data-nav><span class="toc-check"></span>FAQ</a>
+        <a href="#cta" data-nav><span class="toc-check"></span>Penutup</a>
+      </div>
+      <div class="toc-group">
+        <p class="toc-label">Katalog Edumind</p>
+        <a href="#katalog" data-nav><span class="toc-check"></span>Jelajahi Produk Lainnya</a>
+      </div>
+      <div class="toc-group">
+        <p class="toc-label">Akun</p>
+        <a href="#" onclick="logout(); return false;"><span class="toc-check">↩</span>Keluar</a>
+      </div>
+    </nav>
+
+    <main>
+      <section class="page" id="page-cover">
+        <div class="cover">
+          <p class="kicker">Edumind Academy · eBook Interaktif 059</p>
+          <img class="cover-img" src="https://media.edumind.id/ebook-edumind/059-spp-bos-donasi/cover.webp?v=20260929-1" alt="Cover SPP, BOS, DONASI" loading="eager" decoding="async">
+          <h1>SPP, BOS, DONASI</h1>
+          <p>Cara tepat menata akun dan memisahkan sumber dana sekolah.</p>
+          <button class="start-btn" onclick="go('pengantar')">Mulai Membaca →</button>
+        </div>
+      </section>
+
+      <section class="page" id="page-pengantar">
+        <p class="eyebrow reveal">Kata Pengantar</p>
+        <h2 class="reveal">Memisahkan Dana tanpa Memecah Misi</h2>
+        <div class="card reveal">
+          <p>Sekolah dapat memiliki satu visi, satu tim, dan satu program pendidikan, tetapi uang yang menopangnya tidak selalu memiliki kebebasan penggunaan yang sama. Dana BOS tunduk pada regulasi dan sistem pemerintah. SPP lahir dari kewajiban orang tua serta membentuk arus operasional. Donasi membawa amanah pemberi sumber daya yang dapat terikat pada beasiswa, pembangunan, atau tujuan tertentu.</p>
+          <p>Ketika ketiga aliran itu dicampur, saldo bank mudah memberi rasa aman palsu. Dana proyek dapat terserap untuk gaji, tunggakan SPP tertutup oleh donasi, dan bukti belanja sulit ditautkan kepada sumber yang membiayainya. Pemisahan yang sehat tidak berhenti pada tiga rekening. Sekolah juga memerlukan bagan akun, kode sumber dana, dimensi program, dokumen, otorisasi, rekonsiliasi, serta laporan yang saling terhubung.</p>
+          <p>eBook interaktif ini membawa pembaca dari logika dasar pemisahan menuju praktik harian: menata BOS, SPP, dan donasi; membangun Chart of Accounts; menangani piutang dan dana titipan; memisahkan transaksi campuran; melakukan tutup buku; serta menyajikan laporan yang dapat ditelusuri. Contoh perlu disesuaikan dengan struktur yayasan, kebijakan akuntansi, ketentuan pajak, dan regulasi terbaru yang berlaku.</p>
+          <p>Tujuannya bukan membuat administrasi semakin rumit, melainkan menjadikan setiap rupiah dapat dijelaskan: dari mana datangnya, untuk apa diamanahkan, siapa yang menyetujui, bukti apa yang mendukung, dan bagaimana dampaknya bagi pendidikan.</p>
+          <p>Salam hangat,<br><strong>Tim Edumind Academy</strong></p>
+        </div>
+        <div class="card reveal" style="font-size:14px;color:var(--slate)">Edumind Academy · eBook Interaktif 059 · Tim Edumind Academy · Hak cipta dilindungi</div>
+      </section>
+
+      <section class="page" id="page-bab1" data-chapter-page="bab1"></section>
+      <section class="page" id="page-bab2" data-chapter-page="bab2"></section>
+      <section class="page" id="page-bab3" data-chapter-page="bab3"></section>
+      <section class="page" id="page-bab4" data-chapter-page="bab4"></section>
+      <section class="page" id="page-bab5" data-chapter-page="bab5"></section>
+      <section class="page" id="page-bab6" data-chapter-page="bab6"></section>
+      <section class="page" id="page-bab7" data-chapter-page="bab7"></section>
+      <section class="page" id="page-bab8" data-chapter-page="bab8"></section>
+      <section class="page" id="page-bab9" data-chapter-page="bab9"></section>
+      <section class="page" id="page-bab10" data-chapter-page="bab10"></section>
+      <section class="page" id="page-bab11" data-chapter-page="bab11"></section>
+      
+      <section class="page" id="page-video">
+        <p class="eyebrow reveal">Lampiran</p>
+        <h2 class="reveal">Pustaka Video</h2>
+        <p class="lede reveal">Rekaman pendamping untuk memperdalam prinsip pemisahan akun, karakter BOS, SPP, dan donasi, serta disiplin pencatatan dan pertanggungjawaban sekolah.</p>
+        <p class="video-label reveal"></p>
+        <div class="video-wrap reveal"><iframe src="https://www.youtube.com/embed/DcKkSbU5Ohc" title="SPP, BOS, DONASI: Cara Tepat Menata Akun dan Memisahkan Sumber Dana Sekolah" allowfullscreen></iframe></div>
+      </section>
+
+      <section class="page" id="page-asesmen"></section>
+
+      <section class="page" id="page-rencana">
+        <p class="eyebrow reveal">Tindak Lanjut</p>
+        <h2 class="reveal">Rencana Aksi Pemisahan Dana 90 Hari</h2>
+        <p class="lede reveal">Pilih perbaikan paling mendesak. Tuliskan hasil yang dituju, pemilik tindakan dan tanggal tinjau, serta bukti bahwa saldo, dokumen, dan laporan sudah dapat ditelusuri per sumber dana.</p>
+        <div class="card reveal" id="planCard">
+          <div class="plan-row"><input placeholder="Prioritas penataan dana"><input placeholder="Pemilik dan tanggal tinjau"><input placeholder="Bukti pemisahan atau rekonsiliasi"><button onclick="this.parentElement.remove()">✕</button></div>
+        </div>
+        <button class="add-row" onclick="addPlanRow()">+ Tambah baris</button>
+      </section>
+
+      <section class="page" id="page-ringkasan">
+        <p class="eyebrow reveal">Rekap</p>
+        <h2 class="reveal">Ringkasan Pencapaian Anda</h2>
+        <div class="summary-grid reveal">
+          <div class="summary-stat"><div class="num" id="sumChapters">0/11</div><div class="lbl">Bab Selesai</div></div>
+          <div class="summary-stat"><div class="num" id="sumQuiz">0</div><div class="lbl">Kuis Mini Dijawab Benar</div></div>
+          <div class="summary-stat"><div class="num" id="sumAssessScore">–</div><div class="lbl">Skor Asesmen Komprehensif</div></div>
+          <div class="summary-stat"><div class="num">✓</div><div class="lbl">Rencana Aksi Diisi</div></div>
+        </div>
+        <p class="lede reveal">Ambil tangkapan layar halaman ini sebagai catatan pencapaian dan pengingat untuk meninjau pemisahan dana berdasarkan saldo, dokumen, kepatuhan, dan keputusan pengelolaan sekolah.</p>
+      </section>
+
+      <section class="page" id="page-faq">
+        <p class="eyebrow reveal">Bantuan</p><h2 class="reveal">Pertanyaan Umum</h2>
+        <div class="card reveal" style="padding:6px 24px">
+          <div class="faq-item"><button class="faq-q" onclick="toggleFaq(this)">Bagaimana cara membuka seluruh isi eBook interaktif ini? <span class="plus">+</span></button><div class="faq-a">Masukkan username dan password akses yang diberikan admin Edumind Academy. Jika ingin melihat terlebih dahulu, gunakan tombol “Baca Bab 1 Gratis”.</div></div>
+          <div class="faq-item"><button class="faq-q" onclick="toggleFaq(this)">Apakah tiga rekening sudah cukup untuk dianggap terpisah? <span class="plus">+</span></button><div class="faq-a">Belum. Rekening membantu memisahkan kas, tetapi transaksi juga perlu dibedakan melalui kode sumber dana, akun, program atau unit, dokumen, otorisasi, dan pelaporan.</div></div>
+          <div class="faq-item"><button class="faq-q" onclick="toggleFaq(this)">Bolehkah donasi proyek dipakai sementara untuk operasional? <span class="plus">+</span></button><div class="faq-a">Jangan menganggapnya boleh. Periksa akad atau pembatasan pemberi dana. Jika ada kebutuhan perubahan, dapatkan persetujuan tertulis yang sah sebelum penggunaan dan catat keputusan secara terbuka.</div></div>
+          <div class="faq-item"><button class="faq-q" onclick="toggleFaq(this)">Bagaimana jika satu pembelian dibiayai BOS dan SPP? <span class="plus">+</span></button><div class="faq-a">Tetapkan porsi sebelum transaksi, pisahkan pesanan atau bukti sesuai ketentuan yang berlaku, dan catat setiap bagian pada sumber dana masing-masing agar jejak audit tidak kabur.</div></div>
+          <div class="faq-item"><button class="faq-q" onclick="toggleFaq(this)">Apakah contoh akun dalam buku harus diikuti persis? <span class="plus">+</span></button><div class="faq-a">Tidak. Contoh menunjukkan logika. Yayasan perlu menyesuaikan nomor akun, kebijakan pengakuan, dan format laporan dengan SAK yang diterapkan, kebutuhan manajemen, serta ketentuan regulator.</div></div>
+          <div class="faq-item"><button class="faq-q" onclick="toggleFaq(this)">Apakah jawaban dan progres saya tersimpan? <span class="plus">+</span></button><div class="faq-a">Progres bab dan skor tersimpan di browser perangkat ini. Ambil tangkapan layar Ringkasan Pencapaian dan Rencana Aksi sebelum berpindah perangkat.</div></div>
+          <div class="faq-item"><button class="faq-q" onclick="toggleFaq(this)">Bisakah isi eBook diunduh sebagai PDF? <span class="plus">+</span></button><div class="faq-a">Bisa. Gunakan tombol “⬇︎ PDF” pada bagian atas setelah konten selesai dimuat.</div></div>
+        </div>
+      </section>
+
+      <section class="page" id="page-cta">
+        <p class="eyebrow reveal">Penutup</p><h2 class="reveal">Setiap Rupiah Memiliki Jejak dan Amanah</h2>
+        <div class="card reveal">
+          <p>Pemisahan dana bukan proyek kosmetik untuk memperindah laporan. Ia adalah cara sekolah mencegah saldo semu, melindungi akad, mematuhi regulasi, dan memastikan keputusan program tidak dibangun di atas angka yang menyesatkan.</p>
+          <p>Mulailah dari hal yang dapat diuji: daftar seluruh rekening, tetapkan kode sumber dana, rapikan bukti, cocokkan saldo, dan buat laporan sederhana per dana. Setelah fondasi stabil, barulah otomatisasi dan dashboard memberi manfaat. Sistem yang baik membuat pertanyaan sulit dapat dijawab tanpa panik, karena setiap transaksi memiliki sumber, tujuan, persetujuan, bukti, dan tindak lanjut yang jelas.</p>
+        </div>
+        <div class="cta-card reveal"><div><h3>Pendampingan Tata Kelola Keuangan Sekolah Islam</h3><p>Pendampingan untuk membantu yayasan dan sekolah menata proses, akun, dokumen, kontrol, serta laporan keuangan yang dapat ditelusuri.</p></div><a href="#">Lihat Detail</a></div>
+        <div class="cta-card reveal"><div><h3>In House Training Pimpinan dan Tim Keuangan</h3><p>Pelatihan kontekstual bagi pengurus yayasan, pimpinan, bendahara, dan tenaga administrasi untuk membangun pengelolaan dana yang tertib dan akuntabel.</p></div><a href="#">Lihat Detail</a></div>
+      </section>
+
+      <section class="page" id="page-locked">
+        <p class="eyebrow reveal">Konten Premium</p>
+        <h2 class="reveal">Bagian Ini Khusus Pengguna Resmi</h2>
+        <div class="locked-card reveal"><p>Anda sedang membaca pratinjau Bab 1. Masukkan kredensial akses untuk membuka seluruh isi eBook interaktif.</p><button onclick="logout()">Masuk dengan Kredensial Resmi</button></div>
+      </section>
+
+      <section class="page" id="page-katalog">
+        <p class="eyebrow reveal">Katalog Edumind</p>
+        <h2 class="reveal">Jelajahi Produk Lainnya</h2>
+        <p class="lede reveal">Klik cover untuk melihat detail dan checkout.</p>
+        <div class="filter-chips reveal" id="filterChips"></div>
+        <input type="text" class="catalog-search reveal" id="catalogSearch" placeholder="Cari judul produk..." oninput="setSearch(this.value)">
+        <div class="catalog-grid reveal" id="catalogGrid"></div>
+        <button class="loadmore-btn" id="loadMoreBtn" onclick="loadMoreProducts()">Muat Lebih Banyak</button>
+      </section>
+    </main>
+  </div>
+</div>
+
+<script>function togglePasswordVisibility(button){const password=document.getElementById("pass");const shown=password.type==="text";password.type=shown?"password":"text";button.setAttribute("aria-label",shown?"Tampilkan password":"Sembunyikan password");button.setAttribute("title",shown?"Tampilkan password":"Sembunyikan password");}</script>
+<script src="https://cdn.jsdelivr.net/gh/MuhammadFuad81/ebook-interaktif-edumind@main/engine.js"></script>
+</body>
+</html>
+
+
