@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-09-29T05:30:00.000Z",
-  "count": 59,
+  "generatedAt": "2026-10-13T17:04:40.273Z",
+  "count": 60,
   "canonicalRepository": "https://github.com/MuhammadFuad81/ebook-interaktif-edumind",
   "canonicalBranch": "main",
   "cdnBaseUrl": "https://cdn.jsdelivr.net/gh/MuhammadFuad81/ebook-interaktif-edumind@main",
@@ -890,6 +890,21 @@
       "htmlUrl": "https://cdn.jsdelivr.net/gh/MuhammadFuad81/ebook-interaktif-edumind@main/059%20-%20SPP%2C%20BOS%2C%20DONASI%20-%20Cara%20Tepat%20Menata%20Akun%20%26%20Memisahkan%20Sumber%20Dana%20Sekolah%20-%20untuk%20Growva.html",
       "contentUrl": "https://cdn.jsdelivr.net/gh/MuhammadFuad81/ebook-interaktif-edumind@main/59%20-%20SPP%2C%20BOS%2C%20DONASI%20-%20content.js",
       "assetPrefix": "ebook-edumind/059-spp-bos-donasi",
+      "status": "published"
+    },
+    {
+      "number": 60,
+      "id": "060",
+      "title": "Membangun Sistem Mutu Sekolah Islam: Mengintegrasikan SPMI & TQM untuk Membangun Budaya Perbaikan Berkelanjutan",
+      "slug": "membangun-sistem-mutu-sekolah-islam",
+      "htmlFile": "060 - Membangun Sistem Mutu Sekolah Islam - Mengintegrasikan SPMI & TQM untuk Membangun Budaya Perbaikan Berkelanjutan - untuk Growva.html",
+      "contentFile": "60 - Membangun Sistem Mutu Sekolah Islam - content.js",
+      "chapterCount": 13,
+      "coverUrl": "https://media.edumind.id/ebook-edumind/060-sistem-mutu-sekolah-islam/cover.webp?v=20261013-1",
+      "videoId": "IgMshzTgvg8",
+      "htmlUrl": "https://cdn.jsdelivr.net/gh/MuhammadFuad81/ebook-interaktif-edumind@main/060%20-%20Membangun%20Sistem%20Mutu%20Sekolah%20Islam%20-%20Mengintegrasikan%20SPMI%20%26%20TQM%20untuk%20Membangun%20Budaya%20Perbaikan%20Berkelanjutan%20-%20untuk%20Growva.html",
+      "contentUrl": "https://cdn.jsdelivr.net/gh/MuhammadFuad81/ebook-interaktif-edumind@main/60%20-%20Membangun%20Sistem%20Mutu%20Sekolah%20Islam%20-%20content.js",
+      "assetPrefix": "ebook-edumind/060-sistem-mutu-sekolah-islam",
       "status": "published"
     }
   ]
