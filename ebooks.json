@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-10-13T17:04:40.273Z",
-  "count": 60,
+  "generatedAt": "2026-10-22T23:20:44.456Z",
+  "count": 61,
   "canonicalRepository": "https://github.com/MuhammadFuad81/ebook-interaktif-edumind",
   "canonicalBranch": "main",
   "cdnBaseUrl": "https://cdn.jsdelivr.net/gh/MuhammadFuad81/ebook-interaktif-edumind@main",
@@ -906,6 +906,21 @@
       "contentUrl": "https://cdn.jsdelivr.net/gh/MuhammadFuad81/ebook-interaktif-edumind@main/60%20-%20Membangun%20Sistem%20Mutu%20Sekolah%20Islam%20-%20content.js",
       "assetPrefix": "ebook-edumind/060-sistem-mutu-sekolah-islam",
       "status": "published"
+    },
+    {
+      "number": 61,
+      "id": "061",
+      "title": "Mengungkap Akar Psikologis Anak: Sulit Fokus, Kehilangan Motivasi, dan Prestasinya Menurun",
+      "slug": "akar-psikologis-anak",
+      "htmlFile": "061 - Mengungkap Akar Psikologis Anak - Sulit Fokus, Kehilangan Motivasi, dan Prestasinya Menurun - untuk Growva.html",
+      "contentFile": "61 - Mengungkap Akar Psikologis Anak - content.js",
+      "chapterCount": 11,
+      "coverUrl": "https://media.edumind.id/ebook-edumind/061-akar-psikologis-anak/cover.webp?v=20261023-1",
+      "videoId": "xGg1_VjBF40",
+      "htmlUrl": "https://cdn.jsdelivr.net/gh/MuhammadFuad81/ebook-interaktif-edumind@main/061%20-%20Mengungkap%20Akar%20Psikologis%20Anak%20-%20Sulit%20Fokus%2C%20Kehilangan%20Motivasi%2C%20dan%20Prestasinya%20Menurun%20-%20untuk%20Growva.html",
+      "contentUrl": "https://cdn.jsdelivr.net/gh/MuhammadFuad81/ebook-interaktif-edumind@main/61%20-%20Mengungkap%20Akar%20Psikologis%20Anak%20-%20content.js",
+      "assetPrefix": "ebook-edumind/061-akar-psikologis-anak",
+      "status": "ready-for-qa"
     }
   ]
 }
