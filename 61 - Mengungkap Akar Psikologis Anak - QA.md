@@ -46,7 +46,9 @@ Purge Cloudflare dilakukan hanya terhadap lima URL gambar, masing-masing dengan 
 
 HTML dan JS telah diterbitkan ke GitHub, kemudian purge jsDelivr berstatus finished (provider CF dan FY). HTML, content.js, catatan.js, katalog, dan manifest publik HTTP200 serta cocok dengan versi lokal setelah normalisasi akhir baris. Uji pembaca dengan JS/gambar publik telah lulus pada desktop 1366×900 dan ponsel 390×844.
 
-Uji tambahan lokal pada lebar 320, 768, dan 1920 piksel lulus untuk seluruh 20 halaman, tidak ada luapan, FAQ, persistensi mode gelap, penolakan pemeriksaan asesmen belum lengkap, dan umpan balik kuis salah. Semua bab terlihat saat cetak, seluruh gambar dimuat sebelum dialog cetak, serta halaman terkunci/katalog tidak ikut dicetak. Tautan buka langsung YouTube disediakan bila embed tidak dapat diputar. Perbaikan cetak khusus 061 akan diverifikasi kembali dari versi publik terakhir.
+Uji tambahan lokal pada lebar 320, 768, dan 1920 piksel lulus untuk seluruh 20 halaman, tidak ada luapan, FAQ, persistensi mode gelap, penolakan pemeriksaan asesmen belum lengkap, dan umpan balik kuis salah. Semua bab terlihat saat cetak, seluruh gambar dimuat sebelum dialog cetak, serta halaman terkunci/katalog tidak ikut dicetak. Tautan buka langsung YouTube disediakan bila embed tidak dapat diputar.
+
+Alias jsDelivr @main sempat mempertahankan rilis sebelumnya meskipun purge finished. Karena itu, pemanggilan content.js dan catatan.js khusus 061 dipatok ke commit final teruji `a309761eb56e0a5fbf65c4085bbc4834bd4b4051` pada repositori yang sama. Engine bersama tetap @main. Sumber utama tetap repositori ebook-interaktif-edumind; pembaruan JS khusus buku berikutnya harus sekaligus memperbarui ref pengiriman pada HTML. Ini penetapan versi berkas, bukan penggantian engine atau hosting.
 
 HTML harus ditempel pengguna ke WSP Growva; tidak ada klaim bahwa halaman WSP telah diperbarui otomatis.
 
