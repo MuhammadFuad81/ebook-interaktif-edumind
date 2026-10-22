@@ -64,6 +64,13 @@ for (let number = 1; number <= 61; number += 1) {
   if (!bookContent || typeof bookContent !== 'object') fail(`${contentName}: BOOK_CONTENT tidak terbentuk`);
   if (!bookContent?.bab1 || !bookContent?.asesmen) fail(`${contentName}: bab1/asesmen tidak lengkap`);
 
+  if (number === 61) {
+    for (let n=1;n<=11;n++) {
+      const chapter=bookContent?.['bab'+n] || '';
+      if ((chapter.match(/class="chapter-visual"/g)||[]).length !== 1) fail(`${contentName}: Bab ${n} harus tepat satu visual`);
+      if (!chapter.includes('chapter-'+String(n).padStart(2,'0')+'.webp')) fail(`${contentName}: gambar Bab ${n} tidak sesuai`);
+    }
+  }
   if ([1, 39, 53, 55, 56, 57, 58, 59, 60, 61].includes(number)) {
     const chapter = bookContent?.bab1 || '';
     const figureCount = (chapter.match(/class="chapter-visual(?:\s|")/g) || []).length;
@@ -85,7 +92,7 @@ if (catalog.count !== 61 || catalog.ebooks?.length !== 61) fail('ebooks.json tid
 if (manifest.ebooks?.length !== 61) fail('asset-manifest.json tidak berisi tepat 61 eBook');
 
 const pilotVisuals = manifest.ebooks.flatMap(book => book.visuals || []);
-if (pilotVisuals.length !== 15) fail(`Visual pilot pada manifest: ${pilotVisuals.length}, seharusnya 15`);
+if (pilotVisuals.length !== 22) fail(`Visual pilot pada manifest: ${pilotVisuals.length}, seharusnya 22`);
 if (assetRoot) {
   for (const visual of pilotVisuals) {
     const filePath = path.join(assetRoot, ...visual.path.split('/').slice(1));
