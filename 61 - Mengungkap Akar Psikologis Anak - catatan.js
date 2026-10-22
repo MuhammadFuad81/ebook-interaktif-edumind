@@ -24,3 +24,6 @@
   document.getElementById('app')?.addEventListener('input', event=>{if(event.target.matches('[data-chapter-page] textarea,#planCard input'))persist();});
   update();
 })();
+
+/* Muat seluruh gambar buku sebelum dialog cetak; tidak menyentuh engine bersama. */
+(() => {const original=window.generatePDF;window.generatePDF=async()=>{const images=Array.from(document.querySelectorAll("#app .cover-img,#app .chapter-visual img"));images.forEach(img=>{img.loading="eager";});await Promise.all(images.map(img=>img.decode().catch(()=>{})));original();};})();

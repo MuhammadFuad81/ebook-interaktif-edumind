@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-10-22T23:20:44.456Z",
+  "generatedAt": "2026-10-22T23:27:43.480Z",
   "count": 61,
   "canonicalRepository": "https://github.com/MuhammadFuad81/ebook-interaktif-edumind",
   "canonicalBranch": "main",
@@ -920,7 +920,7 @@
       "htmlUrl": "https://cdn.jsdelivr.net/gh/MuhammadFuad81/ebook-interaktif-edumind@main/061%20-%20Mengungkap%20Akar%20Psikologis%20Anak%20-%20Sulit%20Fokus%2C%20Kehilangan%20Motivasi%2C%20dan%20Prestasinya%20Menurun%20-%20untuk%20Growva.html",
       "contentUrl": "https://cdn.jsdelivr.net/gh/MuhammadFuad81/ebook-interaktif-edumind@main/61%20-%20Mengungkap%20Akar%20Psikologis%20Anak%20-%20content.js",
       "assetPrefix": "ebook-edumind/061-akar-psikologis-anak",
-      "status": "ready-for-qa"
+      "status": "published"
     }
   ]
 }

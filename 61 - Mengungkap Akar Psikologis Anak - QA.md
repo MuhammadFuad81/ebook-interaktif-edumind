@@ -44,6 +44,10 @@ Purge Cloudflare dilakukan hanya terhadap lima URL gambar, masing-masing dengan 
 
 ## Publikasi
 
-HTML dan JS siap diterbitkan; uji dari CDN publik dilakukan setelah push dan purge. Status akhir akan dicatat setelah verifikasi tersebut. HTML harus ditempel pengguna ke WSP Growva; tidak ada klaim bahwa halaman WSP telah diperbarui otomatis.
+HTML dan JS telah diterbitkan ke GitHub, kemudian purge jsDelivr berstatus finished (provider CF dan FY). HTML, content.js, catatan.js, katalog, dan manifest publik HTTP200 serta cocok dengan versi lokal setelah normalisasi akhir baris. Uji pembaca dengan JS/gambar publik telah lulus pada desktop 1366×900 dan ponsel 390×844.
+
+Uji tambahan lokal pada lebar 320, 768, dan 1920 piksel lulus untuk seluruh 20 halaman, tidak ada luapan, FAQ, persistensi mode gelap, penolakan pemeriksaan asesmen belum lengkap, dan umpan balik kuis salah. Semua bab terlihat saat cetak, seluruh gambar dimuat sebelum dialog cetak, serta halaman terkunci/katalog tidak ikut dicetak. Tautan buka langsung YouTube disediakan bila embed tidak dapat diputar. Perbaikan cetak khusus 061 akan diverifikasi kembali dari versi publik terakhir.
+
+HTML harus ditempel pengguna ke WSP Growva; tidak ada klaim bahwa halaman WSP telah diperbarui otomatis.
 
 Transkrip mentah dan slide asli hanya diarsipkan lokal, tidak dikirim ke repositori publik. Perubahan lokal terdahulu pada nama HTML 060 tidak diikutkan ke commit 061. Engine bersama tidak diubah.
