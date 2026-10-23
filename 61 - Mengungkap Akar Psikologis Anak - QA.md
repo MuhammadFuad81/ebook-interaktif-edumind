@@ -68,3 +68,9 @@ Uji akhir menggunakan HTML final dan URL JS publik yang benar-benar dipanggil HT
 HTML terbaru harus menggantikan seluruh HTML lama pada WSP Growva agar halaman memanggil JS dengan 11 gambar. Kredensial tetap edumind / ebook061. Tidak ada klaim bahwa halaman WSP telah diperbarui otomatis.
 
 Transkrip mentah dan slide asli hanya diarsipkan lokal, tidak dikirim ke repositori publik. Perubahan lokal terdahulu pada nama HTML 060 tidak diikutkan ke commit 061. Engine bersama tidak diubah.
+
+## Perbaikan login dengan Enter — 23 Oktober 2026
+
+HTML 061 kini menangani Enter pada kolom username maupun password melalui fungsi login yang sama dengan tombol masuk. Penanganan hanya berlaku pada gerbang login 061 yang terlihat; penekanan berulang dan komposisi teks diabaikan. Engine bersama, kredensial, isi buku, serta seluruh 11 gambar bab tidak diubah.
+
+Uji file lokal dan HTTP pada desktop 1366×900 serta ponsel 390×844 lulus: Enter dari kedua kolom membuka buku dengan kredensial benar, password salah tetap ditolak, dan login melalui klik mouse tetap bekerja. Tidak ditemukan error JavaScript. HTML Growva harus ditempel ulang untuk menerapkan perbaikan ini pada halaman WSP.

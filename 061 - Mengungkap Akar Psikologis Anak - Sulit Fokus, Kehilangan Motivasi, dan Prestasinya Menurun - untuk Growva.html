@@ -294,5 +294,20 @@
 <script>function togglePasswordVisibility(button){const password=document.getElementById("pass");const shown=password.type==="text";password.type=shown?"password":"text";button.setAttribute("aria-label",shown?"Tampilkan password":"Sembunyikan password");button.setAttribute("title",shown?"Tampilkan password":"Sembunyikan password");}</script>
 <script src="https://cdn.jsdelivr.net/gh/MuhammadFuad81/ebook-interaktif-edumind@main/engine.js?v=20261023-061"></script>
 <script src="https://cdn.jsdelivr.net/gh/MuhammadFuad81/ebook-interaktif-edumind@2f0e37a9db0bfc5660bc82fecbc5333fbd347f9d/61%20-%20Mengungkap%20Akar%20Psikologis%20Anak%20-%20catatan.js?v=20261023-2"></script>
+<script>
+/* Dukungan Enter khusus gerbang eBook 061; tidak mengubah engine bersama. */
+(() => {
+  const gate = document.getElementById('gate');
+  if (!gate || gate.dataset.enterLoginBound) return;
+  gate.dataset.enterLoginBound = 'true';
+  gate.addEventListener('keydown', event => {
+    if (event.key !== 'Enter' || event.isComposing || event.repeat || event.defaultPrevented) return;
+    if (!event.target.matches('#user, #pass') || gate.classList.contains('hidden')) return;
+    event.preventDefault();
+    tryLogin();
+  });
+})();
+
+</script>
 </body>
 </html>
