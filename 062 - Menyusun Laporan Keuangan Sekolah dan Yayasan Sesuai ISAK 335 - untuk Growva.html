@@ -153,15 +153,15 @@
     waNumber: "6281385841500"
   };
 </script>
-<script src="https://cdn.jsdelivr.net/gh/MuhammadFuad81/ebook-interaktif-edumind@be940b39ff85d568400680a1ff0190adac20fc46/62%20-%20Laporan%20Keuangan%20Sekolah%20dan%20Yayasan%20Sesuai%20ISAK%20335%20-%20content.js?v=20261026-1"></script>
+<script src="https://cdn.jsdelivr.net/gh/MuhammadFuad81/ebook-interaktif-edumind@1722ca799f1d21ba678b9397814022cb9a577a02/62%20-%20Laporan%20Keuangan%20Sekolah%20dan%20Yayasan%20Sesuai%20ISAK%20335%20-%20content.js?v=20261026-1"></script>
 
 <div id="gate">
   <img class="gate-logo" src="https://growva.biz.id/gambarbebas/20260621-082723_Logo%20Edumind%20Academy%20-%20Terbaru2026%20[putih].png" alt="Edumind Academy">
   <div class="gate-card">
     <p class="eyebrow">Ebook Interaktif - 062</p>
     <h1>Menyusun Laporan Keuangan<br>Sekolah dan Yayasan</h1>
-    <input aria-label="Username akses" autocomplete="username" id="user" type="text" placeholder="Username akses">
-    <div style="position:relative;margin-bottom:12px"><input aria-label="Password akses" autocomplete="current-password" id="pass" type="password" placeholder="Password akses" style="margin-bottom:0;padding-right:50px"><button type="button" onclick="togglePasswordVisibility(this)" aria-label="Tampilkan password" title="Tampilkan password" style="position:absolute;right:0;top:0;width:48px;height:100%;padding:0;background:transparent;color:var(--navy);border:0;box-shadow:none;display:flex;align-items:center;justify-content:center"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3.5-6 10-6 10 6 10 6-3.5 6-10 6S2 12 2 12Z"></path><circle cx="12" cy="12" r="2.5"></circle></svg></button></div>
+    <input aria-label="Username akses" autocomplete="username" id="user" enterkeyhint="go" type="text" placeholder="Username akses">
+    <div style="position:relative;margin-bottom:12px"><input aria-label="Password akses" autocomplete="current-password" id="pass" enterkeyhint="go" type="password" placeholder="Password akses" style="margin-bottom:0;padding-right:50px"><button type="button" onclick="togglePasswordVisibility(this)" aria-label="Tampilkan password" title="Tampilkan password" style="position:absolute;right:0;top:0;width:48px;height:100%;padding:0;background:transparent;color:var(--navy);border:0;box-shadow:none;display:flex;align-items:center;justify-content:center"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3.5-6 10-6 10 6 10 6-3.5 6-10 6S2 12 2 12Z"></path><circle cx="12" cy="12" r="2.5"></circle></svg></button></div>
     <button onclick="tryLogin()">Masuk &amp; Mulai Membaca</button>
     <p class="gate-error" id="gateErr"></p>
     <button class="gate-preview-btn" id="previewBtn" onclick="startPreview()">Baca Bab 1 Gratis →</button>
@@ -295,19 +295,36 @@
 
 <script>function togglePasswordVisibility(button){const password=document.getElementById("pass");const shown=password.type==="text";password.type=shown?"password":"text";button.setAttribute("aria-label",shown?"Tampilkan password":"Sembunyikan password");button.setAttribute("title",shown?"Tampilkan password":"Sembunyikan password");}</script>
 <script src="https://cdn.jsdelivr.net/gh/MuhammadFuad81/ebook-interaktif-edumind@main/engine.js?v=20261026-1-062"></script>
-<script src="https://cdn.jsdelivr.net/gh/MuhammadFuad81/ebook-interaktif-edumind@be940b39ff85d568400680a1ff0190adac20fc46/62%20-%20Laporan%20Keuangan%20Sekolah%20dan%20Yayasan%20Sesuai%20ISAK%20335%20-%20catatan.js?v=20261026-1"></script>
+<script src="https://cdn.jsdelivr.net/gh/MuhammadFuad81/ebook-interaktif-edumind@1722ca799f1d21ba678b9397814022cb9a577a02/62%20-%20Laporan%20Keuangan%20Sekolah%20dan%20Yayasan%20Sesuai%20ISAK%20335%20-%20catatan.js?v=20261026-1"></script>
 <script>
-/* Dukungan Enter khusus gerbang eBook 062; tidak mengubah engine bersama. */
+/* Enter khusus eBook 062: gunakan jalur klik tombol yang sudah bekerja di WSP. */
 (() => {
-  const gate = document.getElementById('gate');
-  if (!gate || gate.dataset.enterLoginBound) return;
-  gate.dataset.enterLoginBound = 'true';
-  gate.addEventListener('keydown', event => {
-    if (event.key !== 'Enter' || event.isComposing || event.repeat || event.defaultPrevented) return;
-    if (!event.target.matches('#user, #pass') || gate.classList.contains('hidden')) return;
+  const marker = '__edumind062EnterCaptureV2';
+  if (window[marker]) return;
+  window[marker] = true;
+  const markGate = () => {
+    const gate = document.getElementById('gate');
+    if (gate) gate.dataset.enterLoginBound = 'true';
+  };
+  markGate();
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', markGate, {once:true});
+  window.addEventListener('keydown', event => {
+    const isEnter = event.key === 'Enter' || event.code === 'Enter' || event.code === 'NumpadEnter' || event.keyCode === 13;
+    if (!isEnter || event.isComposing || event.keyCode === 229 || event.repeat) return;
+    const input = event.target;
+    if (!(input instanceof Element) || !input.matches('#user, #pass')) return;
+    const gate = input.closest('#gate');
+    if (!gate || gate.classList.contains('hidden') || gate.getClientRects().length === 0) return;
+    const config = window.BOOK_CONFIG;
+    if (config && config.id !== 'laporan-keuangan-isak335-062') return;
+    const button = gate.querySelector('button[onclick="tryLogin()"]');
+    if (!button || button.disabled || typeof window.tryLogin !== 'function') return;
+    // Capture precedes WSP handlers on inputs; do not skip an already-cancelled Enter.
     event.preventDefault();
-    tryLogin();
-  });
+    event.stopImmediatePropagation();
+    markGate();
+    button.click();
+  }, true);
 })();
 
 </script>
