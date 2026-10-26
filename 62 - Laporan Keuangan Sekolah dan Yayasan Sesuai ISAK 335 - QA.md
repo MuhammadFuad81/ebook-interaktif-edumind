@@ -1,5 +1,13 @@
 # Verifikasi eBook 062 — Laporan Keuangan ISAK 335
 
+## Revisi Enter untuk WSP Growva
+
+Kegagalan berhasil direproduksi pada halaman produksi `https://growva.biz.id/ebook-menyusun-laporan-keuangan-isak335`: marker Enter sudah ada, tetapi tombol Enter tidak membuka aplikasi dan tidak menampilkan kesalahan. Uji sebelumnya pada file lokal/HTTP belum mencakup perilaku WSP ini.
+
+Revisi mengganti listener yang melekat pada satu elemen gate dengan delegasi capture pada window, dibatasi ke input username/password eBook 062 saat gate terlihat. Enter memanggil klik tombol login yang sama dengan mouse. Listener tetap bekerja bila elemen gate diganti/di-clone dan tidak melewatkan Enter hanya karena default event sudah dibatalkan. Enter biasa/numpad didukung; repeat/IME diabaikan; setelah login atau ketika mengetik refleksi, handler tidak ikut bekerja. Handler dibundel dalam catatan.js dan HTML dengan guard supaya tidak terpasang ganda. Engine bersama dan isi buku tidak diubah.
+
+Pengujian pada halaman Growva aktual dilakukan sebagai hotfix sementara dalam sesi browser pengujian, bukan perubahan server WSP. Keempat kombinasi desktop/ponsel × kolom username/password lulus; kredensial salah ditolak, satu Enter memanggil login tepat sekali, pergantian gate dan pencegahan event pada input tidak menghalangi login. Laporan lokal: `.ebook062-work/qa-enter-growva/report.json`. Pengguna perlu menempel ulang HTML terbaru untuk menerapkan secara permanen pada WSP.
+
 ## Status final
 
 Naskah, struktur, jurnal dan keterhubungan lima komponen laporan sudah diperiksa. Uji Chrome 1366×900 dan 390×844 lulus: 14 bab, satu gambar per bab, 42 kuis mini, 20 soal asesmen, skor tertahan sampai jawaban lengkap, pratinjau Bab 1, penguncian akses bab berikutnya, progres, catatan dan rencana tersimpan, tanpa overflow horizontal, serta header/footer fixed. Pengujian diulang memakai JS CDN yang sesungguhnya tanpa substitusi lokal, dan lulus.

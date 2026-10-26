@@ -27,3 +27,33 @@
 
 /* Muat seluruh gambar buku sebelum dialog cetak; tidak menyentuh engine bersama. */
 (() => {const original=window.generatePDF;window.generatePDF=async()=>{const images=Array.from(document.querySelectorAll("#app .cover-img,#app .chapter-visual img"));images.forEach(img=>{img.loading="eager";});await Promise.all(images.map(img=>img.decode().catch(()=>{})));original();};})();
+
+/* Enter khusus eBook 062: gunakan jalur klik tombol yang sudah bekerja di WSP. */
+(() => {
+  const marker = '__edumind062EnterCaptureV2';
+  if (window[marker]) return;
+  window[marker] = true;
+  const markGate = () => {
+    const gate = document.getElementById('gate');
+    if (gate) gate.dataset.enterLoginBound = 'true';
+  };
+  markGate();
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', markGate, {once:true});
+  window.addEventListener('keydown', event => {
+    const isEnter = event.key === 'Enter' || event.code === 'Enter' || event.code === 'NumpadEnter' || event.keyCode === 13;
+    if (!isEnter || event.isComposing || event.keyCode === 229 || event.repeat) return;
+    const input = event.target;
+    if (!(input instanceof Element) || !input.matches('#user, #pass')) return;
+    const gate = input.closest('#gate');
+    if (!gate || gate.classList.contains('hidden') || gate.getClientRects().length === 0) return;
+    const config = window.BOOK_CONFIG;
+    if (config && config.id !== 'laporan-keuangan-isak335-062') return;
+    const button = gate.querySelector('button[onclick="tryLogin()"]');
+    if (!button || button.disabled || typeof window.tryLogin !== 'function') return;
+    // Capture precedes WSP handlers on inputs; do not skip an already-cancelled Enter.
+    event.preventDefault();
+    event.stopImmediatePropagation();
+    markGate();
+    button.click();
+  }, true);
+})();
