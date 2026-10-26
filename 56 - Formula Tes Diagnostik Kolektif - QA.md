@@ -39,4 +39,10 @@ Buku baru memakai 056 atas keputusan pengguna. Berkas, entri katalog, dan aset e
 
 ## Publikasi
 
-Status pada catatan awal ini: uji lokal dan R2 lulus; penerbitan JS/HTML, purge jsDelivr, dan pengujian pemuat publik dilakukan pada tahap final berikutnya. Halaman WSP tidak diperbarui otomatis: pengguna menerima HTML siap tempel.
+JS dan HTML telah diterbitkan ke GitHub. Content/catatan dipatok pada commit `f7be30e0da37d152dca79bd8403d831af91088f7`; HTML pengiriman pada commit `7c36a08f7e13f5c5a2d83c4ef966f5642ed269de`. Pemanggilan JS memakai query versi `20261026-1`; engine bersama tetap dari repositori kanonik tanpa perubahan.
+
+Purge jsDelivr untuk delapan berkas baru selesai berstatus finished. URL HTML rilis dan kedua URL JS yang benar-benar dimuat HTML teruji HTTP200 dan sama dengan salinan lokal setelah normalisasi akhir baris. Pengujian pembaca dengan seluruh JS/gambar publik lulus pada desktop 1366×900 dan ponsel 390×844; uji tambahan 320/768/1920 juga lulus untuk semua 22 halaman dan kesiapan cetak.
+
+Uji Enter terpisah pada file lokal serta HTTP, masing-masing desktop/ponsel, lulus: Enter dari username dan password memanggil login sekali, password salah ditolak, klik mouse tetap bekerja, dan event komposisi teks/penekanan berulang diabaikan. Semua 13 gambar bab tetap ada. Tidak ada error JavaScript pada laporan akhir.
+
+Halaman WSP tidak diperbarui otomatis: pengguna menerima HTML siap tempel dan perlu menempel seluruh isinya. Username `edumind`, password `ebook056`. Tidak ada klaim bahwa perapian nomor koleksi telah dilaksanakan atau alias CDN @main selalu langsung segar; pemuat buku memakai ref rilis yang sudah diverifikasi.

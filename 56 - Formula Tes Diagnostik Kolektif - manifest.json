@@ -14,7 +14,7 @@
   "assessmentCount": 20,
   "assetPrefix": "ebook-edumind/056-tes-diagnostik-kolektif",
   "assetVersion": "20261026-1",
-  "status": "r2-verified-reader-qa-in-progress",
+  "status": "published-verified",
   "canonicalRepository": "MuhammadFuad81/ebook-interaktif-edumind",
   "numberingStatus": "056 confirmed by owner; master catalog reconciliation deferred until collection naming revision",
   "preservation": "Existing global-school book files and assets preserved, no automatic renaming",
@@ -210,5 +210,36 @@
       "url": "https://media.edumind.id/ebook-edumind/056-tes-diagnostik-kolektif/cover.webp?v=20261026-1",
       "role": "cover"
     }
-  ]
+  ],
+  "delivery": {
+    "contentRef": "f7be30e0da37d152dca79bd8403d831af91088f7",
+    "htmlRef": "7c36a08f7e13f5c5a2d83c4ef966f5642ed269de",
+    "htmlUrl": "https://cdn.jsdelivr.net/gh/MuhammadFuad81/ebook-interaktif-edumind@7c36a08f7e13f5c5a2d83c4ef966f5642ed269de/056%20-%20Formula%20Tes%20Diagnostik%20Kolektif%20untuk%20Memetakan%20Gaya%20Belajar%20%26%20Potensi%20Siswa%20-%20untuk%20Growva.html",
+    "contentUrl": "https://cdn.jsdelivr.net/gh/MuhammadFuad81/ebook-interaktif-edumind@f7be30e0da37d152dca79bd8403d831af91088f7/56%20-%20Formula%20Tes%20Diagnostik%20Kolektif%20-%20content.js?v=20261026-1",
+    "notesUrl": "https://cdn.jsdelivr.net/gh/MuhammadFuad81/ebook-interaktif-edumind@f7be30e0da37d152dca79bd8403d831af91088f7/56%20-%20Formula%20Tes%20Diagnostik%20Kolektif%20-%20catatan.js?v=20261026-1"
+  },
+  "qa": {
+    "passed": true,
+    "desktop": true,
+    "mobile": true,
+    "widths": [
+      320,
+      390,
+      768,
+      1366,
+      1920
+    ],
+    "enterFromBothFields": true,
+    "localFileAndHttp": true,
+    "images": 14,
+    "chapterImages": 13,
+    "publicAssetChecksums": true,
+    "printReady": true
+  },
+  "cache": {
+    "cloudflare": "dashboard-custom-purge-complete",
+    "cloudflareUrls": 28,
+    "jsDelivr": "finished",
+    "jsDelivrFiles": 8
+  }
 }
