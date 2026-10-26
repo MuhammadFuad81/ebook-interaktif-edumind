@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.25, user-scalable=yes, viewport-fit=cover, interactive-widget=resizes-content">
+<title>Menyusun Laporan Keuangan Sekolah dan Yayasan — Edumind Academy</title>
+<link rel="icon" href="https://growva.biz.id/gambarbebas/20260621-082723_Logo%20Edumind%20Academy%20-%20Terbaru2026%20[putih].png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Menyusun Laporan Keuangan Sekolah dan Yayasan — Edumind Academy">
+<meta property="og:description" content="Sesuai ISAK 335.">
+<meta property="og:image" content="https://media.edumind.id/ebook-edumind/062-laporan-keuangan-isak335/cover.webp?v=20261026-1">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/MuhammadFuad81/ebook-interaktif-edumind@main/engine-ANIMASI.css">
+<style>
+
+  :root{--accent:#1A6670;--accent-dark:#10454C;--accent-tint:#E0EFF0;}
+
+  /* Permintaan produksi: seluruh ukuran font buku ini dinaikkan total 2 pt
+     dari engine bersama, tanpa mengubah ukuran buku-buku lain. */
+  body{font-size:calc(17px + 2pt)}
+  .gate-card .eyebrow,.eyebrow,.cover .kicker{font-size:calc(12px + 2pt)}
+  .gate-card h1{font-size:calc(22px + 2pt)}
+  .gate-card input,.gate-card button,.cover .start-btn,.card table,.reflect-box textarea,.quiz-opt,.check-assess-btn,.faq-q,.faq-a,.catalog-search{font-size:calc(15px + 2pt)}
+  .gate-error,.sticky-nav-label,.card table th,.seal,.cta-card a,.chip,.video-label{font-size:calc(13px + 2pt)}
+  .gate-preview-btn,.topbar .book-title,.theme-toggle,.toc a,.nav-btn,.done-btn,.plan-row input,.add-row,.cta-card p,.product-title,.loadmore-btn{font-size:calc(14px + 2pt)}
+  .gate-hint,.ribbon-pct,.summary-stat .lbl{font-size:calc(12px + 2pt)}
+  .wa-fab{font-size:calc(24px + 2pt)}
+  .sticky-nav-btn,.cover p{font-size:calc(18px + 2pt)}
+  .toc-label,.toc a.locked .toc-check{font-size:calc(11px + 2pt)}
+  .toc-check,.product-cat{font-size:calc(10px + 2pt)}
+  .page h2,.summary-stat .num{font-size:calc(30px + 2pt)}
+  .lede,.cta-card h3{font-size:calc(17px + 2pt)}
+  .cover h1{font-size:calc(44px + 2pt)}
+  .reflect-box h3,.assess-result{font-size:calc(16px + 2pt)}
+  .card > h3.ui{font-size:calc(19.89px + 2pt)}
+  .locked-card button,.plan-row button{font-size:calc(13.333px + 2pt)}
+
+  
+  
+  
+
+  /* ===== HEADER & FOOTER TETAP + PENGAMAN RESPONSIF =====
+     Header lama memakai position:sticky sehingga dapat tenggelam saat halaman
+     digulir/di-zoom pada sebagian browser HP. Buku ini memakai bar fixed dengan
+     tinggi pasti agar header dan navigasi bawah selalu berada di viewport. */
+  html,body{
+    width:100%; max-width:100%; overflow-x:hidden;
+    overscroll-behavior-x:none;
+  }
+  #app,#app.active,.layout,main,.page{
+    width:100%; max-width:100%; min-width:0;
+  }
+  #app.active{padding-top:64px}
+  .topbar{
+    position:fixed !important;
+    inset:0 0 auto 0;
+    width:100%; max-width:100%; height:64px; min-height:64px;
+    z-index:9999;
+    gap:10px; padding:10px 14px;
+    transform:translateZ(0); backface-visibility:hidden;
+    box-shadow:0 4px 16px rgba(27,42,74,.08);
+  }
+  .topbar .book-title{
+    min-width:0; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
+  }
+  .topbar .ribbon-track{
+    flex:0 1 100px; min-width:36px;
+  }
+  .topbar .ribbon-pct,.topbar .theme-toggle,.topbar .hamburger{
+    flex:0 0 auto;
+  }
+  .toc{top:64px;max-height:calc(100dvh - 64px)}
+  main{overflow-x:clip;padding-bottom:120px}
+  .page,.card,.reflect-box,.quiz-q,.assess-q,.locked-card,.cta-card{
+    max-width:100%; min-width:0; overflow-wrap:anywhere;
+  }
+  .card table{display:block;max-width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch}
+  img,video,iframe{max-width:100%}
+  .sticky-nav-bar{
+    position:fixed !important;
+    inset:auto 0 0 0;
+    width:100%; max-width:100%; min-width:0;
+    z-index:9998;
+    min-height:64px;
+    padding:10px 16px max(10px,env(safe-area-inset-bottom));
+    transform:translateZ(0); backface-visibility:hidden;
+  }
+  .wa-fab{
+    z-index:9997;
+    bottom:calc(78px + env(safe-area-inset-bottom));
+    transform:translateZ(0); backface-visibility:hidden;
+  }
+
+  @media (max-width:900px){
+    body{font-size:calc(17.5px + 2pt)}
+    .cover h1{font-size:calc(32px + 2pt)}
+    
+    .toc{top:64px;height:calc(100dvh - 64px);max-height:calc(100dvh - 64px);padding-top:18px}
+    main{padding:8px 18px calc(112px + env(safe-area-inset-bottom))}
+    .topbar{gap:8px;padding:9px 10px}
+    .topbar .book-title{font-size:calc(12px + 2pt);max-width:34vw}
+    .topbar .ribbon-track{flex-basis:56px}
+    .topbar .theme-toggle{padding:7px 8px}
+  }
+  @media (max-width:420px){
+    .topbar{gap:6px}
+    .topbar .book-title{max-width:30vw}
+    .topbar .ribbon-track{flex-basis:42px}
+    .topbar .ribbon-pct{display:none}
+    .sticky-nav-bar{padding-left:12px;padding-right:12px}
+  }
+  @media (max-width:340px){
+    .topbar .book-title{max-width:26vw}
+    .topbar .ribbon-track{display:none}
+    .theme-toggle{font-size:calc(12px + 2pt)}
+  }
+
+  .layout{max-width:1180px}.cover-img{height:auto;aspect-ratio:2/3;object-fit:cover}
+  .chapter-visual{max-width:680px;margin:28px auto}
+  .mutu-note{margin:24px 0;padding:18px 20px;border-left:4px solid var(--accent);background:var(--accent-tint);border-radius:0 12px 12px 0}
+  .mutu-note strong,.mutu-flow strong{font-family:var(--font-display);color:var(--heading)}
+  .mutu-note p{margin:8px 0 0}.mutu-imprint{font-size:calc(12px + 2pt);color:var(--slate)}
+  .table-wrap{max-width:100%;overflow-x:auto;margin:18px 0;border:1px solid var(--border);border-radius:10px}
+  .table-wrap table{display:table;width:100%;min-width:480px;margin:0;font-size:calc(14px + 2pt)}
+  .table-wrap caption{padding:14px;text-align:left;font-family:var(--font-display);font-weight:600;color:var(--heading)}
+  .table-wrap th,.table-wrap td{white-space:normal;vertical-align:top;overflow-wrap:normal;font-size:inherit;min-width:100px}
+  .mutu-flow{margin:24px 0;padding:20px;background:var(--accent-tint);border-radius:14px}
+  .mutu-flow figcaption{font-family:var(--font-display);font-weight:600;color:var(--heading);margin-bottom:14px}
+  .mutu-flow ol{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;padding:0;list-style:none;margin:0}
+  .mutu-flow li{padding:16px;background:var(--surface);border:1px solid var(--border);border-radius:10px;min-width:0}
+  .mutu-flow span{display:block;margin-top:8px}.chapter-visual figcaption{font-size:calc(12px + 2pt)}
+  .page h4{font-size:calc(17px + 2pt)}
+  .toc.open{z-index:10001}.scrim.show{z-index:10000}
+  @media(max-width:600px){.mutu-flow ol{grid-template-columns:1fr}.mutu-flow{padding:14px}.table-wrap table{min-width:420px}}
+  @media print{#app.active{padding-top:0}.topbar,.sticky-nav-bar{display:none!important}.table-wrap{overflow:visible}.table-wrap table{min-width:0}.mutu-flow,.chapter-visual{break-inside:avoid}}
+
+  @media print{.layout{display:block;max-width:none}.reveal{opacity:1!important;transform:none!important;transition:none!important}body.print-all #page-locked,body.print-all #page-katalog,.chapter-nav,.check-assess-btn{display:none!important}h2,h3,h4{break-after:avoid}}
+</style>
+</head>
+<body>
+
+<script>
+  window.BOOK_CONFIG = {
+    id: "laporan-keuangan-isak335-062",
+    title: "Menyusun Laporan Keuangan Sekolah dan Yayasan Sesuai ISAK 335",
+    chapters: ["bab1","bab2","bab3","bab4","bab5","bab6","bab7","bab8","bab9","bab10","bab11","bab12","bab13","bab14"],
+    previewAllowed: ["cover","pengantar","bab1"],
+    validUser: "edumind",
+    validPass: "ebook062",
+    freePreview: true,
+    waNumber: "6281385841500"
+  };
+</script>
+<script src="https://cdn.jsdelivr.net/gh/MuhammadFuad81/ebook-interaktif-edumind@be940b39ff85d568400680a1ff0190adac20fc46/62%20-%20Laporan%20Keuangan%20Sekolah%20dan%20Yayasan%20Sesuai%20ISAK%20335%20-%20content.js?v=20261026-1"></script>
+
+<div id="gate">
+  <img class="gate-logo" src="https://growva.biz.id/gambarbebas/20260621-082723_Logo%20Edumind%20Academy%20-%20Terbaru2026%20[putih].png" alt="Edumind Academy">
+  <div class="gate-card">
+    <p class="eyebrow">Ebook Interaktif - 062</p>
+    <h1>Menyusun Laporan Keuangan<br>Sekolah dan Yayasan</h1>
+    <input aria-label="Username akses" autocomplete="username" id="user" type="text" placeholder="Username akses">
+    <div style="position:relative;margin-bottom:12px"><input aria-label="Password akses" autocomplete="current-password" id="pass" type="password" placeholder="Password akses" style="margin-bottom:0;padding-right:50px"><button type="button" onclick="togglePasswordVisibility(this)" aria-label="Tampilkan password" title="Tampilkan password" style="position:absolute;right:0;top:0;width:48px;height:100%;padding:0;background:transparent;color:var(--navy);border:0;box-shadow:none;display:flex;align-items:center;justify-content:center"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3.5-6 10-6 10 6 10 6-3.5 6-10 6S2 12 2 12Z"></path><circle cx="12" cy="12" r="2.5"></circle></svg></button></div>
+    <button onclick="tryLogin()">Masuk &amp; Mulai Membaca</button>
+    <p class="gate-error" id="gateErr"></p>
+    <button class="gate-preview-btn" id="previewBtn" onclick="startPreview()">Baca Bab 1 Gratis →</button>
+    <p class="gate-hint">Akses ini bersifat pribadi untuk pengguna resmi Edumind Academy. Mari sama-sama menjaga keberkahan ilmu</p>
+  </div>
+</div>
+
+<div id="app">
+  <div class="topbar">
+    <button class="hamburger" onclick="toggleDrawer()" aria-label="Buka daftar isi"><span></span><span></span><span></span></button>
+    <span class="book-title ui">Menyusun Laporan Keuangan Sekolah dan Yayasan</span>
+    <div class="ribbon-track"><div class="ribbon-fill" id="ribbonFill"></div></div>
+    <span class="ribbon-pct" id="ribbonPct">0%</span>
+    <button class="theme-toggle" id="themeBtn" onclick="toggleTheme()" aria-label="Ganti mode gelap/terang">🌙</button>
+    <button class="theme-toggle" onclick="generatePDF()" aria-label="Unduh sebagai PDF" title="Unduh sebagai PDF">⬇︎ PDF</button>
+  </div>
+
+  <a class="wa-fab" href="https://wa.me/6281385841500" target="_blank" rel="noopener" aria-label="Kontak Edumind melalui WhatsApp">💬</a>
+  <div class="scrim" id="scrim" onclick="toggleDrawer()"></div>
+
+  <div class="layout">
+    <nav class="toc" id="toc">
+      <div class="toc-group">
+        <p class="toc-label">Pembuka</p>
+        <a href="#cover" data-nav><span class="toc-check"></span>Cover</a>
+        <a href="#pengantar" data-nav><span class="toc-check"></span>Kata Pengantar</a>
+      </div>
+      <div class="toc-group"><p class="toc-label">Bagian I — Dasar yang Dapat Dipercaya</p><a href="#bab1" data-nav data-chapter><span class="toc-check"></span>Bab 1 — Amanah dan Kerangka Pelaporan</a><a href="#bab2" data-nav data-chapter><span class="toc-check"></span>Bab 2 — Entitas, Unit, dan Periode</a><a href="#bab3" data-nav data-chapter><span class="toc-check"></span>Bab 3 — Menata Saldo Awal</a><a href="#bab4" data-nav data-chapter><span class="toc-check"></span>Bab 4 — Dokumen dan Kode Akun</a></div>
+      <div class="toc-group"><p class="toc-label">Bagian II — Dari Transaksi ke Tutup Buku</p><a href="#bab5" data-nav data-chapter><span class="toc-check"></span>Bab 5 — Membaca Substansi Sumber Dana</a><a href="#bab6" data-nav data-chapter><span class="toc-check"></span>Bab 6 — Sumbangan dan Pelepasan</a><a href="#bab7" data-nav data-chapter><span class="toc-check"></span>Bab 7 — SPP dan Kewajiban</a><a href="#bab8" data-nav data-chapter><span class="toc-check"></span>Bab 8 — Uang Muka dan Antarunit</a><a href="#bab9" data-nav data-chapter><span class="toc-check"></span>Bab 9 — Aset Tetap dan Penyusutan</a><a href="#bab10" data-nav data-chapter><span class="toc-check"></span>Bab 10 — Penutupan Buku Bulanan</a></div>
+      <div class="toc-group"><p class="toc-label">Bagian III — Laporan dan Tata Kelola</p><a href="#bab11" data-nav data-chapter><span class="toc-check"></span>Bab 11 — Lima Komponen Laporan</a><a href="#bab12" data-nav data-chapter><span class="toc-check"></span>Bab 12 — Dari Angka ke Keputusan</a><a href="#bab13" data-nav data-chapter><span class="toc-check"></span>Bab 13 — Pelaporan Khusus dan Pajak</a><a href="#bab14" data-nav data-chapter><span class="toc-check"></span>Bab 14 — Rutinitas, Audit, dan Perbaikan</a></div>
+      <div class="toc-group">
+        <p class="toc-label">Penutup</p>
+        <a href="#video" data-nav><span class="toc-check"></span>Pustaka Video</a>
+        <a href="#asesmen" data-nav><span class="toc-check"></span>Asesmen Komprehensif</a>
+        <a href="#rencana" data-nav><span class="toc-check"></span>Rencana Aksi</a>
+        <a href="#ringkasan" data-nav><span class="toc-check"></span>Ringkasan Pencapaian</a>
+        <a href="#faq" data-nav><span class="toc-check"></span>FAQ</a>
+        <a href="#cta" data-nav><span class="toc-check"></span>Penutup</a>
+      </div>
+      <div class="toc-group">
+        <p class="toc-label">Katalog Edumind</p>
+        <a href="#katalog" data-nav><span class="toc-check"></span>Jelajahi Produk Lainnya</a>
+      </div>
+      <div class="toc-group">
+        <p class="toc-label">Akun</p>
+        <a href="#" onclick="logout(); return false;"><span class="toc-check">↩</span>Keluar</a>
+      </div>
+    </nav>
+
+    <main>
+      <section class="page" id="page-cover">
+        <div class="cover">
+          <p class="kicker">Edumind Academy · eBook Interaktif 062</p>
+          <img class="cover-img" src="https://media.edumind.id/ebook-edumind/062-laporan-keuangan-isak335/cover.webp?v=20261026-1" alt="Cover Menyusun Laporan Keuangan Sekolah dan Yayasan" width="1200" height="1800" loading="eager" decoding="async">
+          <h1>Menyusun Laporan Keuangan Sekolah dan Yayasan</h1>
+          <p>Sesuai ISAK 335.</p>
+          <button class="start-btn" onclick="go('pengantar')">Mulai Membaca →</button>
+        </div>
+      </section>
+
+      <section class="page" id="page-pengantar"></section>
+      <section class="page" id="page-bab1" data-chapter-page="bab1"></section>
+      <section class="page" id="page-bab2" data-chapter-page="bab2"></section>
+      <section class="page" id="page-bab3" data-chapter-page="bab3"></section>
+      <section class="page" id="page-bab4" data-chapter-page="bab4"></section>
+      <section class="page" id="page-bab5" data-chapter-page="bab5"></section>
+      <section class="page" id="page-bab6" data-chapter-page="bab6"></section>
+      <section class="page" id="page-bab7" data-chapter-page="bab7"></section>
+      <section class="page" id="page-bab8" data-chapter-page="bab8"></section>
+      <section class="page" id="page-bab9" data-chapter-page="bab9"></section>
+      <section class="page" id="page-bab10" data-chapter-page="bab10"></section>
+      <section class="page" id="page-bab11" data-chapter-page="bab11"></section>
+      <section class="page" id="page-bab12" data-chapter-page="bab12"></section>
+      <section class="page" id="page-bab13" data-chapter-page="bab13"></section>
+      <section class="page" id="page-bab14" data-chapter-page="bab14"></section>
+      
+      <section class="page" id="page-video">
+        <p class="eyebrow reveal">Lampiran</p>
+        <h2 class="reveal">Pustaka Video</h2>
+        <p class="lede reveal">Rekaman pendamping penyusunan laporan keuangan sekolah dan yayasan. Buku menyusun ulang materi menjadi alur belajar, memperjelas contoh hitungan, serta memberi batas penggunaan dan konteks perkembangan standar.</p>
+        <p class="video-label reveal"></p>
+        <div class="video-wrap reveal"><iframe src="https://www.youtube.com/embed/pfHFw2OZe4A" title="Menyusun Laporan Keuangan Sekolah dan Yayasan" loading="lazy" allowfullscreen></iframe></div><p class="reveal"><a href="https://youtu.be/pfHFw2OZe4A" target="_blank" rel="noopener">Buka rekaman di YouTube ↗</a></p>
+      </section>
+
+      <section class="page" id="page-asesmen"></section>
+
+      <section class="page" id="page-rencana">
+        <p class="eyebrow reveal">Tindak Lanjut</p>
+        <h2 class="reveal">Rencana Pembenahan Keuangan 30–90 Hari</h2>
+        <p class="lede reveal">Gunakan data samaran. Tentukan proses prioritas, tindakan, pelaksana, pemeriksa, tenggat, dan bukti selesai. Jangan masukkan nomor rekening, data keluarga atau dokumen rahasia. Kolom ini tersimpan di browser, bukan arsip keuangan institusi.</p>
+        <div class="card reveal" id="planCard">
+          <div class="plan-row"><input aria-label="Prioritas dan tindakan" placeholder="Prioritas • tindakan"><input aria-label="PIC dan tenggat" placeholder="PIC • tenggat"><input aria-label="Baseline, target, dan bukti" placeholder="Baseline → target • bukti"><button onclick="this.parentElement.remove()">✕</button></div>
+        </div>
+        <button class="add-row" onclick="addPlanRow()">+ Tambah baris</button>
+      </section>
+
+      <section class="page" id="page-ringkasan">
+        <p class="eyebrow reveal">Rekap</p>
+        <h2 class="reveal">Ringkasan Pencapaian Anda</h2>
+        <div class="summary-grid reveal">
+          <div class="summary-stat"><div class="num" id="sumChapters">0/14</div><div class="lbl">Bab Selesai</div></div>
+          <div class="summary-stat"><div class="num" id="sumQuiz">0</div><div class="lbl">Kuis Mini Dijawab Benar</div></div>
+          <div class="summary-stat"><div class="num" id="sumAssessScore">–</div><div class="lbl">Skor Asesmen Komprehensif</div></div>
+          <div class="summary-stat"><div class="num" id="sumPlan">0</div><div class="lbl">Rencana Aksi Diisi</div></div>
+        </div>
+        <p class="lede reveal">Rekap ini menunjukkan pembelajaran Anda, bukan opini atas kepatuhan laporan lembaga. Tinjau kembali prioritas pembenahan dan bukti penyelesaiannya.</p>
+      </section>
+
+      <section class="page" id="page-faq"></section>
+
+      <section class="page" id="page-cta"></section>
+
+      <section class="page" id="page-locked">
+        <p class="eyebrow reveal">Konten Premium</p>
+        <h2 class="reveal">Bagian Ini Khusus Pengguna Resmi</h2>
+        <div class="locked-card reveal"><p>Anda sedang membaca pratinjau Bab 1. Masukkan kredensial akses untuk membuka seluruh isi eBook interaktif.</p><button onclick="logout()">Masuk dengan Kredensial Resmi</button></div>
+      </section>
+
+      <section class="page" id="page-katalog">
+        <p class="eyebrow reveal">Katalog Edumind</p>
+        <h2 class="reveal">Jelajahi Produk Lainnya</h2>
+        <p class="lede reveal">Klik cover untuk melihat detail dan checkout.</p>
+        <div class="filter-chips reveal" id="filterChips"></div>
+        <input type="text" class="catalog-search reveal" id="catalogSearch" placeholder="Cari judul produk..." oninput="setSearch(this.value)">
+        <div class="catalog-grid reveal" id="catalogGrid"></div>
+        <button class="loadmore-btn" id="loadMoreBtn" onclick="loadMoreProducts()">Muat Lebih Banyak</button>
+      </section>
+    </main>
+  </div>
+</div>
+
+<script>function togglePasswordVisibility(button){const password=document.getElementById("pass");const shown=password.type==="text";password.type=shown?"password":"text";button.setAttribute("aria-label",shown?"Tampilkan password":"Sembunyikan password");button.setAttribute("title",shown?"Tampilkan password":"Sembunyikan password");}</script>
+<script src="https://cdn.jsdelivr.net/gh/MuhammadFuad81/ebook-interaktif-edumind@main/engine.js?v=20261026-1-062"></script>
+<script src="https://cdn.jsdelivr.net/gh/MuhammadFuad81/ebook-interaktif-edumind@be940b39ff85d568400680a1ff0190adac20fc46/62%20-%20Laporan%20Keuangan%20Sekolah%20dan%20Yayasan%20Sesuai%20ISAK%20335%20-%20catatan.js?v=20261026-1"></script>
+<script>
+/* Dukungan Enter khusus gerbang eBook 062; tidak mengubah engine bersama. */
+(() => {
+  const gate = document.getElementById('gate');
+  if (!gate || gate.dataset.enterLoginBound) return;
+  gate.dataset.enterLoginBound = 'true';
+  gate.addEventListener('keydown', event => {
+    if (event.key !== 'Enter' || event.isComposing || event.repeat || event.defaultPrevented) return;
+    if (!event.target.matches('#user, #pass') || gate.classList.contains('hidden')) return;
+    event.preventDefault();
+    tryLogin();
+  });
+})();
+
+</script>
+</body>
+</html>
