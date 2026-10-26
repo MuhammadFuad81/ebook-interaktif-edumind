@@ -14,7 +14,7 @@
   "assessmentCount": 20,
   "assetPrefix": "ebook-edumind/062-laporan-keuangan-isak335",
   "assetVersion": "20261026-1",
-  "status": "assets-prepared-qa-in-progress",
+  "status": "published-verified",
   "canonicalRepository": "MuhammadFuad81/ebook-interaktif-edumind",
   "numberingStatus": "062 confirmed by owner; collection-wide naming reconciliation explicitly deferred",
   "preservation": "Existing book contents, engine, filenames, catalog and assets preserved",
@@ -224,5 +224,42 @@
       "caption": "Sistem yang solid dapat diulang, diperiksa, dan diteruskan oleh petugas berikutnya.",
       "scene": "Three Indonesian Muslim female school administrators all wearing extra-long khimars fully covering chest and shoulders and loose long garments, standing with generous spacing at a planning wall with a simple three-stage timeline and checklist cards. Varied navy sage cream attire, bright Islamic school office, hopeful candid wide shot, no male people."
     }
-  ]
+  ],
+  "delivery": {
+    "contentRef": "be940b39ff85d568400680a1ff0190adac20fc46",
+    "htmlRef": "eb30e276000ea7c6bbcb32e4b5a888f0105c579e",
+    "htmlUrl": "https://cdn.jsdelivr.net/gh/MuhammadFuad81/ebook-interaktif-edumind@eb30e276000ea7c6bbcb32e4b5a888f0105c579e/062%20-%20Menyusun%20Laporan%20Keuangan%20Sekolah%20dan%20Yayasan%20Sesuai%20ISAK%20335%20-%20untuk%20Growva.html",
+    "contentUrl": "https://cdn.jsdelivr.net/gh/MuhammadFuad81/ebook-interaktif-edumind@be940b39ff85d568400680a1ff0190adac20fc46/62%20-%20Laporan%20Keuangan%20Sekolah%20dan%20Yayasan%20Sesuai%20ISAK%20335%20-%20content.js?v=20261026-1",
+    "notesUrl": "https://cdn.jsdelivr.net/gh/MuhammadFuad81/ebook-interaktif-edumind@be940b39ff85d568400680a1ff0190adac20fc46/62%20-%20Laporan%20Keuangan%20Sekolah%20dan%20Yayasan%20Sesuai%20ISAK%20335%20-%20catatan.js?v=20261026-1"
+  },
+  "qa": {
+    "passed": true,
+    "desktop": true,
+    "mobile": true,
+    "widths": [
+      320,
+      390,
+      768,
+      1366,
+      1920
+    ],
+    "enterFromBothFields": true,
+    "localFileAndHttp": true,
+    "images": 15,
+    "chapterImages": 14,
+    "publicAssetChecksums": true,
+    "printReady": true
+  },
+  "cache": {
+    "cloudflare": "dashboard-custom-purge-complete",
+    "cloudflareUrls": 30,
+    "jsDelivr": "finished",
+    "jsDelivrFiles": 11
+  },
+  "registration": {
+    "catalog": "ebooks.json",
+    "assets": "asset-manifest.json",
+    "tracker": "PRODUCTION-TRACKER.csv",
+    "scope": "062 entry only; prior records unchanged; collection-wide numbering revision deferred"
+  }
 }

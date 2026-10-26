@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-10-22T23:49:11.894Z",
-  "count": 61,
+  "generatedAt": "2026-10-26T07:02:27.471Z",
+  "count": 62,
   "canonicalRepository": "https://github.com/MuhammadFuad81/ebook-interaktif-edumind",
   "canonicalBranch": "main",
   "cdnBaseUrl": "https://cdn.jsdelivr.net/gh/MuhammadFuad81/ebook-interaktif-edumind@main",
@@ -922,6 +922,23 @@
       "contentUrl": "https://cdn.jsdelivr.net/gh/MuhammadFuad81/ebook-interaktif-edumind@2f0e37a9db0bfc5660bc82fecbc5333fbd347f9d/61%20-%20Mengungkap%20Akar%20Psikologis%20Anak%20-%20content.js",
       "deliveryRef": "2f0e37a9db0bfc5660bc82fecbc5333fbd347f9d",
       "assetPrefix": "ebook-edumind/061-akar-psikologis-anak",
+      "status": "published"
+    },
+    {
+      "number": 62,
+      "id": "062",
+      "title": "Menyusun Laporan Keuangan Sekolah dan Yayasan Sesuai ISAK 335",
+      "slug": "laporan-keuangan-isak335",
+      "htmlFile": "062 - Menyusun Laporan Keuangan Sekolah dan Yayasan Sesuai ISAK 335 - untuk Growva.html",
+      "contentFile": "62 - Laporan Keuangan Sekolah dan Yayasan Sesuai ISAK 335 - content.js",
+      "chapterCount": 14,
+      "coverUrl": "https://media.edumind.id/ebook-edumind/062-laporan-keuangan-isak335/cover.webp?v=20261026-1",
+      "videoId": "pfHFw2OZe4A",
+      "htmlUrl": "https://cdn.jsdelivr.net/gh/MuhammadFuad81/ebook-interaktif-edumind@eb30e276000ea7c6bbcb32e4b5a888f0105c579e/062%20-%20Menyusun%20Laporan%20Keuangan%20Sekolah%20dan%20Yayasan%20Sesuai%20ISAK%20335%20-%20untuk%20Growva.html",
+      "htmlDeliveryRef": "eb30e276000ea7c6bbcb32e4b5a888f0105c579e",
+      "contentUrl": "https://cdn.jsdelivr.net/gh/MuhammadFuad81/ebook-interaktif-edumind@be940b39ff85d568400680a1ff0190adac20fc46/62%20-%20Laporan%20Keuangan%20Sekolah%20dan%20Yayasan%20Sesuai%20ISAK%20335%20-%20content.js?v=20261026-1",
+      "deliveryRef": "be940b39ff85d568400680a1ff0190adac20fc46",
+      "assetPrefix": "ebook-edumind/062-laporan-keuangan-isak335",
       "status": "published"
     }
   ]
