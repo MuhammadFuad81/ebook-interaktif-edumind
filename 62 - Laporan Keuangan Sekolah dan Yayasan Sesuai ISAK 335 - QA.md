@@ -8,6 +8,8 @@ Revisi mengganti listener yang melekat pada satu elemen gate dengan delegasi cap
 
 Pengujian pada halaman Growva aktual dilakukan sebagai hotfix sementara dalam sesi browser pengujian, bukan perubahan server WSP. Keempat kombinasi desktop/ponsel × kolom username/password lulus; kredensial salah ditolak, satu Enter memanggil login tepat sekali, pergantian gate dan pencegahan event pada input tidak menghalangi login. Laporan lokal: `.ebook062-work/qa-enter-growva/report.json`. Pengguna perlu menempel ulang HTML terbaru untuk menerapkan secara permanen pada WSP.
 
+Rilis perbaikan: JS `1722ca799f1d21ba678b9397814022cb9a577a02`, HTML `e283fbc383cccf067fc695e13ee04b0898d507dc`. Setelah publikasi, pengujian Enter diulang dengan JS CDN aktual melalui file lokal/HTTP pada desktop dan ponsel; keempat kombinasi lulus. Referensi rilis pertama pada catatan di bawah bersifat riwayat, bukan tautan pengiriman terbaru; manifest dan katalog 062 menunjuk rilis perbaikan ini.
+
 ## Status final
 
 Naskah, struktur, jurnal dan keterhubungan lima komponen laporan sudah diperiksa. Uji Chrome 1366×900 dan 390×844 lulus: 14 bab, satu gambar per bab, 42 kuis mini, 20 soal asesmen, skor tertahan sampai jawaban lengkap, pratinjau Bab 1, penguncian akses bab berikutnya, progres, catatan dan rencana tersimpan, tanpa overflow horizontal, serta header/footer fixed. Pengujian diulang memakai JS CDN yang sesungguhnya tanpa substitusi lokal, dan lulus.
